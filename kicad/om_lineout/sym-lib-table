@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "openmic")(type "KiCad")(uri "H:/My Drive/projects/openmic/kicad/openmic.kicad_sym")(options "")(descr ""))
+)

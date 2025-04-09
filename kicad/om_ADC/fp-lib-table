@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "om_componentslibrary")(type "KiCad")(uri "H:/My Drive/projects/openmic/kicad/om_componentslibrary.pretty")(options "")(descr ""))
+)
