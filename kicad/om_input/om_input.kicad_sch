@@ -4027,12 +4027,6 @@
 		(uuid "d908b5d7-5465-47aa-9abf-addf337dfe68")
 	)
 	(junction
-		(at 220.345 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9d1d561-09fb-40db-a0a7-cf61d071c548")
-	)
-	(junction
 		(at 147.32 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4530,16 +4524,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 93.98) (xy 220.345 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b528b6-d64a-4625-9a5d-6229a3807ad2")
-	)
-	(wire
-		(pts
 			(xy 189.865 147.32) (xy 189.865 127)
 		)
 		(stroke
@@ -4880,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 88.9) (xy 220.345 88.9)
+			(xy 210.82 88.9) (xy 232.41 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6330,16 +6314,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 88.9) (xy 232.41 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb04aae6-8977-4e05-bc2d-64551e2cce50")
-	)
-	(wire
-		(pts
 			(xy 99.695 85.09) (xy 99.695 73.66)
 		)
 		(stroke
@@ -6357,26 +6331,6 @@
 			(type default)
 		)
 		(uuid "fe7d0c9f-fcce-4f48-a21c-e6cc26e94292")
-	)
-	(wire
-		(pts
-			(xy 222.25 93.98) (xy 220.345 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe919b93-f067-4879-9be1-ab8057184251")
-	)
-	(wire
-		(pts
-			(xy 229.87 93.98) (xy 232.41 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fee1e980-2f31-4b35-b945-e4551c029634")
 	)
 	(wire
 		(pts
@@ -6447,16 +6401,6 @@
 			(justify left bottom)
 		)
 		(uuid "4375c7fe-f3b8-4900-9b6e-d43c09316eb5")
-	)
-	(label "MON"
-		(at 232.41 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d1d4c80-6689-4725-b9bc-11d71ff83b23")
 	)
 	(label "SN"
 		(at 26.67 73.66 180)
@@ -11337,92 +11281,6 @@
 			(project "om_input"
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 226.06 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeae5e1d-b5a1-4e79-8a0f-eb325ef93d7a")
-		(property "Reference" "D5"
-			(at 226.06 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 226.06 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 226.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b8291f3-3b71-4c11-8beb-cc1ea979330b")
-		)
-		(pin "2"
-			(uuid "3e2b1223-d45e-41b0-8bba-4d4ce48103a1")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "D5")
 					(unit 1)
 				)
 			)
