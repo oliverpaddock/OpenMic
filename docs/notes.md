@@ -4,7 +4,7 @@
 | ----------    | -------------- | --------- | ------ | --------------- |
 | om_ADC        |                |           |        |                 |
 | om_clip       | yes            |           |        |                 |
-| om_crossfader |                |           |        |                 |
+| om_crossfader | yes            | yes       |        |                 |
 | om_input      | yes            | yes       |        |                 |
 | om_lineout    |                |           |        |                 |
 | om_phantom    |                |           | yes    |                 |
