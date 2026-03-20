@@ -1,14 +1,14 @@
 ## Todo
 
-| kicad file    | schematic done | tested | test board done |
-| ----------    | -------------- | ------ | --------------- |
-| om_ADC        | yes            | no     | yes             |
-| om_clip       | yes            | no     | no              |
-| om_crossfader | yes            | no     | no              |
-| om_input      | yes            | no     | no              |
-| om_lineout    | yes            | no     | no              |
-| om_phantom    | no             | yes    | no              |
-| om_phonesout  | yes            | no     | no              |
+| kicad file    | schematic done | simulated | tested | test board done |
+| ----------    | -------------- | --------- | ------ | --------------- |
+| om_ADC        |                |           |        |                 |
+| om_clip       | yes            |           |        |                 |
+| om_crossfader |                |           |        |                 |
+| om_input      | yes            | yes       |        |                 |
+| om_lineout    |                |           |        |                 |
+| om_phantom    |                |           | yes    |                 |
+| om_phonesout  |                |           |        |                 |
 
 ### Next steps
 1. Finish all schematics and add annotations
