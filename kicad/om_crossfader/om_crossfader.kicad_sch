@@ -2764,6 +2764,12 @@
 					(unit 3)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "U4")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2825,6 +2831,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -2891,6 +2903,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -2962,6 +2980,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3025,6 +3049,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "R4")
 					(unit 1)
 				)
@@ -3097,6 +3127,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3159,6 +3195,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -3226,6 +3268,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "R2")
 					(unit 1)
 				)
@@ -3311,6 +3359,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3372,6 +3426,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -3442,6 +3502,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3506,6 +3572,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "R10")
 					(unit 1)
 				)
@@ -3596,6 +3668,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3658,6 +3736,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -3748,6 +3832,12 @@
 					(unit 2)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "U5")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3815,6 +3905,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3871,10 +3967,10 @@
 			)
 		)
 		(pin "4"
-			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abc")
+			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abd")
 		)
 		(pin "8"
-			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f89")
+			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f8a")
 		)
 		(pin "7"
 			(uuid "1c1c1d31-773f-4c92-83b1-b1ac6228592b")
@@ -3886,17 +3982,23 @@
 			(uuid "a8d9a080-4759-46a8-ae58-6e2079507f07")
 		)
 		(pin "1"
-			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06a")
+			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06c")
 		)
 		(pin "2"
-			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab28")
+			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab2a")
 		)
 		(pin "3"
-			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f90")
+			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f92")
 		)
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U4")
 					(unit 2)
 				)
@@ -3967,6 +4069,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4033,6 +4141,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4089,32 +4203,38 @@
 			)
 		)
 		(pin "4"
-			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abb")
+			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abe")
 		)
 		(pin "8"
-			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f88")
+			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f8b")
 		)
 		(pin "7"
-			(uuid "7fa2478b-752a-4b9b-b777-22e59556fedd")
+			(uuid "7fa2478b-752a-4b9b-b777-22e59556fede")
 		)
 		(pin "6"
-			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d28")
+			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d29")
 		)
 		(pin "5"
-			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c3")
+			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c4")
 		)
 		(pin "1"
-			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc069")
+			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06d")
 		)
 		(pin "2"
-			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab27")
+			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab2b")
 		)
 		(pin "3"
-			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f8f")
+			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f93")
 		)
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U3")
 					(unit 2)
 				)
@@ -4176,10 +4296,10 @@
 			)
 		)
 		(pin "4"
-			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abc")
+			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abf")
 		)
 		(pin "8"
-			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f89")
+			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f8c")
 		)
 		(pin "7"
 			(uuid "e9528ef3-eac1-47b3-ba50-bf5228b1244d")
@@ -4191,17 +4311,23 @@
 			(uuid "d172418d-8d5d-4b10-a186-07cea8307bad")
 		)
 		(pin "1"
-			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06a")
+			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06e")
 		)
 		(pin "2"
-			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab28")
+			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab2c")
 		)
 		(pin "3"
-			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f90")
+			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f94")
 		)
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U6")
 					(unit 2)
 				)
@@ -4272,6 +4398,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4338,6 +4470,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4400,6 +4538,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "R12")
 					(unit 1)
 				)
@@ -4472,6 +4616,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4535,6 +4685,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "R1")
 					(unit 1)
 				)
@@ -4604,6 +4760,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4665,6 +4827,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -4736,6 +4904,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4802,26 +4976,32 @@
 			(uuid "67b427bc-0090-42e1-82dc-9de5d7f0ecf2")
 		)
 		(pin "7"
-			(uuid "7fa2478b-752a-4b9b-b777-22e59556fedf")
+			(uuid "7fa2478b-752a-4b9b-b777-22e59556fee0")
 		)
 		(pin "6"
-			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d2a")
+			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d2b")
 		)
 		(pin "5"
-			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c5")
+			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c6")
 		)
 		(pin "1"
-			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06b")
+			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06f")
 		)
 		(pin "2"
-			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab29")
+			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab2d")
 		)
 		(pin "3"
-			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f91")
+			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f95")
 		)
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U6")
 					(unit 3)
 				)
@@ -4892,26 +5072,32 @@
 			(uuid "bfb84098-572f-4f7d-ba0d-ac73dfa38bd3")
 		)
 		(pin "7"
-			(uuid "7fa2478b-752a-4b9b-b777-22e59556fedf")
+			(uuid "7fa2478b-752a-4b9b-b777-22e59556fee1")
 		)
 		(pin "6"
-			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d2a")
+			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d2c")
 		)
 		(pin "5"
-			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c5")
+			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c7")
 		)
 		(pin "1"
-			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc06b")
+			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc070")
 		)
 		(pin "2"
-			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab29")
+			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab2e")
 		)
 		(pin "3"
-			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f91")
+			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f96")
 		)
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U5")
 					(unit 3)
 				)
@@ -4976,32 +5162,38 @@
 			)
 		)
 		(pin "4"
-			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abb")
+			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380ac0")
 		)
 		(pin "8"
-			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f88")
+			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f8d")
 		)
 		(pin "7"
-			(uuid "7fa2478b-752a-4b9b-b777-22e59556fedd")
+			(uuid "7fa2478b-752a-4b9b-b777-22e59556fee2")
 		)
 		(pin "6"
-			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d28")
+			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d2d")
 		)
 		(pin "5"
-			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c3")
+			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c8")
 		)
 		(pin "1"
-			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc069")
+			(uuid "f369f05c-d4b2-4c6d-85aa-ea85109cc071")
 		)
 		(pin "2"
-			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab27")
+			(uuid "b2dcf8d4-d27e-47ed-a947-19ae103aab2f")
 		)
 		(pin "3"
-			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f8f")
+			(uuid "6681281a-8b41-4b91-ad09-9fd25e0d3f97")
 		)
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U3")
 					(unit 3)
 				)
@@ -5072,6 +5264,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5134,6 +5332,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -5203,6 +5407,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5264,6 +5474,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -5334,6 +5550,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5396,6 +5618,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -5463,6 +5691,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "R16")
 					(unit 1)
 				)
@@ -5556,6 +5790,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5618,6 +5858,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "R7")
 					(unit 1)
 				)
@@ -5703,6 +5949,12 @@
 					(unit 2)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "RV1")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5759,19 +6011,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abb")
+			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380ac1")
 		)
 		(pin "8"
-			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f88")
+			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f8e")
 		)
 		(pin "7"
-			(uuid "7fa2478b-752a-4b9b-b777-22e59556fedd")
+			(uuid "7fa2478b-752a-4b9b-b777-22e59556fee3")
 		)
 		(pin "6"
-			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d28")
+			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d2e")
 		)
 		(pin "5"
-			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c3")
+			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c9")
 		)
 		(pin "1"
 			(uuid "dce41c48-de2b-4c8b-82b6-a6a40e88b4e6")
@@ -5785,6 +6037,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U6")
 					(unit 1)
 				)
@@ -5850,6 +6108,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -5920,6 +6184,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5981,6 +6251,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -6053,6 +6329,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6120,6 +6402,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6176,19 +6464,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abb")
+			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380ac2")
 		)
 		(pin "8"
-			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f88")
+			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f8f")
 		)
 		(pin "7"
-			(uuid "7fa2478b-752a-4b9b-b777-22e59556fedd")
+			(uuid "7fa2478b-752a-4b9b-b777-22e59556fee4")
 		)
 		(pin "6"
-			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d28")
+			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d2f")
 		)
 		(pin "5"
-			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c3")
+			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9ca")
 		)
 		(pin "1"
 			(uuid "bfcb7ccc-d1e3-4df1-8bba-b40dd4f190b5")
@@ -6202,6 +6490,12 @@
 		(instances
 			(project "om_crossfader"
 				(path "/78fa6f1d-e006-4e90-b3c9-41c41837bea3"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
 					(reference "U4")
 					(unit 1)
 				)
@@ -6262,19 +6556,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380abb")
+			(uuid "5351c8b5-f3eb-4357-bfd4-04e2ec380ac3")
 		)
 		(pin "8"
-			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f88")
+			(uuid "d6a558b1-e1fa-49ef-85a5-9ece47798f90")
 		)
 		(pin "7"
-			(uuid "7fa2478b-752a-4b9b-b777-22e59556fedd")
+			(uuid "7fa2478b-752a-4b9b-b777-22e59556fee5")
 		)
 		(pin "6"
-			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d28")
+			(uuid "34ba07fc-2943-4e91-a744-a68df8cf3d30")
 		)
 		(pin "5"
-			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9c3")
+			(uuid "1ca96fb6-3d12-4769-bc20-f405770de9cb")
 		)
 		(pin "1"
 			(uuid "00c91462-b230-4b3c-8368-ff29620e09c4")
@@ -6292,12 +6586,12 @@
 					(unit 1)
 				)
 			)
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5/83e753db-352d-4184-a61b-c7e3410f9a78"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
