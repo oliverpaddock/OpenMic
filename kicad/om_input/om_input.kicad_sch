@@ -5,7 +5,7 @@
 	(uuid "241d8f18-f2ee-48f0-a9d7-bc33686952e8")
 	(paper "A")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA1612AxD"
+		(symbol "Amplifier_Operational:NE5532"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA1612AxD"
+			(property "Value" "NE5532"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA1612AxD_1_1"
+			(symbol "NE5532_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(symbol "OPA1612AxD_2_1"
+			(symbol "NE5532_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(symbol "OPA1612AxD_3_1"
+			(symbol "NE5532_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -259,7 +259,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:OPA1641"
+		(symbol "Amplifier_Operational:TL072"
 			(pin_names
 				(offset 0.127)
 			)
@@ -267,7 +267,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 3.81 3.81 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -275,8 +275,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA1641"
-				(at 3.81 -3.81 0)
+			(property "Value" "TL072"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -293,7 +293,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1641.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -302,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "JFET input, ultralow distortion, low-noise operational amplifier, SOIC-8/VSSOP-8"
+			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -311,7 +311,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "single opamp"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -320,7 +328,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* VSSOP*3x3mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -329,10 +337,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA1641_0_1"
+			(symbol "TL072_1_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -342,8 +350,6 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "OPA1641_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -380,18 +386,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -2.54 90)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -399,10 +404,60 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
+			)
+			(symbol "TL072_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -417,18 +472,19 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
+			)
+			(symbol "TL072_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,43 +503,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3991,6 +4010,18 @@
 		(uuid 126d5ffb-f6a2-4c67-bf8b-d92fc9c2775e)
 	)
 	(rectangle
+		(start 64.77 184.912)
+		(end 97.282 202.692)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4bd07223-edba-45eb-ac9e-dca3d42af622)
+	)
+	(rectangle
 		(start 24.13 39.116)
 		(end 60.96 63.246)
 		(stroke
@@ -4036,6 +4067,16 @@
 		)
 		(uuid "0ec845cc-cf84-45cc-9876-48cf462308aa")
 	)
+	(text "use with another input"
+		(exclude_from_sim no)
+		(at 74.676 186.69 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "1720cf5c-23f9-48bf-945c-80bf358f5ee4")
+	)
 	(text "inst and line input"
 		(exclude_from_sim no)
 		(at 24.384 123.952 0)
@@ -4056,17 +4097,6 @@
 			(justify left)
 		)
 		(uuid "2308d2d8-d4c0-4c2a-9c0a-c792e0086f84")
-	)
-	(text "can use dual or quad package \nand combine with other inputs"
-		(exclude_from_sim no)
-		(at 86.106 145.542 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "3a9c8e0a-4e0a-46cd-90ed-3e88c1baa939")
 	)
 	(text "phantom power switch"
 		(exclude_from_sim no)
@@ -7214,37 +7244,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 172.72 88.9 0)
-		(mirror y)
-		(unit 3)
+		(lib_id "Amplifier_Operational:TL072")
+		(at 86.36 156.21 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0435959d-6a36-4669-9c97-dbf4064760f8")
+		(uuid "046e1974-ed17-48bc-b0f2-f2e4cdc0b2de")
 		(property "Reference" "U4"
-			(at 176.53 90.1701 0)
+			(at 87.884 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Value" "OPA1612AxD"
-			(at 176.53 87.6301 0)
+		(property "Value" "TL072"
+			(at 87.884 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 88.9 0)
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,8 +7277,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 172.72 88.9 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,44 +7286,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 172.72 88.9 0)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "e5f8be3d-a4dd-4e1c-953b-f53fc27a7566")
-		)
-		(pin "7"
-			(uuid "3d5061ac-8cf7-43c7-8566-449ca2ad20d3")
 		)
 		(pin "8"
-			(uuid "eb4b709c-22cc-48ad-b6f1-cc6894566843")
+			(uuid "dba6f3d4-abe5-43b4-b7c1-5eeb680d698b")
 		)
-		(pin "1"
-			(uuid "9517a6ab-da61-4995-ab2c-dec19ce3966a")
+		(pin "7"
+			(uuid "f88c3d08-9ff3-4cc7-9702-b1381e7ea4c6")
 		)
-		(pin "2"
-			(uuid "7f2ce46a-b22c-453c-a3f6-45bcc5986b73")
+		(pin "4"
+			(uuid "7919b9af-a736-4d9f-a9f3-32a73507e030")
 		)
 		(pin "6"
-			(uuid "63862162-8a80-4daf-aecf-15331f3e8ef5")
+			(uuid "1c3dcc0a-747b-4b2a-8256-574c973d2dda")
 		)
-		(pin "3"
-			(uuid "7c2a476d-5bf5-4637-b47d-bc9c7d0cafbb")
+		(pin "2"
+			(uuid "6f0fecd6-88a4-4c6a-92ab-c06b10d0ba97")
 		)
 		(pin "5"
-			(uuid "2327f721-c188-4fc7-a00b-b3f1150fb7dc")
+			(uuid "16a6bff7-6832-42d7-9b41-b0ac070577be")
+		)
+		(pin "3"
+			(uuid "5ad06515-53d7-447a-a230-fab04be62105")
+		)
+		(pin "1"
+			(uuid "33762fac-5494-4ca4-bae0-a6c225d52a97")
 		)
 		(instances
 			(project "om_input"
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "U4")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -7500,92 +7525,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 121.92 134.62 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a3c68f2-17a0-4922-880e-c76c8b44c21a")
-		(property "Reference" "U3"
-			(at 121.666 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 126.238 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4c66a183-0bbe-47ae-9f70-f31340d8b907")
-		)
-		(pin "2"
-			(uuid "ccb93e00-50b1-475c-b2b9-1d8a3de374da")
-		)
-		(pin "5"
-			(uuid "b61b4fcb-bcad-4886-b984-1d8ed7f6f3e7")
-		)
-		(pin "8"
-			(uuid "a5cae161-3579-4ce0-83f0-b8582e259f24")
-		)
-		(pin "1"
-			(uuid "82e0863b-b43a-4930-b0e4-6793db40bbee")
-		)
-		(pin "7"
-			(uuid "6bcd4558-da5d-4a1b-ba12-90b90a5bfd8e")
-		)
-		(pin "3"
-			(uuid "2988c85a-8eb5-40c8-83f4-d4bab8bdc208")
-		)
-		(pin "6"
-			(uuid "3b227ae6-d87b-4cbc-9626-0a1435030d90")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 195.58 161.29 0)
 		(unit 1)
@@ -7647,6 +7586,92 @@
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "#PWR020")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 179.07 124.46 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf67ac4-3e8b-4a4b-a4a7-a6c3316cb559")
+		(property "Reference" "U7"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 179.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4e1cab9-6600-4bc6-8a68-5265c4e837d1")
+		)
+		(pin "8"
+			(uuid "0d8787ef-f6f6-48f2-a7be-59947bacc359")
+		)
+		(pin "4"
+			(uuid "6fede6fa-36f8-4ea0-a8dd-e23010f9b970")
+		)
+		(pin "6"
+			(uuid "00981c85-938b-4db8-9f2e-721daf3c7493")
+		)
+		(pin "5"
+			(uuid "f266fe0e-ff82-459a-a2ec-e6990a8497c5")
+		)
+		(pin "3"
+			(uuid "a228797f-8501-4fe7-a23f-2574b6d4f4a5")
+		)
+		(pin "1"
+			(uuid "5db20165-de57-4674-9916-c39d4e7f4147")
+		)
+		(pin "7"
+			(uuid "b9b3b255-f9ca-45fc-8478-a06b941188d5")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
@@ -7715,6 +7740,97 @@
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "R29")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 172.72 88.9 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "115a7e96-9c9d-4d42-b527-cfa79b624c1f")
+		(property "Reference" "U6"
+			(at 176.53 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 176.53 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 172.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e342118c-7634-433f-9069-47facd5cd7bf")
+		)
+		(pin "8"
+			(uuid "244c74f8-b789-42ea-8908-3fef64d0b4eb")
+		)
+		(pin "7"
+			(uuid "5ab82612-b0e0-4145-9d56-19ec9baa8c29")
+		)
+		(pin "6"
+			(uuid "d3edf221-c6c8-49ce-9786-19eb0988ddc9")
+		)
+		(pin "5"
+			(uuid "4b5b715f-6a2a-4670-b386-341c19a6fca2")
+		)
+		(pin "1"
+			(uuid "374aec46-2896-4c96-8581-e691d32c9e3a")
+		)
+		(pin "2"
+			(uuid "f3afc9da-26b3-4fb9-ac93-704f874c0ac0")
+		)
+		(pin "3"
+			(uuid "461a263a-6664-40bf-9b38-f90825057668")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U6")
+					(unit 3)
 				)
 			)
 		)
@@ -8452,7 +8568,7 @@
 		(dnp no)
 		(uuid "1be59187-ead1-4308-b092-a313aec4a51a")
 		(property "Reference" "R19"
-			(at 170.815 149.225 0)
+			(at 170.434 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +8577,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 170.815 151.765 0)
+			(at 170.434 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,96 +9001,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 116.84 134.62 0)
-		(mirror y)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d6571e9-28c5-4cd2-8d29-0506d5abe0a4")
-		(property "Reference" "U2"
-			(at 120.65 135.8901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 120.65 133.3501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 116.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 116.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4c66a183-0bbe-47ae-9f70-f31340d8b908")
-		)
-		(pin "2"
-			(uuid "ccb93e00-50b1-475c-b2b9-1d8a3de374db")
-		)
-		(pin "5"
-			(uuid "b61b4fcb-bcad-4886-b984-1d8ed7f6f3e8")
-		)
-		(pin "8"
-			(uuid "a5cae161-3579-4ce0-83f0-b8582e259f25")
-		)
-		(pin "1"
-			(uuid "82e0863b-b43a-4930-b0e4-6793db40bbef")
-		)
-		(pin "7"
-			(uuid "6bcd4558-da5d-4a1b-ba12-90b90a5bfd8f")
-		)
-		(pin "3"
-			(uuid "2988c85a-8eb5-40c8-83f4-d4bab8bdc209")
-		)
-		(pin "6"
-			(uuid "3b227ae6-d87b-4cbc-9626-0a1435030d91")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 27.94 31.115 0)
 		(unit 1)
@@ -9257,6 +9283,91 @@
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "#PWR014")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 219.71 160.02 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3417e5ed-d57f-4f92-bfdc-03339bd25e99")
+		(property "Reference" "U2"
+			(at 221.488 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 221.488 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 219.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 219.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7aa19ad9-1f1d-4aec-983d-3526e285bd75")
+		)
+		(pin "4"
+			(uuid "fa39259e-5804-4c8b-bcd8-3c6088788bbe")
+		)
+		(pin "1"
+			(uuid "da43d9e0-a495-447a-b55c-6f04517d8c7d")
+		)
+		(pin "7"
+			(uuid "6e6f6b79-eb20-46ef-b660-708cf575a47a")
+		)
+		(pin "6"
+			(uuid "0c32138c-1a55-4527-b155-ef9cc7034834")
+		)
+		(pin "8"
+			(uuid "214c9254-a848-47ac-b4eb-9e98297e351c")
+		)
+		(pin "3"
+			(uuid "edcf5096-23f6-4f3d-b035-ee4bd068d068")
+		)
+		(pin "2"
+			(uuid "7abc09a1-575f-44f3-ac8e-aa1d82878307")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -9548,91 +9659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 177.8 54.61 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "470c29cf-4b37-4f34-b549-a146d10a1f40")
-		(property "Reference" "U4"
-			(at 178.816 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 174.752 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 177.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 177.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e5f8be3d-a4dd-4e1c-953b-f53fc27a7567")
-		)
-		(pin "7"
-			(uuid "3d5061ac-8cf7-43c7-8566-449ca2ad20d4")
-		)
-		(pin "8"
-			(uuid "eb4b709c-22cc-48ad-b6f1-cc6894566844")
-		)
-		(pin "1"
-			(uuid "9517a6ab-da61-4995-ab2c-dec19ce3966b")
-		)
-		(pin "2"
-			(uuid "7f2ce46a-b22c-453c-a3f6-45bcc5986b74")
-		)
-		(pin "6"
-			(uuid "63862162-8a80-4daf-aecf-15331f3e8ef6")
-		)
-		(pin "3"
-			(uuid "7c2a476d-5bf5-4637-b47d-bc9c7d0cafbc")
-		)
-		(pin "5"
-			(uuid "2327f721-c188-4fc7-a00b-b3f1150fb7dd")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 138.43 54.61 90)
 		(unit 1)
@@ -9766,6 +9792,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 173.99 140.97 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d69924f-3fe4-46b8-a433-36d18992fe53")
+		(property "Reference" "U7"
+			(at 177.8 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 177.8 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4e1cab9-6600-4bc6-8a68-5265c4e837d1")
+		)
+		(pin "8"
+			(uuid "0d8787ef-f6f6-48f2-a7be-59947bacc359")
+		)
+		(pin "4"
+			(uuid "6fede6fa-36f8-4ea0-a8dd-e23010f9b970")
+		)
+		(pin "6"
+			(uuid "00981c85-938b-4db8-9f2e-721daf3c7493")
+		)
+		(pin "5"
+			(uuid "f266fe0e-ff82-459a-a2ec-e6990a8497c5")
+		)
+		(pin "3"
+			(uuid "a228797f-8501-4fe7-a23f-2574b6d4f4a5")
+		)
+		(pin "1"
+			(uuid "5db20165-de57-4674-9916-c39d4e7f4147")
+		)
+		(pin "7"
+			(uuid "b9b3b255-f9ca-45fc-8478-a06b941188d5")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 27.94 23.495 0)
 		(unit 1)
@@ -9824,91 +9941,6 @@
 			(project "om_input"
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1641")
-		(at 86.36 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52b0daff-43f7-4a8f-b412-bfb2e97ee38a")
-		(property "Reference" "U1"
-			(at 90.17 159.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1641"
-			(at 90.17 162.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1641.pdf"
-			(at 86.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JFET input, ultralow distortion, low-noise operational amplifier, SOIC-8/VSSOP-8"
-			(at 86.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8f4ea57a-0a72-4d1f-a2c0-397f7680568f")
-		)
-		(pin "3"
-			(uuid "0e7cb846-9517-414f-b435-fcab10d82dcd")
-		)
-		(pin "5"
-			(uuid "5a275c0f-9b71-472f-93a0-16fb1a0314ca")
-		)
-		(pin "8"
-			(uuid "63c7e57e-a615-404c-83a2-72661ab5ea8d")
-		)
-		(pin "7"
-			(uuid "99d118b1-a23a-4834-81ad-d0920392c282")
-		)
-		(pin "1"
-			(uuid "aef943ef-522d-4675-8dbb-1505c276b48b")
-		)
-		(pin "6"
-			(uuid "c6bc0f2b-cc62-4144-8c99-26e1388e8d80")
-		)
-		(pin "2"
-			(uuid "18de1bab-b7c5-447c-9257-eb4f2b763ae1")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10008,96 +10040,6 @@
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "Q2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 179.07 140.97 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c35226d-8c22-4018-9c11-9c02bc704614")
-		(property "Reference" "U3"
-			(at 177.8 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 177.8 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 179.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 179.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "39a8154e-21a3-4071-be9c-f41dc80df07d")
-		)
-		(pin "7"
-			(uuid "79251b52-0027-4b67-8589-261d9b91a057")
-		)
-		(pin "8"
-			(uuid "6c0b2384-9bb8-494e-9f96-fe143ccfb246")
-		)
-		(pin "4"
-			(uuid "992bef0e-c68a-4855-a874-018deacd92a8")
-		)
-		(pin "1"
-			(uuid "e94fb55b-c15b-4cf4-b4b7-d26562d5816c")
-		)
-		(pin "3"
-			(uuid "2791430d-4497-4c4e-9b61-f6c61de6df34")
-		)
-		(pin "5"
-			(uuid "99c70e1a-c5cc-4aa3-a0a9-22b024815bbd")
-		)
-		(pin "2"
-			(uuid "c6e31756-8d5b-470f-9367-217e1efce59e")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U3")
-					(unit 3)
 				)
 			)
 		)
@@ -10591,177 +10533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 179.07 140.97 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b7045b7-37ca-46b6-bc94-c99e66e2c22d")
-		(property "Reference" "U2"
-			(at 183.642 133.858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 183.642 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 179.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 179.07 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "39a8154e-21a3-4071-be9c-f41dc80df07e")
-		)
-		(pin "7"
-			(uuid "79251b52-0027-4b67-8589-261d9b91a058")
-		)
-		(pin "8"
-			(uuid "6c0b2384-9bb8-494e-9f96-fe143ccfb247")
-		)
-		(pin "4"
-			(uuid "992bef0e-c68a-4855-a874-018deacd92a9")
-		)
-		(pin "1"
-			(uuid "e94fb55b-c15b-4cf4-b4b7-d26562d5816d")
-		)
-		(pin "3"
-			(uuid "2791430d-4497-4c4e-9b61-f6c61de6df35")
-		)
-		(pin "5"
-			(uuid "99c70e1a-c5cc-4aa3-a0a9-22b024815bbe")
-		)
-		(pin "2"
-			(uuid "c6e31756-8d5b-470f-9367-217e1efce59f")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 121.92 154.94 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bce9940-85eb-42d0-bc7c-9672ba1e2d5f")
-		(property "Reference" "U3"
-			(at 123.952 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 124.206 162.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 121.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 121.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "39a8154e-21a3-4071-be9c-f41dc80df07f")
-		)
-		(pin "7"
-			(uuid "79251b52-0027-4b67-8589-261d9b91a059")
-		)
-		(pin "8"
-			(uuid "6c0b2384-9bb8-494e-9f96-fe143ccfb248")
-		)
-		(pin "4"
-			(uuid "992bef0e-c68a-4855-a874-018deacd92aa")
-		)
-		(pin "1"
-			(uuid "e94fb55b-c15b-4cf4-b4b7-d26562d5816e")
-		)
-		(pin "3"
-			(uuid "2791430d-4497-4c4e-9b61-f6c61de6df36")
-		)
-		(pin "5"
-			(uuid "99c70e1a-c5cc-4aa3-a0a9-22b024815bbf")
-		)
-		(pin "2"
-			(uuid "c6e31756-8d5b-470f-9367-217e1efce5a0")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 165.1 138.43 90)
 		(unit 1)
@@ -10829,33 +10600,37 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 177.8 88.9 0)
-		(mirror x)
-		(unit 1)
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 121.92 134.62 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e9666aa-4389-43d5-aeb5-7c1fd2ca6840")
-		(property "Reference" "U4"
-			(at 178.816 81.534 0)
+		(fields_autoplaced yes)
+		(uuid "6d7f434b-9ff0-4e57-a298-990e10660127")
+		(property "Reference" "U1"
+			(at 120.65 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "OPA1612AxD"
-			(at 182.88 84.074 0)
+		(property "Value" "NE5532"
+			(at 120.65 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 88.9 0)
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,8 +10638,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 177.8 88.9 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,44 +10647,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 177.8 88.9 0)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "e5f8be3d-a4dd-4e1c-953b-f53fc27a7568")
-		)
-		(pin "7"
-			(uuid "3d5061ac-8cf7-43c7-8566-449ca2ad20d5")
-		)
-		(pin "8"
-			(uuid "eb4b709c-22cc-48ad-b6f1-cc6894566845")
-		)
-		(pin "1"
-			(uuid "9517a6ab-da61-4995-ab2c-dec19ce3966c")
-		)
-		(pin "2"
-			(uuid "7f2ce46a-b22c-453c-a3f6-45bcc5986b75")
-		)
-		(pin "6"
-			(uuid "63862162-8a80-4daf-aecf-15331f3e8ef7")
 		)
 		(pin "3"
-			(uuid "7c2a476d-5bf5-4637-b47d-bc9c7d0cafbd")
+			(uuid "aeda3708-cedb-4502-975d-783005d73d1b")
 		)
 		(pin "5"
-			(uuid "2327f721-c188-4fc7-a00b-b3f1150fb7de")
+			(uuid "cba19099-3e53-4296-8510-77622ef68d8d")
+		)
+		(pin "7"
+			(uuid "eedc3726-ef5f-4f26-937c-a277f134454d")
+		)
+		(pin "2"
+			(uuid "6a64ace4-6835-4790-8757-7b3eba074f17")
+		)
+		(pin "8"
+			(uuid "63042025-4157-470d-8ec7-e2b6d5043cdb")
+		)
+		(pin "6"
+			(uuid "991e0365-8ebc-495e-8e42-c1e85d6314f1")
+		)
+		(pin "1"
+			(uuid "b0b90dab-7ac2-496b-9bdb-f80933cab54d")
+		)
+		(pin "4"
+			(uuid "595a24bc-2f84-4f4e-b879-24c1323d7177")
 		)
 		(instances
 			(project "om_input"
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U4")
-					(unit 1)
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -11266,25 +11041,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 218.44 162.56 0)
-		(unit 2)
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 121.92 134.62 0)
+		(mirror x)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "797de8da-c34a-4a7a-9ef6-ff6545b0234a")
-		(property "Reference" "U5"
-			(at 218.44 152.4 0)
+		(uuid "76f682d3-6c7b-41d1-b577-210eb1ab2401")
+		(property "Reference" "U1"
+			(at 124.206 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "OPA1612AxD"
-			(at 218.44 154.94 0)
+		(property "Value" "NE5532"
+			(at 124.206 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11292,7 +11067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 162.56 0)
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,8 +11075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 218.44 162.56 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,44 +11084,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 218.44 162.56 0)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 121.92 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "b62b2082-ad5e-44a9-8728-c7c547451c33")
 		)
 		(pin "3"
-			(uuid "93f61317-c058-40e9-a77a-3b0f3bf0d0cf")
-		)
-		(pin "1"
-			(uuid "c1c29b10-3f66-4390-a923-639f2694f706")
+			(uuid "aeda3708-cedb-4502-975d-783005d73d1b")
 		)
 		(pin "5"
-			(uuid "1ce27fe3-5d2b-41ba-aaf3-2901950c47c4")
-		)
-		(pin "6"
-			(uuid "d0768254-8c2a-48da-8b1b-1251c94384ab")
+			(uuid "cba19099-3e53-4296-8510-77622ef68d8d")
 		)
 		(pin "7"
-			(uuid "11b3258c-f7df-47ea-a14c-9c2908923603")
+			(uuid "eedc3726-ef5f-4f26-937c-a277f134454d")
+		)
+		(pin "2"
+			(uuid "6a64ace4-6835-4790-8757-7b3eba074f17")
 		)
 		(pin "8"
-			(uuid "501745cd-90e2-47cc-a66a-3c6218b27bd3")
+			(uuid "63042025-4157-470d-8ec7-e2b6d5043cdb")
+		)
+		(pin "6"
+			(uuid "991e0365-8ebc-495e-8e42-c1e85d6314f1")
+		)
+		(pin "1"
+			(uuid "b0b90dab-7ac2-496b-9bdb-f80933cab54d")
 		)
 		(pin "4"
-			(uuid "a499807b-fbc3-4d27-a626-15d1660e2eaa")
+			(uuid "595a24bc-2f84-4f4e-b879-24c1323d7177")
 		)
 		(instances
 			(project "om_input"
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U5")
-					(unit 2)
+					(reference "U1")
+					(unit 1)
 				)
 			)
 		)
@@ -11780,92 +11555,6 @@
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "#PWR017")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 179.07 124.46 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a4f29d2-5092-4b59-9417-726dc8526c1e")
-		(property "Reference" "U2"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 179.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4c66a183-0bbe-47ae-9f70-f31340d8b909")
-		)
-		(pin "2"
-			(uuid "ccb93e00-50b1-475c-b2b9-1d8a3de374dc")
-		)
-		(pin "5"
-			(uuid "b61b4fcb-bcad-4886-b984-1d8ed7f6f3e9")
-		)
-		(pin "8"
-			(uuid "a5cae161-3579-4ce0-83f0-b8582e259f26")
-		)
-		(pin "1"
-			(uuid "82e0863b-b43a-4930-b0e4-6793db40bbf0")
-		)
-		(pin "7"
-			(uuid "6bcd4558-da5d-4a1b-ba12-90b90a5bfd90")
-		)
-		(pin "3"
-			(uuid "2988c85a-8eb5-40c8-83f4-d4bab8bdc20a")
-		)
-		(pin "6"
-			(uuid "3b227ae6-d87b-4cbc-9626-0a1435030d92")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -12541,6 +12230,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 121.92 154.94 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6bf7ebc-c1e6-46f4-b6fb-bfd2396017d3")
+		(property "Reference" "U1"
+			(at 126.492 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 126.492 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 121.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aeda3708-cedb-4502-975d-783005d73d1b")
+		)
+		(pin "5"
+			(uuid "cba19099-3e53-4296-8510-77622ef68d8d")
+		)
+		(pin "7"
+			(uuid "eedc3726-ef5f-4f26-937c-a277f134454d")
+		)
+		(pin "2"
+			(uuid "6a64ace4-6835-4790-8757-7b3eba074f17")
+		)
+		(pin "8"
+			(uuid "63042025-4157-470d-8ec7-e2b6d5043cdb")
+		)
+		(pin "6"
+			(uuid "991e0365-8ebc-495e-8e42-c1e85d6314f1")
+		)
+		(pin "1"
+			(uuid "b0b90dab-7ac2-496b-9bdb-f80933cab54d")
+		)
+		(pin "4"
+			(uuid "595a24bc-2f84-4f4e-b879-24c1323d7177")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 153.67 90)
 		(unit 1)
@@ -12735,6 +12509,96 @@
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "#PWR013")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 86.36 156.21 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad4769d0-a457-48d7-8f06-c718868f4889")
+		(property "Reference" "U4"
+			(at 85.09 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TL072"
+			(at 85.09 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dba6f3d4-abe5-43b4-b7c1-5eeb680d698b")
+		)
+		(pin "7"
+			(uuid "f88c3d08-9ff3-4cc7-9702-b1381e7ea4c6")
+		)
+		(pin "4"
+			(uuid "7919b9af-a736-4d9f-a9f3-32a73507e030")
+		)
+		(pin "6"
+			(uuid "1c3dcc0a-747b-4b2a-8256-574c973d2dda")
+		)
+		(pin "2"
+			(uuid "6f0fecd6-88a4-4c6a-92ab-c06b10d0ba97")
+		)
+		(pin "5"
+			(uuid "16a6bff7-6832-42d7-9b41-b0ac070577be")
+		)
+		(pin "3"
+			(uuid "5ad06515-53d7-447a-a230-fab04be62105")
+		)
+		(pin "1"
+			(uuid "33762fac-5494-4ca4-bae0-a6c225d52a97")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
@@ -13206,6 +13070,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 218.44 124.46 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4771633-7cf4-40b7-8e06-b9db701534f6")
+		(property "Reference" "U2"
+			(at 221.234 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 221.234 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 218.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 218.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7aa19ad9-1f1d-4aec-983d-3526e285bd75")
+		)
+		(pin "4"
+			(uuid "fa39259e-5804-4c8b-bcd8-3c6088788bbe")
+		)
+		(pin "1"
+			(uuid "da43d9e0-a495-447a-b55c-6f04517d8c7d")
+		)
+		(pin "7"
+			(uuid "6e6f6b79-eb20-46ef-b660-708cf575a47a")
+		)
+		(pin "6"
+			(uuid "0c32138c-1a55-4527-b155-ef9cc7034834")
+		)
+		(pin "8"
+			(uuid "214c9254-a848-47ac-b4eb-9e98297e351c")
+		)
+		(pin "3"
+			(uuid "edcf5096-23f6-4f3d-b035-ee4bd068d068")
+		)
+		(pin "2"
+			(uuid "7abc09a1-575f-44f3-ac8e-aa1d82878307")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 34.29 51.435 180)
 		(unit 1)
@@ -13421,6 +13371,177 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 177.8 54.61 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca6ea413-c3f4-4cf5-8699-f9e42f14b14a")
+		(property "Reference" "U6"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 175.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e342118c-7634-433f-9069-47facd5cd7bf")
+		)
+		(pin "8"
+			(uuid "244c74f8-b789-42ea-8908-3fef64d0b4eb")
+		)
+		(pin "7"
+			(uuid "5ab82612-b0e0-4145-9d56-19ec9baa8c29")
+		)
+		(pin "6"
+			(uuid "d3edf221-c6c8-49ce-9786-19eb0988ddc9")
+		)
+		(pin "5"
+			(uuid "4b5b715f-6a2a-4670-b386-341c19a6fca2")
+		)
+		(pin "1"
+			(uuid "374aec46-2896-4c96-8581-e691d32c9e3a")
+		)
+		(pin "2"
+			(uuid "f3afc9da-26b3-4fb9-ac93-704f874c0ac0")
+		)
+		(pin "3"
+			(uuid "461a263a-6664-40bf-9b38-f90825057668")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 177.8 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cca13495-42df-460d-9ed0-6258a1fd2d48")
+		(property "Reference" "U6"
+			(at 181.356 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 181.356 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e342118c-7634-433f-9069-47facd5cd7bf")
+		)
+		(pin "8"
+			(uuid "244c74f8-b789-42ea-8908-3fef64d0b4eb")
+		)
+		(pin "7"
+			(uuid "5ab82612-b0e0-4145-9d56-19ec9baa8c29")
+		)
+		(pin "6"
+			(uuid "d3edf221-c6c8-49ce-9786-19eb0988ddc9")
+		)
+		(pin "5"
+			(uuid "4b5b715f-6a2a-4670-b386-341c19a6fca2")
+		)
+		(pin "1"
+			(uuid "374aec46-2896-4c96-8581-e691d32c9e3a")
+		)
+		(pin "2"
+			(uuid "f3afc9da-26b3-4fb9-ac93-704f874c0ac0")
+		)
+		(pin "3"
+			(uuid "461a263a-6664-40bf-9b38-f90825057668")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-15V")
 		(at 119.38 142.24 180)
 		(unit 1)
@@ -13486,93 +13607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
-		(at 218.44 124.46 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d05fd99d-d2a8-453d-8bc6-672c0092ee32")
-		(property "Reference" "U5"
-			(at 220.726 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1612AxD"
-			(at 225.044 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
-			(at 218.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
-			(at 218.44 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b62b2082-ad5e-44a9-8728-c7c547451c34")
-		)
-		(pin "3"
-			(uuid "93f61317-c058-40e9-a77a-3b0f3bf0d0d0")
-		)
-		(pin "1"
-			(uuid "c1c29b10-3f66-4390-a923-639f2694f707")
-		)
-		(pin "5"
-			(uuid "1ce27fe3-5d2b-41ba-aaf3-2901950c47c5")
-		)
-		(pin "6"
-			(uuid "d0768254-8c2a-48da-8b1b-1251c94384ac")
-		)
-		(pin "7"
-			(uuid "11b3258c-f7df-47ea-a14c-9c2908923604")
-		)
-		(pin "8"
-			(uuid "501745cd-90e2-47cc-a66a-3c6218b27bd4")
-		)
-		(pin "4"
-			(uuid "a499807b-fbc3-4d27-a626-15d1660e2eab")
-		)
-		(instances
-			(project "om_input"
-				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(lib_id "Amplifier_Operational:NE5532")
 		(at 218.44 124.46 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -13580,8 +13615,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4f418a8-a8e8-4b0a-b424-263e380d45bb")
-		(property "Reference" "U5"
+		(uuid "d1ae62d2-1876-4607-89ed-b155fe3cfb7f")
+		(property "Reference" "U2"
 			(at 217.17 123.1899 0)
 			(effects
 				(font
@@ -13591,7 +13626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "OPA1612AxD"
+		(property "Value" "NE5532"
 			(at 217.17 125.7299 0)
 			(effects
 				(font
@@ -13610,7 +13645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
 			(at 218.44 124.46 0)
 			(effects
 				(font
@@ -13619,7 +13654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
 			(at 218.44 124.46 0)
 			(effects
 				(font
@@ -13627,35 +13662,35 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "b62b2082-ad5e-44a9-8728-c7c547451c35")
-		)
-		(pin "3"
-			(uuid "93f61317-c058-40e9-a77a-3b0f3bf0d0d1")
-		)
-		(pin "1"
-			(uuid "c1c29b10-3f66-4390-a923-639f2694f708")
 		)
 		(pin "5"
-			(uuid "1ce27fe3-5d2b-41ba-aaf3-2901950c47c6")
-		)
-		(pin "6"
-			(uuid "d0768254-8c2a-48da-8b1b-1251c94384ad")
-		)
-		(pin "7"
-			(uuid "11b3258c-f7df-47ea-a14c-9c2908923605")
-		)
-		(pin "8"
-			(uuid "501745cd-90e2-47cc-a66a-3c6218b27bd5")
+			(uuid "7aa19ad9-1f1d-4aec-983d-3526e285bd75")
 		)
 		(pin "4"
-			(uuid "a499807b-fbc3-4d27-a626-15d1660e2eac")
+			(uuid "fa39259e-5804-4c8b-bcd8-3c6088788bbe")
+		)
+		(pin "1"
+			(uuid "da43d9e0-a495-447a-b55c-6f04517d8c7d")
+		)
+		(pin "7"
+			(uuid "6e6f6b79-eb20-46ef-b660-708cf575a47a")
+		)
+		(pin "6"
+			(uuid "0c32138c-1a55-4527-b155-ef9cc7034834")
+		)
+		(pin "8"
+			(uuid "214c9254-a848-47ac-b4eb-9e98297e351c")
+		)
+		(pin "3"
+			(uuid "edcf5096-23f6-4f3d-b035-ee4bd068d068")
+		)
+		(pin "2"
+			(uuid "7abc09a1-575f-44f3-ac8e-aa1d82878307")
 		)
 		(instances
 			(project "om_input"
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
-					(reference "U5")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -14695,6 +14730,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 179.07 140.97 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8e3f038-6cd3-43bc-8e7e-bf96788607cb")
+		(property "Reference" "U7"
+			(at 182.626 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 182.626 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 179.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 179.07 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4e1cab9-6600-4bc6-8a68-5265c4e837d1")
+		)
+		(pin "8"
+			(uuid "0d8787ef-f6f6-48f2-a7be-59947bacc359")
+		)
+		(pin "4"
+			(uuid "6fede6fa-36f8-4ea0-a8dd-e23010f9b970")
+		)
+		(pin "6"
+			(uuid "00981c85-938b-4db8-9f2e-721daf3c7493")
+		)
+		(pin "5"
+			(uuid "f266fe0e-ff82-459a-a2ec-e6990a8497c5")
+		)
+		(pin "3"
+			(uuid "a228797f-8501-4fe7-a23f-2574b6d4f4a5")
+		)
+		(pin "1"
+			(uuid "5db20165-de57-4674-9916-c39d4e7f4147")
+		)
+		(pin "7"
+			(uuid "b9b3b255-f9ca-45fc-8478-a06b941188d5")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 138.43 43.18 0)
 		(unit 1)
@@ -15053,6 +15174,91 @@
 				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
 					(reference "C7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL072")
+		(at 74.93 195.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8099bf1-00ab-4664-8f31-d93f9cff3193")
+		(property "Reference" "U4"
+			(at 79.502 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL072"
+			(at 79.502 192.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 74.93 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(at 74.93 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dba6f3d4-abe5-43b4-b7c1-5eeb680d698b")
+		)
+		(pin "7"
+			(uuid "f88c3d08-9ff3-4cc7-9702-b1381e7ea4c6")
+		)
+		(pin "4"
+			(uuid "7919b9af-a736-4d9f-a9f3-32a73507e030")
+		)
+		(pin "6"
+			(uuid "1c3dcc0a-747b-4b2a-8256-574c973d2dda")
+		)
+		(pin "2"
+			(uuid "6f0fecd6-88a4-4c6a-92ab-c06b10d0ba97")
+		)
+		(pin "5"
+			(uuid "16a6bff7-6832-42d7-9b41-b0ac070577be")
+		)
+		(pin "3"
+			(uuid "5ad06515-53d7-447a-a230-fab04be62105")
+		)
+		(pin "1"
+			(uuid "33762fac-5494-4ca4-bae0-a6c225d52a97")
+		)
+		(instances
+			(project "om_input"
+				(path "/241d8f18-f2ee-48f0-a9d7-bc33686952e8"
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
