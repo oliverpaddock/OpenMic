@@ -2420,6 +2420,16 @@
 		)
 		(uuid "70f91944-fc6e-458a-8f56-d611c3cf0bef")
 	)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 151.638 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7625ed5c-cabb-4f25-b996-ec900f0764ea")
+	)
 	(text "BCLK"
 		(exclude_from_sim no)
 		(at 135.89 71.882 90)
