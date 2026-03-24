@@ -2699,7 +2699,7 @@
 		)
 		(uuid "f97f7ae6-9594-4eeb-9f82-f6f8eca4c633")
 	)
-	(label "MON-A"
+	(label "MON_1"
 		(at 153.67 100.33 180)
 		(effects
 			(font
@@ -2709,7 +2709,7 @@
 		)
 		(uuid "4ac02bbd-1914-4e42-be03-cc29da19f23e")
 	)
-	(label "MON-A"
+	(label "MON_1"
 		(at 143.51 133.35 0)
 		(effects
 			(font
@@ -2719,7 +2719,7 @@
 		)
 		(uuid "9bf57596-7cb4-4245-a814-0c89814c9ca7")
 	)
-	(label "MON-B"
+	(label "MON_2"
 		(at 143.51 135.89 0)
 		(effects
 			(font
@@ -2729,7 +2729,7 @@
 		)
 		(uuid "b8c0eb55-4e13-4c76-92fd-d9f4fa484a92")
 	)
-	(label "MON-B"
+	(label "MON_2"
 		(at 134.62 100.33 0)
 		(effects
 			(font
