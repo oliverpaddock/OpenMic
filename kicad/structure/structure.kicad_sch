@@ -2440,9 +2440,9 @@
 		)
 		(uuid "76f02b74-2e52-4a27-a974-c94a0f474cbc")
 	)
-	(text "+48V"
+	(text "phantom"
 		(exclude_from_sim no)
-		(at 30.734 91.694 0)
+		(at 33.02 91.694 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2550,9 +2550,9 @@
 		)
 		(uuid "9e4ab248-3f39-4a6f-a1e6-de98bb56f2c7")
 	)
-	(text "+48V"
+	(text "phantom"
 		(exclude_from_sim no)
-		(at 30.988 59.944 0)
+		(at 33.02 59.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
