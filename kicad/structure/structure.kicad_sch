@@ -1933,6 +1933,16 @@
 		)
 		(uuid "51bc1fdb-aff8-4f14-96c4-339aa760040d")
 	)
+	(text "IN_L"
+		(exclude_from_sim no)
+		(at 246.888 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "540466da-0cbf-4977-9901-302a9a12d11f")
+	)
 	(text "-15V"
 		(exclude_from_sim no)
 		(at 56.642 136.144 0)
@@ -2033,6 +2043,16 @@
 		)
 		(uuid "882d58e0-56ff-4f06-b82a-917d61321749")
 	)
+	(text "IN_R"
+		(exclude_from_sim no)
+		(at 246.888 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "929d3cc1-7f2a-4b69-a43c-8c3b229762fb")
+	)
 	(text "OUT_R"
 		(exclude_from_sim no)
 		(at 216.916 114.554 0)
@@ -2052,6 +2072,16 @@
 			)
 		)
 		(uuid "9313d4d2-50bb-4c22-8518-4ab3136f0194")
+	)
+	(text "-15V"
+		(exclude_from_sim no)
+		(at 246.888 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9327523f-038a-4999-8220-02c6b9fca33f")
 	)
 	(text "BCLK"
 		(exclude_from_sim no)
@@ -2093,6 +2123,16 @@
 		)
 		(uuid "ad4c17fa-e5a2-4de8-821f-0bf801bc4718")
 	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 246.634 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ada29601-c892-4cc9-bd2b-47862374c530")
+	)
 	(text "DIN"
 		(exclude_from_sim no)
 		(at 184.15 49.53 0)
@@ -2102,6 +2142,16 @@
 			)
 		)
 		(uuid "b1e7df74-b311-4905-9e1a-17e43d5f9aba")
+	)
+	(text "+15V"
+		(exclude_from_sim no)
+		(at 247.142 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b829e4ed-ea8c-440e-a880-5409a06232d8")
 	)
 	(text "SDA"
 		(exclude_from_sim no)
@@ -2307,6 +2357,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 140.97) (xy 228.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e701be5-58fd-483d-ba5d-4f331fe68903")
+	)
+	(wire
+		(pts
 			(xy 78.74 101.6) (xy 111.76 101.6)
 		)
 		(stroke
@@ -2364,6 +2424,16 @@
 			(type default)
 		)
 		(uuid "571c38f2-29e8-4721-a812-5eed782d0c73")
+	)
+	(wire
+		(pts
+			(xy 226.06 143.51) (xy 238.76 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59db070b-11fc-4dad-9db7-04772d6fe4c4")
 	)
 	(wire
 		(pts
@@ -2487,6 +2557,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 140.97) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7ae6c6-eba6-4288-a6aa-0f966edbaf3c")
+	)
+	(wire
+		(pts
 			(xy 78.74 99.06) (xy 101.6 99.06)
 		)
 		(stroke
@@ -2504,6 +2584,16 @@
 			(type default)
 		)
 		(uuid "d51bb774-ecc7-4803-abcf-79052be4b859")
+	)
+	(wire
+		(pts
+			(xy 228.6 111.76) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c1462a-28dd-4957-8a68-4200a3485d8a")
 	)
 	(wire
 		(pts
@@ -2534,6 +2624,16 @@
 			(type default)
 		)
 		(uuid "dc468b03-3527-4abc-9dab-fadd27fb855c")
+	)
+	(wire
+		(pts
+			(xy 226.06 114.3) (xy 226.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc49c0d-19bc-48ee-a8a3-fa16f41c7d48")
 	)
 	(wire
 		(pts
@@ -3586,6 +3686,150 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-15V")
+		(at 238.76 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8119c194-1a44-444f-b459-70d4637975c0")
+		(property "Reference" "#PWR090"
+			(at 242.57 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 235.458 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebca405a-c469-4efb-9a81-ef5d70fb613a")
+		)
+		(instances
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 243.84 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b272193-90d5-4e9e-8657-dfad6144e4c3")
+		(property "Reference" "J22"
+			(at 237.744 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05_Socket"
+			(at 237.744 148.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0af1dcd5-c422-4913-bcad-1e850a0bb939")
+		)
+		(pin "1"
+			(uuid "4c5a4f74-1a91-4695-95e6-21980cd79455")
+		)
+		(pin "5"
+			(uuid "b6d21139-ed36-403c-8b6a-a5747b9a1f7d")
+		)
+		(pin "3"
+			(uuid "239a730f-313a-4d81-9786-c43d0995f338")
+		)
+		(pin "2"
+			(uuid "9e122f4e-10db-4249-a487-8b1ccd35a56f")
+		)
+		(instances
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 22.86 101.6 0)
 		(unit 1)
@@ -3720,6 +3964,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 238.76 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b85794da-df8c-4a81-ba65-348191f04b72")
+		(property "Reference" "#PWR089"
+			(at 242.57 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 235.458 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 238.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "721cdcb5-7b7f-45a1-9c2b-a3e4db8eefc5")
+		)
+		(instances
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 220.98 111.76 0)
 		(mirror y)
@@ -3783,6 +4093,73 @@
 			(project "structure"
 				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 238.76 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2af7cc8-63e2-4542-ab0f-4851ad8563c8")
+		(property "Reference" "#PWR091"
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95c87082-a4e5-490a-83e5-0aeb9aa4ab0c")
+		)
+		(instances
+			(project "structure"
+				(path "/c6024129-74a6-4977-a9ee-12cbe1bccdc5"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
