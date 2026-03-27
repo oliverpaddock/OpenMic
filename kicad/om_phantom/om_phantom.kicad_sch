@@ -6303,22 +6303,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "0d176d09-2c03-4619-832e-6e4a0051c318")
+			(uuid "0d176d09-2c03-4619-832e-6e4a0051c319")
 		)
 		(pin "1"
-			(uuid "2c5bad1e-cba4-4ae2-b877-f4e3e5321b1f")
+			(uuid "2c5bad1e-cba4-4ae2-b877-f4e3e5321b20")
 		)
 		(pin "3"
-			(uuid "7cc8e7a7-de9c-46d6-bd0e-9c8618545824")
+			(uuid "7cc8e7a7-de9c-46d6-bd0e-9c8618545825")
 		)
 		(pin "2"
-			(uuid "c8ec5c5d-5e87-4668-aa3c-c75c0475f70c")
+			(uuid "c8ec5c5d-5e87-4668-aa3c-c75c0475f70d")
 		)
 		(pin "4"
-			(uuid "d1ee1e96-2048-481c-9e07-665c08391e3f")
+			(uuid "d1ee1e96-2048-481c-9e07-665c08391e40")
 		)
 		(pin "6"
-			(uuid "94e62f22-76ba-48fc-95f5-5c885a146b44")
+			(uuid "94e62f22-76ba-48fc-95f5-5c885a146b45")
 		)
 		(instances
 			(project "structure"
