@@ -5,6 +5,17 @@
 	(uuid "8bd8d5bd-d4da-4802-a074-1a915881f539")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "OUT_R_N"
+		(shape output)
+		(at 246.38 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "282d06c4-ece3-4a9d-b06d-0a7e7591605c")
+	)
 	(hierarchical_label "IN_2_N"
 		(shape input)
 		(at 246.38 64.77 0)
@@ -27,6 +38,17 @@
 		)
 		(uuid "7aa7dd09-e8c8-479b-93e5-52a740a2e0a3")
 	)
+	(hierarchical_label "V_BIAS"
+		(shape output)
+		(at 247.65 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad5f41d4-8337-40e5-a8b5-ea4ca562ca54")
+	)
 	(hierarchical_label "IN_1_P"
 		(shape input)
 		(at 246.38 54.61 0)
@@ -38,7 +60,18 @@
 		)
 		(uuid "c70d5f53-1550-4828-a5cc-0825726c6014")
 	)
-	(hierarchical_label "OUT_R"
+	(hierarchical_label "OUT_L_N"
+		(shape output)
+		(at 246.38 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4958513-06ac-485f-a3df-958cfadd43b7")
+	)
+	(hierarchical_label "OUT_R_P"
 		(shape output)
 		(at 246.38 78.74 0)
 		(effects
@@ -49,7 +82,7 @@
 		)
 		(uuid "da7279be-172e-415a-9556-10a9608b3c7c")
 	)
-	(hierarchical_label "OUT_L"
+	(hierarchical_label "OUT_L_P"
 		(shape output)
 		(at 246.38 74.93 0)
 		(effects
