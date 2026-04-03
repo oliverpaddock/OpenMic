@@ -15,16 +15,6 @@
 		)
 		(uuid "670fe7de-ebf2-4d44-80a3-df219dd9a70c")
 	)
-	(text "TODO"
-		(exclude_from_sim no)
-		(at 86.36 57.658 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "744bb9f7-f474-4795-adbb-a6e2510721fd")
-	)
 	(junction
 		(at 186.69 97.79)
 		(diameter 0)
@@ -99,7 +89,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 87.63) (xy 105.41 73.66)
+			(xy 105.41 60.96) (xy 105.41 87.63)
 		)
 		(stroke
 			(width 0)
@@ -209,6 +199,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7be5aa-8eb1-4670-b7e7-c04be7a6d25b")
+	)
+	(wire
+		(pts
 			(xy 194.31 116.84) (xy 186.69 116.84)
 		)
 		(stroke
@@ -216,16 +216,6 @@
 			(type default)
 		)
 		(uuid "a78b0017-762e-45ba-b6dc-45b2de7cf9b8")
-	)
-	(wire
-		(pts
-			(xy 105.41 73.66) (xy 101.6 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3c8d728-b77c-43c9-851e-b6f45c2e62f2")
 	)
 	(wire
 		(pts
@@ -585,6 +575,36 @@
 				(justify left top)
 			)
 		)
+		(pin "+5V_USB" input
+			(at 101.6 53.34 0)
+			(uuid "f58584b5-d1ce-45eb-a290-0912857ccd50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+48V_PH" output
+			(at 101.6 60.96 0)
+			(uuid "3c506347-db57-46f7-b9fd-88df25c4c1ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PH_EN" input
+			(at 101.6 58.42 0)
+			(uuid "332000d7-13b9-471c-84e9-f4b420b8bd2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8"
@@ -713,58 +733,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 76.2 71.12)
-		(size 25.4 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "82f0a98a-94b0-4136-8bdf-7dce40d2f867")
-		(property "Sheetname" "phantom power generator"
-			(at 76.2 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "phantom.kicad_sch"
-			(at 76.2 84.4046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+48V_PH" output
-			(at 101.6 73.66 0)
-			(uuid "ed07e450-08e2-4760-8094-64174b812384")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8"
-					(page "8")
 				)
 			)
 		)
