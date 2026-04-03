@@ -15,8 +15,6 @@
 2. Test breadboard circuits
 3. Design boards for pcb testing
 
-
-
 ### Gain stages
 inputs
     -> gain stage (nom -2dBu/phase)
