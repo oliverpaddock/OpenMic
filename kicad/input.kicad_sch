@@ -7490,16 +7490,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Note: TXE8124 can support 4 input channels"
-		(exclude_from_sim no)
-		(at 409.448 256.286 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "780bcb53-3f5d-4f43-8931-1e486c201558")
-	)
 	(text "mic/line/inst in"
 		(exclude_from_sim no)
 		(at 472.948 398.272 0)
@@ -12874,6 +12864,16 @@
 		)
 		(uuid "49806854-77ec-4fab-8c46-13e9c712035e")
 	)
+	(label "INST_IND_1"
+		(at 50.8 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4eab77ce-8e2c-4b6e-8849-bed93055d74a")
+	)
 	(label "INST_SEL_1"
 		(at 369.57 95.25 180)
 		(effects
@@ -12884,6 +12884,26 @@
 		)
 		(uuid "505287a9-d871-4bf4-8b26-beb6f6830109")
 	)
+	(label "INST_IND_1"
+		(at 397.51 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5af7964a-fa32-4a5e-b6aa-0b6454dce8b1")
+	)
+	(label "INST_IND_2"
+		(at 397.51 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b8aa102-cc1e-4178-b434-70d111763b30")
+	)
 	(label "GPO_2"
 		(at 480.06 217.17 0)
 		(effects
@@ -12893,6 +12913,16 @@
 			(justify left bottom)
 		)
 		(uuid "5c82c62a-4f58-419f-a94b-a52d5b031ade")
+	)
+	(label "TRS_SEL_2"
+		(at 397.51 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e650aec-b380-49dc-9076-3e1cf2c31bc4")
 	)
 	(label "MIC_1_P"
 		(at 292.1 149.86 180)
@@ -13054,16 +13084,6 @@
 		)
 		(uuid "bbab660f-6204-41db-9557-e79f0406e3fb")
 	)
-	(label "TRS_SEL_2"
-		(at 397.51 232.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc3870d2-a25a-421b-9385-3fa00c01c1a1")
-	)
 	(label "INST_SEL_2"
 		(at 369.57 102.87 180)
 		(effects
@@ -13094,6 +13114,16 @@
 		)
 		(uuid "d132350c-cc7f-47c7-b29b-859e003d8bed")
 	)
+	(label "TRS_IND_1"
+		(at 81.28 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d566b869-be5a-4381-82a2-57db6c2579c9")
+	)
 	(label "GAIN0_1"
 		(at 422.91 220.98 0)
 		(effects
@@ -13103,6 +13133,16 @@
 			(justify left bottom)
 		)
 		(uuid "da1f560d-83e1-4ccf-bba1-b78fc20350cb")
+	)
+	(label "TRS_IND_2"
+		(at 397.51 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da541149-2351-4e8a-80eb-87a3ad882411")
 	)
 	(label "MIC_2_N"
 		(at 250.19 297.18 0)
@@ -13154,6 +13194,16 @@
 		)
 		(uuid "eb03ca9c-31b9-410a-8208-383151e295a1")
 	)
+	(label "INST_SEL_2"
+		(at 397.51 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee34d18e-7cfa-419e-9e83-22cbb0cc51a7")
+	)
 	(label "GPO_1"
 		(at 480.06 214.63 0)
 		(effects
@@ -13164,15 +13214,35 @@
 		)
 		(uuid "f02355a3-d6ef-4bb7-be86-60c57ef67962")
 	)
-	(label "INST_SEL_2"
-		(at 397.51 228.6 180)
+	(label "TRS_IND_2"
+		(at 81.28 342.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0a618b3-2425-4411-8c1d-48a4678774dd")
+	)
+	(label "INST_IND_2"
+		(at 50.8 389.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3dc5c52-5fce-4a89-90eb-d76ebb748520")
+	)
+	(label "TRS_IND_1"
+		(at 397.51 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f3959fa3-bb82-4262-ae77-831e084f137a")
+		(uuid "ffa058c0-f10c-44e6-9c1c-d5d973057617")
 	)
 	(hierarchical_label "BSY_2"
 		(shape output)
@@ -13284,17 +13354,6 @@
 		)
 		(uuid "8600b0f9-e8a6-4390-8474-3354dd98e06e")
 	)
-	(hierarchical_label "INST_IND_1"
-		(shape output)
-		(at 50.8 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "946e1733-07e0-4a07-a6fb-834014f894aa")
-	)
 	(hierarchical_label "OUT_1_P"
 		(shape output)
 		(at 364.49 170.18 0)
@@ -13339,28 +13398,6 @@
 		)
 		(uuid "d5421498-1000-47f0-9fa2-1cc8591cdb3a")
 	)
-	(hierarchical_label "TRS_IND_2"
-		(shape output)
-		(at 81.28 342.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da517c13-9752-47f1-a8ef-d6ac10314aaa")
-	)
-	(hierarchical_label "TRS_IND_1"
-		(shape output)
-		(at 81.28 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eaa24ef3-9f4d-4e06-99cf-4fc1a184a2b7")
-	)
 	(hierarchical_label "+48V_PH"
 		(shape input)
 		(at 83.82 269.24 180)
@@ -13404,17 +13441,6 @@
 			(justify right)
 		)
 		(uuid "f1988e61-2f19-4a82-ba0a-d245efc061ce")
-	)
-	(hierarchical_label "INST_IND_2"
-		(shape output)
-		(at 50.8 389.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd9fc6ad-4f33-46ee-bd3a-2f1ee02fc47d")
 	)
 	(symbol
 		(lib_id "power:+15V")
