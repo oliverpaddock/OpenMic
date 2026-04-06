@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "TODO"
 		(exclude_from_sim no)
-		(at 136.144 182.88 0)
+		(at 132.334 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -650,7 +650,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 163.83)
+		(at 119.38 160.02)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -666,7 +666,7 @@
 		)
 		(uuid "48193676-4a40-49fd-9b42-70b8319c374b")
 		(property "Sheetname" "codec"
-			(at 123.19 163.1184 0)
+			(at 119.38 159.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +675,7 @@
 			)
 		)
 		(property "Sheetfile" "codec.kicad_sch"
-			(at 123.19 189.8146 0)
+			(at 119.38 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +684,7 @@
 			)
 		)
 		(pin "IN_1_N" input
-			(at 123.19 170.18 180)
+			(at 119.38 166.37 180)
 			(uuid "5a8856a9-c2d0-433b-9fa8-363a117f08da")
 			(effects
 				(font
@@ -694,7 +694,7 @@
 			)
 		)
 		(pin "IN_1_P" input
-			(at 123.19 166.37 180)
+			(at 119.38 162.56 180)
 			(uuid "cbd5e4ed-30fa-4f68-9022-25c5f9c7c7ba")
 			(effects
 				(font
@@ -704,7 +704,7 @@
 			)
 		)
 		(pin "IN_2_N" input
-			(at 123.19 177.8 180)
+			(at 119.38 173.99 180)
 			(uuid "21b54105-4fa0-4124-871e-0bce55eefb2b")
 			(effects
 				(font
@@ -714,7 +714,7 @@
 			)
 		)
 		(pin "IN_2_P" input
-			(at 123.19 173.99 180)
+			(at 119.38 170.18 180)
 			(uuid "3b662a90-78de-4094-94f8-8c84ca8972d6")
 			(effects
 				(font
@@ -724,7 +724,7 @@
 			)
 		)
 		(pin "V_BIAS" output
-			(at 123.19 181.61 180)
+			(at 119.38 177.8 180)
 			(uuid "59867910-37ca-41c3-b93c-928cf0d614fe")
 			(effects
 				(font
@@ -734,7 +734,7 @@
 			)
 		)
 		(pin "OUT_L_N" output
-			(at 148.59 170.18 0)
+			(at 144.78 166.37 0)
 			(uuid "d6c1cd5d-a452-4bc2-b522-9eede6cf0ed5")
 			(effects
 				(font
@@ -744,7 +744,7 @@
 			)
 		)
 		(pin "OUT_L_P" output
-			(at 148.59 166.37 0)
+			(at 144.78 162.56 0)
 			(uuid "2acea41e-019e-45c8-b7d0-d46f9cf5cbf3")
 			(effects
 				(font
@@ -754,7 +754,7 @@
 			)
 		)
 		(pin "OUT_R_N" output
-			(at 148.59 177.8 0)
+			(at 144.78 173.99 0)
 			(uuid "9ae3756f-6360-4338-8916-71e7730115f5")
 			(effects
 				(font
@@ -764,7 +764,7 @@
 			)
 		)
 		(pin "OUT_R_P" output
-			(at 148.59 173.99 0)
+			(at 144.78 170.18 0)
 			(uuid "9cc5e459-3162-490d-8bb5-38eb3faa9032")
 			(effects
 				(font
