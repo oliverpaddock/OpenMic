@@ -6775,8 +6775,19 @@
 		)
 		(uuid "0b25e766-217c-4c77-a5d8-41059b09aeef")
 	)
+	(hierarchical_label "ROT_B_1"
+		(shape input)
+		(at 295.91 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b62b4a2-9c81-44d0-96e9-af5d4fd593b5")
+	)
 	(hierarchical_label "GPIO_8D_7"
-		(shape output)
+		(shape input)
 		(at 295.91 46.99 0)
 		(effects
 			(font
@@ -6819,6 +6830,17 @@
 		)
 		(uuid "3bc4544f-028e-4cd5-b412-866f057aed40")
 	)
+	(hierarchical_label "ROT_A_1"
+		(shape input)
+		(at 295.91 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53646b5a-6d6d-4ad7-bb31-1d86b0ebc8d8")
+	)
 	(hierarchical_label "CS_2"
 		(shape output)
 		(at 259.08 46.99 0)
@@ -6840,50 +6862,6 @@
 			(justify right)
 		)
 		(uuid "5d9089ad-1989-444c-a0f9-b10d49ab29d4")
-	)
-	(hierarchical_label "GPIO_8D_3"
-		(shape output)
-		(at 295.91 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f755807-5fe5-4e77-b3f7-27ffe29eb694")
-	)
-	(hierarchical_label "GPIO_8D_1"
-		(shape output)
-		(at 295.91 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74a67587-f533-4e31-8ed7-49dec51c4d30")
-	)
-	(hierarchical_label "GPIO_8D_2"
-		(shape output)
-		(at 295.91 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77851c82-7ec0-4fd1-943e-70e2010bff71")
-	)
-	(hierarchical_label "GPIO_8D_4"
-		(shape output)
-		(at 295.91 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8052655c-b97c-401b-8ca2-55c9528eb170")
 	)
 	(hierarchical_label "SPI_DOUT"
 		(shape output)
@@ -6919,7 +6897,7 @@
 		(uuid "a9a641dd-b89a-4d09-9044-98344629048e")
 	)
 	(hierarchical_label "GPIO_8D_6"
-		(shape output)
+		(shape input)
 		(at 295.91 44.45 0)
 		(effects
 			(font
@@ -6940,8 +6918,8 @@
 		)
 		(uuid "bb15c3a3-1044-4681-b4dc-0e7fd319ba42")
 	)
-	(hierarchical_label "GPIO_8D_0"
-		(shape output)
+	(hierarchical_label "PH_IND"
+		(shape input)
 		(at 295.91 29.21 0)
 		(effects
 			(font
@@ -6952,7 +6930,7 @@
 		(uuid "c10638f9-6de9-44d8-a6b5-f1dc2c5cabdb")
 	)
 	(hierarchical_label "GPIO_8D_5"
-		(shape output)
+		(shape input)
 		(at 295.91 41.91 0)
 		(effects
 			(font
@@ -6995,7 +6973,18 @@
 		)
 		(uuid "e85d17f5-00bd-4adb-ad79-66382994569a")
 	)
-	(hierarchical_label "GPIO_4E_2"
+	(hierarchical_label "ROT_B_2"
+		(shape input)
+		(at 295.91 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea5a3433-1bbf-4629-ace6-64e648d4626d")
+	)
+	(hierarchical_label "PH_EN"
 		(shape output)
 		(at 295.91 49.53 0)
 		(effects
@@ -7005,6 +6994,17 @@
 			(justify left)
 		)
 		(uuid "edd28f34-e993-4fa1-b664-e72310bb0dc8")
+	)
+	(hierarchical_label "ROT_A_2"
+		(shape input)
+		(at 295.91 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7063c1f-7181-484d-99ca-36dc5314d970")
 	)
 	(symbol
 		(lib_id "power:GNDD")
