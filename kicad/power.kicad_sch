@@ -7483,7 +7483,7 @@
 		(uuid "2fedfbfc-0856-4fd9-b7bf-008bd40fa4b0")
 	)
 	(hierarchical_label "PH_IND"
-		(shape input)
+		(shape output)
 		(at 279.4 219.71 0)
 		(effects
 			(font
