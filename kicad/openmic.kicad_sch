@@ -25,7 +25,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 60.96) (xy 213.36 41.91)
+			(xy 213.36 57.15) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -65,7 +65,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 120.65 48.26)
+			(xy 53.34 49.53) (xy 120.65 49.53)
 		)
 		(stroke
 			(width 0)
@@ -75,7 +75,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 64.77) (xy 146.05 64.77)
+			(xy 184.15 60.96) (xy 146.05 60.96)
 		)
 		(stroke
 			(width 0)
@@ -85,7 +85,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 52.07) (xy 146.05 52.07)
+			(xy 180.34 49.53) (xy 146.05 49.53)
 		)
 		(stroke
 			(width 0)
@@ -135,7 +135,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 64.77) (xy 224.79 154.94)
+			(xy 224.79 60.96) (xy 224.79 154.94)
 		)
 		(stroke
 			(width 0)
@@ -145,7 +145,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 213.36 91.44)
+			(xy 213.36 68.58) (xy 213.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -185,7 +185,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 48.26) (xy 176.53 48.26)
+			(xy 146.05 45.72) (xy 176.53 45.72)
 		)
 		(stroke
 			(width 0)
@@ -195,7 +195,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 38.1) (xy 184.15 38.1)
+			(xy 176.53 34.29) (xy 184.15 34.29)
 		)
 		(stroke
 			(width 0)
@@ -265,7 +265,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 68.58) (xy 146.05 68.58)
+			(xy 184.15 64.77) (xy 146.05 64.77)
 		)
 		(stroke
 			(width 0)
@@ -295,7 +295,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 21.59) (xy 213.36 38.1)
+			(xy 213.36 21.59) (xy 213.36 34.29)
 		)
 		(stroke
 			(width 0)
@@ -405,7 +405,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 41.91) (xy 180.34 41.91)
+			(xy 184.15 38.1) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -545,7 +545,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 41.91) (xy 180.34 52.07)
+			(xy 180.34 38.1) (xy 180.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -555,7 +555,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 41.91) (xy 209.55 41.91)
+			(xy 213.36 38.1) (xy 209.55 38.1)
 		)
 		(stroke
 			(width 0)
@@ -565,7 +565,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 68.58) (xy 220.98 68.58)
+			(xy 209.55 64.77) (xy 220.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -575,7 +575,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 38.1) (xy 209.55 38.1)
+			(xy 213.36 34.29) (xy 209.55 34.29)
 		)
 		(stroke
 			(width 0)
@@ -605,7 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 64.77) (xy 224.79 64.77)
+			(xy 209.55 60.96) (xy 224.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -645,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 60.96) (xy 184.15 60.96)
+			(xy 146.05 57.15) (xy 184.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -675,7 +675,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 72.39) (xy 213.36 72.39)
+			(xy 209.55 68.58) (xy 213.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +685,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 60.96) (xy 213.36 60.96)
+			(xy 209.55 57.15) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 53.34 57.15)
+			(xy 53.34 49.53) (xy 53.34 57.15)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 68.58) (xy 220.98 151.13)
+			(xy 220.98 64.77) (xy 220.98 151.13)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 184.15 72.39)
+			(xy 146.05 68.58) (xy 184.15 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 48.26) (xy 176.53 38.1)
+			(xy 176.53 45.72) (xy 176.53 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1722,7 +1722,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 33.02)
+		(at 184.15 29.21)
 		(size 25.4 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1738,7 +1738,7 @@
 		)
 		(uuid "96971848-86f2-4431-9c99-2e7a6e65db3c")
 		(property "Sheetname" "monitor"
-			(at 184.15 32.3084 0)
+			(at 184.15 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 			)
 		)
 		(property "Sheetfile" "monitor.kicad_sch"
-			(at 184.15 47.5746 0)
+			(at 184.15 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(pin "LED_DIN" input
-			(at 209.55 38.1 0)
+			(at 209.55 34.29 0)
 			(uuid "cd7fda40-bdbe-41b0-8cf5-d9758380bcaa")
 			(effects
 				(font
@@ -1766,7 +1766,7 @@
 			)
 		)
 		(pin "LED_DOUT" output
-			(at 209.55 41.91 0)
+			(at 209.55 38.1 0)
 			(uuid "05e08c0b-be2a-4985-b6b4-9c273e945195")
 			(effects
 				(font
@@ -1776,7 +1776,7 @@
 			)
 		)
 		(pin "ROT_A" output
-			(at 184.15 38.1 180)
+			(at 184.15 34.29 180)
 			(uuid "b969d134-01f0-41d6-874e-62415de158cb")
 			(effects
 				(font
@@ -1786,7 +1786,7 @@
 			)
 		)
 		(pin "ROT_B" output
-			(at 184.15 41.91 180)
+			(at 184.15 38.1 180)
 			(uuid "13bb6363-d486-46d3-95ef-945a57a38a99")
 			(effects
 				(font
@@ -1877,46 +1877,6 @@
 				(justify left)
 			)
 		)
-		(pin "GPO_4" output
-			(at 146.05 30.48 0)
-			(uuid "f4e00ae1-a7c2-462d-8e19-30cdaf2a0492")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPO_5" output
-			(at 146.05 34.29 0)
-			(uuid "9163cfba-ec9d-4b21-bb11-3f1b1bb6cc03")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPO_6" output
-			(at 146.05 38.1 0)
-			(uuid "c5bea1a3-cff9-48ca-b9e9-df812e97657d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPO_7" output
-			(at 146.05 41.91 0)
-			(uuid "ff228c3d-9b67-4a8b-9d6e-b361dc174c4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2S_BCLK" output
 			(at 146.05 106.68 0)
 			(uuid "c45757bb-6a21-46b9-963c-3c199aead849")
@@ -1998,7 +1958,7 @@
 			)
 		)
 		(pin "ROT_A_2" input
-			(at 146.05 48.26 0)
+			(at 146.05 45.72 0)
 			(uuid "1750ec4e-ada9-4e70-9040-24a66b81c32d")
 			(effects
 				(font
@@ -2008,7 +1968,7 @@
 			)
 		)
 		(pin "ROT_A_3" input
-			(at 146.05 68.58 0)
+			(at 146.05 64.77 0)
 			(uuid "3c2bb938-9252-4eae-958f-56e4a0172a70")
 			(effects
 				(font
@@ -2048,7 +2008,7 @@
 			)
 		)
 		(pin "ROT_B_2" input
-			(at 146.05 52.07 0)
+			(at 146.05 49.53 0)
 			(uuid "0ba5c6f2-d8a5-49d6-8006-820e5b1f7a7b")
 			(effects
 				(font
@@ -2058,7 +2018,7 @@
 			)
 		)
 		(pin "ROT_B_3" input
-			(at 146.05 72.39 0)
+			(at 146.05 68.58 0)
 			(uuid "d6217086-44ec-47fc-a6ec-5ac49d83ef8b")
 			(effects
 				(font
@@ -2118,7 +2078,7 @@
 			)
 		)
 		(pin "LED_CONTROL" output
-			(at 120.65 48.26 180)
+			(at 120.65 49.53 180)
 			(uuid "a02f2542-d793-4341-8839-1b7f1e344b0e")
 			(effects
 				(font
@@ -2128,7 +2088,7 @@
 			)
 		)
 		(pin "PHONES_IND" input
-			(at 146.05 64.77 0)
+			(at 146.05 60.96 0)
 			(uuid "46e88fb2-35e3-49e1-b41b-66573d5e5f39")
 			(effects
 				(font
@@ -2138,7 +2098,7 @@
 			)
 		)
 		(pin "PHONES_EN" output
-			(at 146.05 60.96 0)
+			(at 146.05 57.15 0)
 			(uuid "998dcefc-20fd-47ff-9e1a-814ae233bf20")
 			(effects
 				(font
@@ -2167,6 +2127,36 @@
 				(justify right)
 			)
 		)
+		(pin "GPO_5" output
+			(at 146.05 30.48 0)
+			(uuid "c35dea3f-e43f-47fc-b09d-e3f963731e8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPO_6" output
+			(at 146.05 34.29 0)
+			(uuid "fa8e4efd-b513-4281-938c-f58ec0b3d918")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPO_7" output
+			(at 146.05 38.1 0)
+			(uuid "5aa819a1-9763-405c-ae49-5eb0b0c56f79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8"
@@ -2176,7 +2166,7 @@
 		)
 	)
 	(sheet
-		(at 184.15 55.88)
+		(at 184.15 52.07)
 		(size 25.4 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2192,7 +2182,7 @@
 		)
 		(uuid "b0e718f0-ed29-4503-a28a-92ded06e87f0")
 		(property "Sheetname" "heaphone driver"
-			(at 184.15 55.1684 0)
+			(at 184.15 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2191,7 @@
 			)
 		)
 		(property "Sheetfile" "phones.kicad_sch"
-			(at 184.15 78.0546 0)
+			(at 184.15 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +2200,7 @@
 			)
 		)
 		(pin "IN_L" input
-			(at 209.55 64.77 0)
+			(at 209.55 60.96 0)
 			(uuid "54acf850-7845-4c48-b9ad-2837dd8d8da7")
 			(effects
 				(font
@@ -2220,7 +2210,7 @@
 			)
 		)
 		(pin "IN_R" input
-			(at 209.55 68.58 0)
+			(at 209.55 64.77 0)
 			(uuid "fdaf1987-2de6-44b1-85c6-a43eef8b2887")
 			(effects
 				(font
@@ -2230,7 +2220,7 @@
 			)
 		)
 		(pin "LED_DIN" input
-			(at 209.55 60.96 0)
+			(at 209.55 57.15 0)
 			(uuid "bc76b57e-05d9-4c15-a561-bb3bfb4bf7b1")
 			(effects
 				(font
@@ -2240,7 +2230,7 @@
 			)
 		)
 		(pin "LED_DOUT" output
-			(at 209.55 72.39 0)
+			(at 209.55 68.58 0)
 			(uuid "7cd0bc93-655e-4cb3-92bd-3b0f89503a9f")
 			(effects
 				(font
@@ -2250,7 +2240,7 @@
 			)
 		)
 		(pin "PHONES_EN" input
-			(at 184.15 60.96 180)
+			(at 184.15 57.15 180)
 			(uuid "8bca7e05-beef-47fe-8841-547a274f2dd3")
 			(effects
 				(font
@@ -2260,7 +2250,7 @@
 			)
 		)
 		(pin "ROT_A" output
-			(at 184.15 68.58 180)
+			(at 184.15 64.77 180)
 			(uuid "06c35dcf-a133-4abf-8c0f-44654db50fbc")
 			(effects
 				(font
@@ -2270,7 +2260,7 @@
 			)
 		)
 		(pin "ROT_B" output
-			(at 184.15 72.39 180)
+			(at 184.15 68.58 180)
 			(uuid "77fe1768-37ca-4632-96c6-f6cccbb8aaf9")
 			(effects
 				(font
@@ -2280,7 +2270,7 @@
 			)
 		)
 		(pin "PHONES_IND" output
-			(at 184.15 64.77 180)
+			(at 184.15 60.96 180)
 			(uuid "1fddf568-491b-4ac1-8647-b1426be05557")
 			(effects
 				(font
