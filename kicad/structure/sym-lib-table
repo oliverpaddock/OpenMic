@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "openmic")(type "KiCad")(uri "/Users/oliver/dev/personal/openmic/kicad/openmic.kicad_sym")(options "")(descr ""))
-  (lib (name "opa1637")(type "KiCad")(uri "/Users/oliver/dev/personal/openmic/kicad/opa1637.kicad_sym")(options "")(descr ""))
-)
