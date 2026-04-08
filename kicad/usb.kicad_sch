@@ -9531,7 +9531,7 @@
 		)
 		(uuid "fe201ad7-5157-44e5-8d16-d84f26b3a2a0")
 	)
-	(hierarchical_label "IND_2"
+	(hierarchical_label "LINE_IND_L"
 		(shape input)
 		(at 92.71 146.05 180)
 		(effects
@@ -9586,7 +9586,7 @@
 		)
 		(uuid "0af02e70-9342-46b4-8b50-a47ea2849358")
 	)
-	(hierarchical_label "IND_1"
+	(hierarchical_label "PHONES_IND"
 		(shape input)
 		(at 92.71 143.51 180)
 		(effects
@@ -9608,7 +9608,7 @@
 		)
 		(uuid "15dd0687-32c4-4ed1-9ae4-3676bb844583")
 	)
-	(hierarchical_label "GPO_4"
+	(hierarchical_label "PHONES_EN"
 		(shape output)
 		(at 92.71 115.57 180)
 		(effects
@@ -9861,7 +9861,7 @@
 		)
 		(uuid "f41fd891-ebe9-4ac2-ba08-96c41659ab0f")
 	)
-	(hierarchical_label "IND_3"
+	(hierarchical_label "LINE_IND_R"
 		(shape input)
 		(at 92.71 148.59 180)
 		(effects
