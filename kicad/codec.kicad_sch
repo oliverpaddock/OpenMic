@@ -1718,8 +1718,8 @@
 		)
 		(uuid "c65f117f-2af4-4a62-84c3-996e454ca453")
 	)
-	(hierarchical_label "GPIO1"
-		(shape bidirectional)
+	(hierarchical_label "CCLK"
+		(shape input)
 		(at 109.22 120.65 270)
 		(effects
 			(font

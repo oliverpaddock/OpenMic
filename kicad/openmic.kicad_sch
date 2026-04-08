@@ -35,6 +35,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 132.08) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0935e6b0-05c9-4f15-87f9-ebb3af723224")
+	)
+	(wire
+		(pts
 			(xy 82.55 60.96) (xy 120.65 60.96)
 		)
 		(stroke
@@ -85,7 +95,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 95.25) (xy 161.29 132.08)
+			(xy 161.29 95.25) (xy 161.29 135.89)
 		)
 		(stroke
 			(width 0)
@@ -95,7 +105,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 132.08) (xy 161.29 132.08)
+			(xy 146.05 135.89) (xy 161.29 135.89)
 		)
 		(stroke
 			(width 0)
@@ -395,6 +405,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 99.06) (xy 157.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9a7842-b0e9-46ca-afe5-6b5993a91592")
+	)
+	(wire
+		(pts
 			(xy 101.6 139.7) (xy 101.6 91.44)
 		)
 		(stroke
@@ -425,6 +445,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c757d15e-8c5e-4f2f-8ea5-2cfd03b987b8")
+	)
+	(wire
+		(pts
 			(xy 146.05 106.68) (xy 149.86 106.68)
 		)
 		(stroke
@@ -445,7 +475,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 165.1 135.89)
+			(xy 165.1 91.44) (xy 165.1 139.7)
 		)
 		(stroke
 			(width 0)
@@ -495,7 +525,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 135.89) (xy 165.1 135.89)
+			(xy 146.05 139.7) (xy 165.1 139.7)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +850,7 @@
 			)
 		)
 		(pin "DIN" input
-			(at 146.05 135.89 0)
+			(at 146.05 139.7 0)
 			(uuid "ddcf1d93-fbf1-41e0-afca-7c4af368c8d5")
 			(effects
 				(font
@@ -830,7 +860,7 @@
 			)
 		)
 		(pin "DOUT" output
-			(at 146.05 132.08 0)
+			(at 146.05 135.89 0)
 			(uuid "7092cd56-8b4f-4efc-8d73-ac8ddb396367")
 			(effects
 				(font
@@ -992,6 +1022,16 @@
 		(pin "GPIO1" bidirectional
 			(at 132.08 119.38 90)
 			(uuid "d62fc114-3010-4dba-b550-0e4f2a02c26e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CCLK" input
+			(at 146.05 132.08 0)
+			(uuid "505c2fe4-5a1d-458a-bd66-bd37f0373b28")
 			(effects
 				(font
 					(size 1.27 1.27)
