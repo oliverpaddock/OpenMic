@@ -7,3 +7,4 @@
 
 ## Papers
 3. Karki, Jim (Texas Instruments) - *Using fully differential op amps as attenuators, Part 1: Differential bipolar input signals*, [[https://www.ti.com/lit/an/slyt336/slyt336.pdf]]
+5. Hashemi, Hooman (Texas Instruments) - *Common Design Challenges and Proper Use of Fully Differential Amplifiers (FDA)*, [[https://www.ti.com/lit/an/snoa948/snoa948.pdf]]

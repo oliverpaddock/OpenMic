@@ -1783,6 +1783,106 @@
 				(justify left top)
 			)
 		)
+		(pin "IN_L" input
+			(at 217.17 99.06 0)
+			(uuid "abcc1da4-ac91-45c1-ad21-72e1c4d4ccef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_R" input
+			(at 217.17 102.87 0)
+			(uuid "d08999c6-2732-444b-9fdc-c64145472a1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_DIN" input
+			(at 217.17 83.82 0)
+			(uuid "596d035d-c97c-4b3b-a73b-4ad5d7f39b51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_DOUT" output
+			(at 217.17 87.63 0)
+			(uuid "773283f6-7461-461e-96e0-05a436d97a65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LINE_EN_L" input
+			(at 191.77 83.82 180)
+			(uuid "2f0e1b28-b011-457f-96a9-0f8335c98681")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LINE_EN_R" input
+			(at 191.77 87.63 180)
+			(uuid "454ac2a0-3587-4b72-bc77-5d8515f85513")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LINE_IND_L" output
+			(at 191.77 91.44 180)
+			(uuid "0a20d2d5-21c2-4167-8a38-01b1b5c22285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LINE_IND_R" output
+			(at 191.77 95.25 180)
+			(uuid "f0355fd6-bed9-4d90-bad1-75bc69913c36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROT_A" output
+			(at 191.77 99.06 180)
+			(uuid "895c1755-cc82-4f6b-8e88-cd5093ca3c29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROT_B" output
+			(at 191.77 102.87 180)
+			(uuid "9478e427-f294-499a-9d2f-c45fd27a67aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8"
