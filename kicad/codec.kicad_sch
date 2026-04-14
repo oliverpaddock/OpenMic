@@ -1762,7 +1762,7 @@
 		)
 		(uuid "ee37dd72-dcea-405d-932b-5afe68600e05")
 	)
-	(hierarchical_label "GPIO2"
+	(hierarchical_label "GPIO_2"
 		(shape bidirectional)
 		(at 106.68 120.65 270)
 		(effects
