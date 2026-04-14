@@ -4613,7 +4613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00ccf505-0ef6-4bff-8782-651839b24b9c")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0139"
 			(at 227.33 80.01 0)
 			(effects
 				(font
@@ -4663,7 +4663,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR087")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -4679,7 +4679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0112b7e9-5db9-435a-9841-c5ed6d394296")
-		(property "Reference" "R75"
+		(property "Reference" "R82"
 			(at 130.81 81.28 90)
 			(effects
 				(font
@@ -4731,7 +4731,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R75")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -4747,7 +4747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e3f9e08-d5dc-4fdc-8fd4-bc466a45e672")
-		(property "Reference" "U13"
+		(property "Reference" "U15"
 			(at 115.57 137.1599 0)
 			(effects
 				(font
@@ -4830,7 +4830,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U13")
+					(reference "U15")
 					(unit 3)
 				)
 			)
@@ -4845,7 +4845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f3ebec3-4c4c-4185-b841-2f5f02129dfd")
-		(property "Reference" "D57"
+		(property "Reference" "D55"
 			(at 211.074 15.24 0)
 			(effects
 				(font
@@ -4905,7 +4905,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D57")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -4920,7 +4920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11e78932-7539-4294-8f34-ebcb4da53250")
-		(property "Reference" "C170"
+		(property "Reference" "C117"
 			(at 239.014 38.608 0)
 			(effects
 				(font
@@ -4974,7 +4974,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C170")
+					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -4989,7 +4989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "133297f3-0d1a-40fb-a103-27368b7d849b")
-		(property "Reference" "C101"
+		(property "Reference" "C111"
 			(at 117.094 38.608 0)
 			(effects
 				(font
@@ -5043,7 +5043,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C101")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -5058,7 +5058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "157f42ad-653a-4b26-a5ef-37ab38e4ebd1")
-		(property "Reference" "D60"
+		(property "Reference" "D58"
 			(at 272.034 15.24 0)
 			(effects
 				(font
@@ -5118,7 +5118,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D60")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "212447c6-4c09-45a8-b379-1fcae8b2bf96")
-		(property "Reference" "R40"
+		(property "Reference" "R77"
 			(at 54.61 76.2 90)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R40")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2df85882-103d-4ee1-9b52-c8f34d6b8e4d")
-		(property "Reference" "C98"
+		(property "Reference" "C108"
 			(at 56.134 38.608 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C98")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -5271,7 +5271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e95ede4-5a53-434b-87c9-af969ee1d5e9")
-		(property "Reference" "U12"
+		(property "Reference" "U14"
 			(at 81.28 125.73 0)
 			(effects
 				(font
@@ -5341,7 +5341,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U12")
+					(reference "U14")
 					(unit 2)
 				)
 			)
@@ -5357,7 +5357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3312f2f8-081b-4c9c-8d4c-4925929aea46")
-		(property "Reference" "C83"
+		(property "Reference" "C124"
 			(at 67.31 125.73 90)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C83")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -5425,7 +5425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "342608d9-4c97-4839-8bb3-aebd4fb0a261")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0146"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -5475,7 +5475,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR079")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -5490,7 +5490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e8d3249-6514-4b71-9fa3-fe6eb96b2caf")
-		(property "Reference" "D58"
+		(property "Reference" "D56"
 			(at 231.394 15.24 0)
 			(effects
 				(font
@@ -5550,7 +5550,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D58")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -5566,7 +5566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f70af4-c695-41cd-9c58-f0402c23eca2")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0151"
 			(at 119.38 152.4 0)
 			(effects
 				(font
@@ -5616,7 +5616,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR081")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -5631,7 +5631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41f05e0e-847d-4e40-9924-d845ee07ecac")
-		(property "Reference" "D51"
+		(property "Reference" "D49"
 			(at 89.154 15.24 0)
 			(effects
 				(font
@@ -5691,7 +5691,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D51")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -5707,7 +5707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "434a2f80-2d64-4457-80fa-4107baba2ad3")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0138"
 			(at 22.86 43.18 0)
 			(effects
 				(font
@@ -5757,7 +5757,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR085")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -5773,7 +5773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4b9b36-a700-4f7e-831b-52e51f7dae7f")
-		(property "Reference" "C54"
+		(property "Reference" "C119"
 			(at 66.04 74.93 90)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C54")
+					(reference "C119")
 					(unit 1)
 				)
 			)
@@ -5840,7 +5840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e22d20e-18f0-444c-a583-b5d08d97a8dd")
-		(property "Reference" "SW14"
+		(property "Reference" "SW13"
 			(at 221.742 82.042 90)
 			(effects
 				(font
@@ -5897,7 +5897,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "SW14")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fc6ba41-3fc1-41a4-852a-817dc62e6d78")
-		(property "Reference" "U13"
+		(property "Reference" "U15"
 			(at 118.11 130.302 0)
 			(effects
 				(font
@@ -5991,7 +5991,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U13")
+					(reference "U15")
 					(unit 2)
 				)
 			)
@@ -6007,7 +6007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5193d7ab-f4b7-47cc-85bd-29a8cf2c79d1")
-		(property "Reference" "R76"
+		(property "Reference" "R89"
 			(at 130.81 132.08 90)
 			(effects
 				(font
@@ -6059,7 +6059,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R76")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -6075,7 +6075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c398f1-b185-46c7-aadb-1858932b8d44")
-		(property "Reference" "R41"
+		(property "Reference" "R88"
 			(at 55.88 127 90)
 			(effects
 				(font
@@ -6127,7 +6127,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R41")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -6142,7 +6142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58c2c76d-ce5a-4a13-ae1f-dd4a64d431f3")
-		(property "Reference" "C104"
+		(property "Reference" "C113"
 			(at 157.734 38.608 0)
 			(effects
 				(font
@@ -6196,7 +6196,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C104")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "593efc29-d205-472b-8d99-554991acc279")
-		(property "Reference" "C105"
+		(property "Reference" "C121"
 			(at 241.3 104.1399 0)
 			(effects
 				(font
@@ -6266,7 +6266,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C105")
+					(reference "C121")
 					(unit 1)
 				)
 			)
@@ -6281,7 +6281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ab1476e-b88b-469c-a54d-c44e3a32d782")
-		(property "Reference" "D56"
+		(property "Reference" "D54"
 			(at 190.754 15.24 0)
 			(effects
 				(font
@@ -6341,7 +6341,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D56")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -6357,7 +6357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c391825-15fa-4558-8dfd-3b6b0a4d7d0e")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0140"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -6407,7 +6407,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR077")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -6423,7 +6423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63aeaee4-b870-4362-8738-e734864d5383")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0144"
 			(at 147.32 106.68 0)
 			(effects
 				(font
@@ -6473,7 +6473,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR094")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -6558,7 +6558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bfbd2ee-ceba-40f1-b86b-99c97a7aa5d6")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0147"
 			(at 227.33 118.11 0)
 			(effects
 				(font
@@ -6608,7 +6608,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR088")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -6623,7 +6623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77a0a186-e63a-4c81-bf29-f210bc962f5b")
-		(property "Reference" "D55"
+		(property "Reference" "D53"
 			(at 170.434 15.24 0)
 			(effects
 				(font
@@ -6683,7 +6683,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D55")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -6698,7 +6698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f24fbef-e138-488f-9097-1dd767e69013")
-		(property "Reference" "R73"
+		(property "Reference" "R91"
 			(at 69.342 150.876 0)
 			(effects
 				(font
@@ -6752,7 +6752,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R73")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -6767,7 +6767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f5d757-db81-4e71-8ae4-9560bde9af9e")
-		(property "Reference" "C172"
+		(property "Reference" "C123"
 			(at 151.13 116.84 90)
 			(effects
 				(font
@@ -6819,7 +6819,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C172")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -6904,7 +6904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e327735-ef63-455e-91dd-e1050604a4ee")
-		(property "Reference" "D53"
+		(property "Reference" "D51"
 			(at 129.794 15.24 0)
 			(effects
 				(font
@@ -6964,7 +6964,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D53")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -6979,7 +6979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "913d4970-2429-415e-977a-c99bfe6d6264")
-		(property "Reference" "U12"
+		(property "Reference" "U14"
 			(at 84.836 77.216 0)
 			(effects
 				(font
@@ -7049,7 +7049,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U12")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -7064,7 +7064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9187248c-432b-4554-a65c-c85ae7dd0e66")
-		(property "Reference" "R61"
+		(property "Reference" "R86"
 			(at 68.072 106.426 0)
 			(effects
 				(font
@@ -7118,7 +7118,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R61")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -7133,7 +7133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96728ec8-25ec-4879-9010-e901ea0405f2")
-		(property "Reference" "C102"
+		(property "Reference" "C112"
 			(at 137.414 38.608 0)
 			(effects
 				(font
@@ -7187,7 +7187,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C102")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -7202,7 +7202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c502806-e4f4-436d-b860-19950fc42c19")
-		(property "Reference" "D49"
+		(property "Reference" "D47"
 			(at 48.514 15.24 0)
 			(effects
 				(font
@@ -7262,7 +7262,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D49")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -7277,7 +7277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cdbc163-bafa-41ad-b9ce-7dbc9534e5d7")
-		(property "Reference" "R74"
+		(property "Reference" "R90"
 			(at 78.74 149.352 90)
 			(effects
 				(font
@@ -7329,7 +7329,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R74")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a48b24d4-f398-41cf-bd9b-b8489dff4b92")
-		(property "Reference" "C99"
+		(property "Reference" "C109"
 			(at 76.454 38.608 0)
 			(effects
 				(font
@@ -7398,7 +7398,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C99")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -7414,7 +7414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a718cd59-deea-4871-bef2-7c39e620874c")
-		(property "Reference" "U12"
+		(property "Reference" "U14"
 			(at 78.74 83.8199 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U12")
+					(reference "U14")
 					(unit 3)
 				)
 			)
@@ -7504,7 +7504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a90ca425-fccc-4b20-822a-10c30353b62a")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR0142"
 			(at 77.47 88.9 0)
 			(effects
 				(font
@@ -7554,7 +7554,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR078")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -7569,7 +7569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac23ed30-478c-4c48-b9ca-82affbcdcfba")
-		(property "Reference" "C97"
+		(property "Reference" "C107"
 			(at 35.814 38.608 0)
 			(effects
 				(font
@@ -7623,7 +7623,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C97")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -7639,7 +7639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b422552d-f385-4354-b0b1-8cd432f367fc")
-		(property "Reference" "R81"
+		(property "Reference" "R87"
 			(at 160.02 115.5699 0)
 			(effects
 				(font
@@ -7693,7 +7693,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R81")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -7708,7 +7708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb6cd906-dec8-4f7e-b7cc-09fb0077da4c")
-		(property "Reference" "C103"
+		(property "Reference" "C120"
 			(at 213.36 104.1399 0)
 			(effects
 				(font
@@ -7762,7 +7762,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C103")
+					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -7777,7 +7777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4eec80c-40df-4c58-867e-f655e80d6187")
-		(property "Reference" "R72"
+		(property "Reference" "R85"
 			(at 77.47 104.902 90)
 			(effects
 				(font
@@ -7829,7 +7829,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R72")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -7844,7 +7844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5147884-fe93-43e4-ab24-ba9b8d472de9")
-		(property "Reference" "U13"
+		(property "Reference" "U15"
 			(at 120.904 80.518 0)
 			(effects
 				(font
@@ -7923,7 +7923,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U13")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -7938,7 +7938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7ce683e-8647-4eba-a5e0-5125dacd3df3")
-		(property "Reference" "C168"
+		(property "Reference" "C115"
 			(at 198.374 38.608 0)
 			(effects
 				(font
@@ -7992,7 +7992,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C168")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -8007,7 +8007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbc00a7e-4081-421d-8db3-398846c7416b")
-		(property "Reference" "D59"
+		(property "Reference" "D57"
 			(at 251.714 15.24 0)
 			(effects
 				(font
@@ -8067,7 +8067,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D59")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -8083,7 +8083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccd72c26-8dfc-4b2b-83f2-5feb8ca93d93")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0149"
 			(at 111.76 134.62 0)
 			(effects
 				(font
@@ -8133,7 +8133,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR082")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -8148,7 +8148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce1ef19f-2573-4e93-9626-bc398d46f94d")
-		(property "Reference" "D50"
+		(property "Reference" "D48"
 			(at 68.834 15.24 0)
 			(effects
 				(font
@@ -8208,7 +8208,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D50")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -8223,7 +8223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce3d3e3a-3508-4810-82bc-0695aeb2c32a")
-		(property "Reference" "D54"
+		(property "Reference" "D52"
 			(at 150.114 15.24 0)
 			(effects
 				(font
@@ -8283,7 +8283,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D54")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -8299,7 +8299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1705f57-9e92-47b2-bbbb-e3417a9571f1")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 162.56 90.1699 0)
 			(effects
 				(font
@@ -8365,7 +8365,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8380,7 +8380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3ccf18f-960a-4126-8341-e3b746ac918d")
-		(property "Reference" "C90"
+		(property "Reference" "C106"
 			(at 19.05 27.3049 0)
 			(effects
 				(font
@@ -8434,7 +8434,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C90")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -8450,7 +8450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f93593-e1cf-4d0d-b393-d0c88094e78a")
-		(property "Reference" "R80"
+		(property "Reference" "R84"
 			(at 243.84 92.71 90)
 			(effects
 				(font
@@ -8502,7 +8502,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R80")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -8517,7 +8517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa1a2c6-b4c4-4cbf-a6d2-2a2efa720ec9")
-		(property "Reference" "C167"
+		(property "Reference" "C114"
 			(at 178.054 38.608 0)
 			(effects
 				(font
@@ -8571,7 +8571,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C167")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -8587,7 +8587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f4feb4-90bd-4a0b-92e5-5a132f6af7b3")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0137"
 			(at 22.86 25.4 0)
 			(effects
 				(font
@@ -8637,7 +8637,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR084")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -8652,7 +8652,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e603553c-a9bf-4bf5-940c-1cd7307bcb39")
-		(property "Reference" "C169"
+		(property "Reference" "C116"
 			(at 218.694 38.608 0)
 			(effects
 				(font
@@ -8706,7 +8706,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C169")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -8721,7 +8721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e62736f1-a7b5-4fc7-b556-bb35cccf3112")
-		(property "Reference" "C171"
+		(property "Reference" "C118"
 			(at 259.334 38.608 0)
 			(effects
 				(font
@@ -8775,7 +8775,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C171")
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -8790,7 +8790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9c1a8e8-b7c3-43ec-bf8b-5d34ba73d850")
-		(property "Reference" "D52"
+		(property "Reference" "D50"
 			(at 109.474 15.24 0)
 			(effects
 				(font
@@ -8850,7 +8850,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "D52")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee3e6033-443b-4653-9563-aad5bd4cc59e")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0145"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -8916,7 +8916,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR089")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -8931,7 +8931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f060dd7a-bfe7-480c-af81-c04c4d87f7cf")
-		(property "Reference" "C100"
+		(property "Reference" "C110"
 			(at 96.774 38.608 0)
 			(effects
 				(font
@@ -8985,7 +8985,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C100")
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -9001,7 +9001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0dc1cff-10f7-44bf-85f7-3200f226ff45")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0150"
 			(at 111.76 142.24 0)
 			(effects
 				(font
@@ -9051,7 +9051,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR083")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -9067,7 +9067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95ff004-78dc-4202-839b-f16956296174")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0152"
 			(at 71.12 162.56 0)
 			(effects
 				(font
@@ -9117,7 +9117,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "#PWR080")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -9133,7 +9133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb2a0fa2-1999-4fe9-aaaf-b869307f00c1")
-		(property "Reference" "R77"
+		(property "Reference" "R83"
 			(at 210.82 92.71 90)
 			(effects
 				(font
@@ -9185,7 +9185,7 @@
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R77")
+					(reference "R83")
 					(unit 1)
 				)
 			)

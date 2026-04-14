@@ -795,16 +795,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 120.65 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bebb23ed-f1eb-4674-8a1b-0c79ef4a60d9")
-	)
-	(wire
-		(pts
 			(xy 165.1 124.46) (xy 153.67 124.46)
 		)
 		(stroke
@@ -1744,16 +1734,6 @@
 				(justify right)
 			)
 		)
-		(pin "PD_CON_IND" output
-			(at 101.6 33.02 0)
-			(uuid "c17e213b-cc74-4f1c-a21b-99bb1eb9cdd7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8"
@@ -2314,16 +2294,6 @@
 		(pin "SPI_SCLK" output
 			(at 120.65 93.98 180)
 			(uuid "e68e837d-a1cc-42c1-b493-1dd5db77efe1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PD_CON_IND" input
-			(at 120.65 33.02 180)
-			(uuid "a29d4c57-8485-4667-acf0-9cb575eeccde")
 			(effects
 				(font
 					(size 1.27 1.27)
