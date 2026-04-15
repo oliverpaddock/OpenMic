@@ -1,0 +1,310 @@
+* ========================================================================
+* THAT 120x series P,S packages
+* REV 00 - created on 09/24/2004, by FF
+* REV 01 -- JBL 5-9-17
+* Changed subckt names to THAT1200, THAT1203, THAT1206
+* Rev 02 RB 6-14-17
+* Changed VCC and VEE to V+ and V-
+*
+*
+* DEVICE=THAT1200 P,S 0dB gain Line receiver
+* THAT1200 "macromodel" created on 09/24/2004, by FF
+*
+* connections:   non-inverting input
+*                |   inverting input
+*                |   |   positive power supply
+*                |   |   |  negative power supply
+*                |   |   |  |  output
+*                |   |   |  |  |   ref voltage or GND
+*                |   |   |  |  |   |   CM input
+*                |   |   |  |  |   |   |    CM output
+*                |   |   |  |  |   |   |    |
+.subckt THAT1200 IN+ IN- V+ V- OUT REF CMIN CMOUT
+*
+R_R4         2 CMIN  24k  
+R_R7         5 4  24k  
+R_R6         3 5  24k  
+X_U1         1 3 V+ V- 3 OA1456_01
+X_U2         2 4 V+ V- 4 OA1456_01
+R_R5         REF CMIN  24k  
+R_R10        6 REF  6000  
+R_R8         3 6  6000  
+R_R9         4 7  6000.47
+X_U4         6 7 V+ V- OUT OA3456_01
+X_U3         5 CMOUT V+ V- CMOUT OA4456_01
+R_R11        7 OUT  6000  
+R_R3         CMIN 1  24k  
+R_R2         IN- 2  0.00001  
+R_R1         IN+ 1  0.00001  
+D_D10        V- CMIN DPROT 
+D_D7         11 IN+ DPROT 
+D_D8         11 V- DPROT 
+D_D6         10 V- DPROT 
+D_D5         10 IN+ DPROT 
+D_D9         CMIN V+ DPROT 
+D_D2         8 IN+ DPROT 
+D_D1         8 V+ DPROT 
+D_D4         9 V+ DPROT 
+D_D3         9 IN+ DPROT 
+D_D15        REF V+ DPROT 
+D_D14        V- OUT DPROT 
+D_D13        OUT V+ DPROT 
+D_D16        V- REF DPROT 
+D_D11        CMOUT V+ DPROT 
+D_D12        V- CMOUT DPROT 
+.ends
+*$
+* ==========================================================================
+*
+* DEVICE=THAT1203 P,S -3dB gain Line receiver
+* THAT1206 "macromodel" created on 09/24/2004, by FF
+*
+* connections:   non-inverting input
+*                |   inverting input
+*                |   |   positive power supply
+*                |   |   |  negative power supply
+*                |   |   |  |  output
+*                |   |   |  |  |   ref voltage or GND
+*                |   |   |  |  |   |   CM input
+*                |   |   |  |  |   |   |    CM output
+*                |   |   |  |  |   |   |    |
+.subckt THAT1203 IN+ IN- V+ V- OUT REF CMIN CMOUT
+*
+R_R4         2 CMIN  17k  
+R_R7         5 4  24k  
+R_R6         3 5  24k  
+X_U1         1 3 V+ V- 3 OA1456_01
+X_U2         2 4 V+ V- 4 OA1456_01
+R_R5         REF CMIN  24k  
+R_R10        6 REF  6000  
+R_R8         3 6  6000  
+R_R9         4 7  6000.37  
+X_U4         6 7 V+ V- OUT OA3456_01
+X_U3         5 CMOUT V+ V- CMOUT OA4456_01
+R_R11        7 OUT  6000  
+R_R3         CMIN 1  17k  
+R_R2         IN- 2  7k  
+R_R1         IN+ 1  7k  
+D_D10        V- CMIN DPROT 
+D_D7         11 IN+ DPROT 
+D_D8         11 V- DPROT 
+D_D6         10 V- DPROT 
+D_D5         10 IN+ DPROT 
+D_D9         CMIN V+ DPROT 
+D_D2         8 IN+ DPROT 
+D_D1         8 V+ DPROT 
+D_D4         9 V+ DPROT 
+D_D3         9 IN+ DPROT 
+D_D15        REF V+ DPROT 
+D_D14        V- OUT DPROT 
+D_D13        OUT V+ DPROT 
+D_D16        V- REF DPROT 
+D_D11        CMOUT V+ DPROT 
+D_D12        V- CMOUT DPROT 
+.ends
+*$
+* ==========================================================================
+* DEVICE=THAT1206 P,S -6dB gain Line receiver
+* THAT1206 "macromodel" created on 09/24/2004, by FF
+*
+* connections:   non-inverting input
+*                |   inverting input
+*                |   |   positive power supply
+*                |   |   |  negative power supply
+*                |   |   |  |  output
+*                |   |   |  |  |   ref voltage or GND
+*                |   |   |  |  |   |   CM input
+*                |   |   |  |  |   |   |    CM output
+*                |   |   |  |  |   |   |    |
+.subckt THAT1206 IN+ IN- V+ V- OUT REF CMIN CMOUT
+*
+R_R4         2 CMIN  17k  
+R_R7         5 4  24k  
+R_R6         3 5  24k  
+X_U1         1 3 V+ V- 3 OA1456_01
+X_U2         2 4 V+ V- 4 OA1456_01
+R_R5         REF CMIN  24k  
+R_R10        6 REF  5k  
+R_R8         3 6  7066  
+R_R9         4 7  7066  
+X_U4         6 7 V+ V- OUT OA3456_01
+X_U3         5 CMOUT V+ V- CMOUT OA4456_01
+R_R11        7 OUT  5000.1  
+R_R3         CMIN 1  17k  
+R_R2         IN- 2  7k  
+R_R1         IN+ 1  7k  
+D_D10        V- CMIN DPROT 
+D_D7         11 IN+ DPROT 
+D_D8         11 V- DPROT 
+D_D6         10 V- DPROT 
+D_D5         10 IN+ DPROT 
+D_D9         CMIN V+ DPROT 
+D_D2         8 IN+ DPROT 
+D_D1         8 V+ DPROT 
+D_D4         9 V+ DPROT 
+D_D3         9 IN+ DPROT 
+D_D15        REF V+ DPROT 
+D_D14        V- OUT DPROT 
+D_D13        OUT V+ DPROT 
+D_D16        V- REF DPROT 
+D_D11        CMOUT V+ DPROT 
+D_D12        V- CMOUT DPROT 
+.ends
+*$
+* ==========================================================================
+* OA1456_01 operational amplifier "macromodel" subcircuit for THAT120x series
+* created using Parts release 8.0 on 09/21/104 at 14:01
+* Parts is a MicroSim product.
+*
+* connections:   non-inverting input
+*                | inverting input
+*                | | positive power supply
+*                | | | negative power supply
+*                | | | | output
+*                | | | | |
+.subckt OA1456_01 1 2 3 4 5
+*
+  c1   11 12 866.03E-15
+  c2    6  7 3.0000E-12
+  cee  10 99 352.17E-15
+  dc    5 53 dy
+  de   54  5 dy
+  dlp  90 91 dx
+  dln  92 90 dx
+  dp    4  3 dx
+  egnd 99  0 poly(2) (3,0) (4,0) 0 .5 .5
+  fb    7 99 poly(5) vb vc ve vlp vln 0 405.86E3 -1E3 1E3 410E3 -410E3
+  ga    6  0 11 12 439.19E-6
+  gcm   0  6 10 99 4.3919E-9
+  iee   3 10 dc 78.480E-6
+  hlim 90  0 vlim 1K
+  q1   11  2 13 qx1
+  q2   12  1 14 qx2
+  r2    6  9 100.00E3
+  rc1   4 11 2.2769E3
+  rc2   4 12 2.2769E3
+  re1  13 10 1.5777E3
+  re2  14 10 1.5777E3
+  ree  10 99 2.5484E6
+  ro1   8  5 50
+  ro2   7 99 50
+  rp    3  4 32.531E3
+  vb    9  0 dc 0
+  vc    3 53 dc 1.9847
+  ve   54  4 dc 2.3847
+  vlim  7  8 dc 0
+  vlp  91  0 dc 12
+  vln   0 92 dc 12
+.model dx D(Is=800.00E-18)
+.model dy D(Is=800.00E-18 Rs=1m Cjo=10p)
+.model qx1 PNP(Is=800.00E-18 Bf=55.870)
+.model qx2 PNP(Is=800.0000E-18 Bf=55.870)
+.ends
+*$
+* ==========================================================================
+* OA3456_01 operational amplifier "macromodel" subcircuit for THAT120x series
+* created using Parts release 8.0 on 09/21/104 at 14:16
+* Parts is a MicroSim product.
+*
+* connections:   non-inverting input
+*                | inverting input
+*                | | positive power supply
+*                | | | negative power supply
+*                | | | | output
+*                | | | | |
+.subckt OA3456_01 1 2 3 4 5
+*
+  c1   11 12 3.4352E-12
+  c2    6  7 11.900E-12
+  dc    5 53 dy
+  de   54  5 dy
+  dlp  90 91 dx
+  dln  92 90 dx
+  dp    4  3 dx
+  egnd 99  0 poly(2) (3,0) (4,0) 0 .5 .5
+  fb    7 99 poly(5) vb vc ve vlp vln 0 90.553E3 -1E3 1E3 91E3 -91E3
+  ga    6  0 11 12 2.7216E-3
+  gcm   0  6 10 99 27.216E-9
+  iee   3 10 dc 154.70E-6
+  hlim 90  0 vlim 1K
+  q1   11  2 13 qx1
+  q2   12  1 14 qx2
+  r2    6  9 100.00E3
+  rc1   4 11 367.43
+  rc2   4 12 367.43
+  re1  13 10 33.049
+  re2  14 10 33.049
+  ree  10 99 1.2928E6
+  ro1   8  5 42
+  ro2   7 99 42
+  rp    3  4 13.481E3
+  vb    9  0 dc 0
+  vc    3 53 dc 3.0057
+  ve   54  4 dc 2.0057
+  vlim  7  8 dc 0
+  vlp  91  0 dc 27
+  vln   0 92 dc 27
+.model dx D(Is=800.00E-18)
+.model dy D(Is=800.00E-18 Rs=1m Cjo=10p)
+.model qx1 PNP(Is=800.00E-18 Bf=69.685E3)
+.model qx2 PNP(Is=800.0000E-18 Bf=69.685E3)
+.ends
+*$
+* ==========================================================================
+* OA4456_01 operational amplifier "macromodel" subcircuit for THAT120x series
+* created using Parts release 8.0 on 09/21/104 at 17:53
+* Parts is a MicroSim product.
+*
+* connections:   non-inverting input
+*                | inverting input
+*                | | positive power supply
+*                | | | negative power supply
+*                | | | | output
+*                | | | | |
+.subckt OA4456_01 1 2 3 4 5
+*
+  c1   11 12 498.66E-15
+  c2    6  7 4.0000E-12
+  cee  10 99 1.0980E-12
+  dc    5 53 dy
+  de   54  5 dy
+  dlp  90 91 dx
+  dln  92 90 dx
+  dp    4  3 dx
+  egnd 99  0 poly(2) (3,0) (4,0) 0 .5 .5
+  fb    7 99 poly(5) vb vc ve vlp vln 0 20.789E3 -1E3 1E3 21E3 -21E3
+  ga    6  0 11 12 588.11E-6
+  gcm   0  6 10 99 5.8811E-9
+  iee   3 10 dc 105.40E-6
+  hlim 90  0 vlim 1K
+  q1   11  2 13 qx1
+  q2   12  1 14 qx2
+  r2    6  9 100.00E3
+  rc1   4 11 1.7004E3
+  rc2   4 12 1.7004E3
+  re1  13 10 1.1870E3
+  re2  14 10 1.1870E3
+  ree  10 99 1.8975E6
+  ro1   8  5 167
+  ro2   7 99 167
+  rp    3  4 95.147E3
+  vb    9  0 dc 0
+  vc    3 53 dc 1.7773
+  ve   54  4 dc 2.3773
+  vlim  7  8 dc 0
+  vlp  91  0 dc 9
+  vln   0 92 dc 9
+.model dx D(Is=800.00E-18)
+.model dy D(Is=800.00E-18 Rs=1m Cjo=10p)
+.model qx1 PNP(Is=800.00E-18 Bf=74.286)
+.model qx2 PNP(Is=800.0000E-18 Bf=74.286)
+.ends
+*$
+* THAT120x models end here
+*$
+* ========================================================================
+* Protection diode model for THAT124x and THAT120x series
+*
+.MODEL DPROT D (IS=864.10E-18 RS=100 CJO=194.00E-15 M=.42945 BV=60 IBV=1E-10)
+*$
+*

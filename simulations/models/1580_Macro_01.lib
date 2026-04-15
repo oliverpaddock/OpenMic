@@ -1,0 +1,233 @@
+3:45 PM 6/30/2017* ----------------------------------------------------------------------
+* --- 1580N16 Macromodel
+* --- Rev 00, Jun 16, 2014 -- Developed by FF
+* ----------------------------------------------------------------------
+* ---- Pin assignment 
+* --- IN1: Noninverting input 1
+* --- Rg1: Inverting input 1
+* --- Rg2: Inverting input 2
+* --- IN2: Noninverting input 2
+* --- OUT1: Output 1
+* --- OUT2: Output 2
+* --- Vpos: Positive power supply
+* --- Vneg: Negative power supply
+* ----------------------------------------------------------------------
+* Rev 01, Jun 30, 2017, by RB
+* Changed pins names to match datasheet
+* ---------------------------------------------------------------------- 
+* --- IN1: Noninverting input 1
+* --- Rg1: Inverting input 1
+* --- Rg2: Inverting input 2
+* --- IN2: Noninverting input 2
+* --- OUT1: Output 1
+* --- OUT2: Output 2
+* --- V+: Positive power supply
+* --- V-: Negative power supply
+* ----------------------------------------------------------------------
+* 
+.subckt THAT1580 IN1 Rg1 Rg2 IN2 OUT1 OUT2 V+ V- 
+C_C4         $N_0001 0  4.9pF  
+G_G6         $N_0001 0 $N_0002 $N_0003 0.0008
+D_D4         $N_0004 $N_0005 Dgen 
+R_R20         $N_0005 0  100Meg  
+R_R21         $N_0006 0  100Meg  
+D_D5         $N_0007 $N_0006 Dgen 
+C_C6         $N_0008 0  4.9pF  
+G_G7         $N_0008 0 $N_0002 $N_0009 0.0008
+G_G11         V+ OUT2 $N_0010 $N_0007 0.0115
+R_R23         $N_0011 0  100Meg  
+D_D7         $N_0011 $N_0012 Dgen 
+E_E6         0 $N_0013 Ref12 Ref11 1
+R_R22         $N_0014 0  100Meg  
+D_D6         $N_0014 $N_0015 Dgen 
+E_E7         $N_0010 0 Ref12 Ref11 1
+E_E8         $N_0005 0 $N_0010 $N_0004 100
+E_E11         $N_0011 0 $N_0013 $N_0012 100
+E_E9         $N_0006 0 $N_0010 $N_0007 100
+E_E10         $N_0014 0 $N_0013 $N_0015 100
+R_R7         0 $N_0001  64138  
+R_R8         0 $N_0008  64138  
+D_D8         OUT2 $N_0016 Dgen 
+D_D12         $N_0017 OUT2 Dgen 
+D_D13         $N_0017 OUT1 Dgen 
+D_D9         OUT1 $N_0016 Dgen 
+C_C2         OUT1 $N_0003  14.58pF  
+C_C1         OUT2 $N_0009  14.58pF  
+C_C5         $N_0018 $N_0001  10.5pF  
+C_C3         $N_0019 $N_0008  10.5pF  
+R_Rz1         $N_0018 OUT1  1.6k  
+R_Rz2         OUT2 $N_0019  1.6k  
+D_D2         $N_0001 $N_0020 Dgen 
+R_R16         $N_0004 $N_0001  1Meg  
+R_R17         $N_0012 $N_0001  1Meg  
+D_D10         $N_0021 $N_0001 Dgen 
+D_D11         $N_0021 $N_0008 Dgen 
+R_R18         $N_0007 $N_0008  1Meg  
+R_R19         $N_0015 $N_0008  1Meg  
+D_D1         $N_0008 $N_0020 Dgen 
+R_R11         OUT2 V+  30k  
+R_R13         $N_0022 V+  41.44k  
+G_G13         Rg2 0 $N_0023 0 1
+G_G12         Rg1 0 $N_0024 0 1
+X_M2         $N_0009 Rg2 $N_0025 $N_0025 pmos1 PARAMS: W=432u L=2.5u         
+X_M1         $N_0003 Rg1 $N_0026 $N_0026 pmos1 PARAMS: W=432u L=2.5u         
+I_I1         V+ Ref12 DC 1uA  
+R_R15         Ref11 Ref12 Rptat 73153
+R_R10         V- OUT1  29.91k  
+G_G10         OUT2 V- $N_0015 $N_0013 0.0115
+R_R12         V- OUT2  29.91k  
+G_G8         OUT1 V- $N_0012 $N_0013 0.0115
+R_R14         V- $N_0022  41.44k  
+V_V5         $N_0002 V- 3.4V
+R_R4         V- Ref11 Rptat 2028400
+G_G1         Rg1 V- Ref11 V- 0.000493
+X_Q2         $N_0025 $N_0027 Rg2 V- q2 PARAMS: M=80
+X_Q1         $N_0026 $N_0028 Rg1 V- q2 PARAMS: M=80
+G_G2         Rg2 V- Ref11 V- 0.000493
+G_G5         $N_0003 V- Ref11 V- 0.0000986
+G_G4         $N_0009 V- Ref11 V- 0.0000986
+G_G15         V+ $N_0025 Ref11 V- 0.0005916
+G_G14         V+ $N_0026 Ref11 V- 0.0005916
+I_I2         V+ V- DC 1.645m  
+R_Rb1         $N_0028 IN1  5.4425  
+R_Rb2         IN2 $N_0027  5.4425  
+R_Rnoi12         0 $N_0024  0.00243  
+R_Rnoi11         $N_0024 0  0.00243  
+R_Rnoi21         $N_0023 0  0.00243  
+R_Rnoi22         0 $N_0023  0.00243  
+V_V4         $N_0017 V- 1.8V
+V_V3         V+ $N_0016 1.8V
+V_V2         $N_0010 $N_0021 4.6V
+V_V1         $N_0020 $N_0013 4.6V
+G_G9         V+ OUT1 $N_0010 $N_0004 0.0115
+R_R9         OUT1 V+  30k 
+.MODEL RPTAT RES (R=1 TC1=3300E-6)
+.MODEL D1 D (
++ IS=864.10E-18
++ N=1.0793
++ RS=100
++ IKF=1.0405
++ CJO=194.00E-15
++ M=.42945
++ VJ=.79868
++ ISR=10.127E-12
++ NR=4.9950
++ BV=100
++ IBV=10
++ TT=7.5741E-9)
+.MODEL Dgen D (
++ IS=1E-14)
+.ends 1580N16
+* ----------------------------------------------------------------------
+* PMOS
+.subckt pmos1 d g s b params: w=1e-6 l=1e-6 ad=0 as=0 pd=0 ps=0 nrd=0 nrs=0 
+m1 d1 g s b pmos1mod w={w} l={l} ad={ad} as={as} pd={pd} ps={ps} nrd={nrd} nrs={nrs}
+rd d1 d 61 tc=3.600e-03, 5.000e-06 
+.model pmos1mod pmos level=7
++capmod=3     mobmod=1     nqsmod=0     noimod=2
++k1=6.266e-01
++k2=3.270e-03       k3=1.391e+01          k3b=-1.588e+00
++nch=5.365e+15       vth0=-8.671e-01
++voff=-1.327e-01     dvt0=2.540e+00        dvt1=8.662e-01 
++dvt2=-4.593e-02     keta=-1.785e-02 
++pscbe1=9.389e+08    pscbe2=2.377e-06 
++dvt0w=0.000e+00     dvt1w=1.000e+04       dvt2w=0.000e+00 
++ua=4.290e-09        ub=1.000e-22          uc=-4.913e-11
++u0=2.560e+02
++dsub=3.600e-01      eta0=0.000e+00        etab=-1.200e-03
++nfactor=9.278e-01
++em=4.100e+07        pclm=1.480e+00
++pdiblc1=5.806e-03   pdiblc2=1.287e-04     drout=3.008e-01
++a0=8.977e-01        a1=0.000e+00          a2=8.025e-01
++pvag=7.832e+00      vsat=1.324e+05        ags=8.531e-02      
++b0=7.824e-07        b1=0.000e+00          delta=2.001e-03
++pdiblcb=0.000e+00
++w0=0.000e+00        dlc=2.500e-07
++dwc=2.541e-07       dwb=1.600e-08         dwg=-8.000e-09
++ll=0.000e+00        lw=0.000e+00          lwl=0.000e+00
++lln=1.000e+00       lwn=1.000e+00         wl=0.000e+00
++ww=-5.000e-15       wwl=0.000e+00         wln=1.000e+00
++wwn=1.200e+00
++tnom=27
++at=3.300e+04        ute=-1.600e+00
++kt1=-6.200e-01      kt2=-5.500e-02        kt1l=0.000e+00
++ua1=-2.200e-09       ub1=0.000e+00         uc1=0.000e+00
++prt=2.300e+04
++cgdo=2.300e-10      cgso=2.000e-10        cgbo=1.300e-10
++cgdl=1.500e-10      cgsl=0.000e+00        ckappa=3.000e-01
++cf=0.000e+00        elm=5.000e+00
++xpart=1.000e+00     clc=1.000e-15         cle=6.000e-01
++rdsw=1.400e+04      wr=1.000e+00
++cdsc=0.000e+00      cdscb=0.000e+00       cdscd=0.000e+00
++prwb=2.400e-01      prwg=-4.213e-02        cit=0.000e+00
++tox=4.100e-08
++nlx=1.000e-10
++ngate=1.000e+20
+*+xl=0.000e+00        xw=0.000e+00
++alpha0=0.000e+00    
+*+alpha1=4.072e-05    
++beta0=1.082e+02
++af=1.000e+00        kf=3.000e-29          ef=1.200e+00
++noia=9.900e+18      noib=4.000e+02        noic=4.000e-13
+*+acm=3
++rd=0.0              rs=0.0                rsh=1.150e+02
+*+rsc=0.0    
++lint=2.500e-07      wint=2.541e-07
+*+ldif=0.0            hdif=8.000e-07
++xj=2.000e-06         
++js=2.500e-05        
+*+jsw=5.000e-11
+*+nds=1000              vnds=-1
+*+n=1.500e+00                 
+*+xti=3
++cj=2.800e-04        mj=4.500e-01          pb=7.500e-01
++cjsw=2.200e-10      mjsw=2.400e-01        
+*+php=7.500e-01
++binunit=1
++lk3=0.000e+00       wk3=0.000e+00         pk3=0.000e+00
++lvoff=1.344e-02     wvoff=0.000e+00       pvoff=0.000e+00
++ldvt2=0.000e+00     wdvt2=0.000e+00       pdvt2=0.000e+00
++lketa=0.000e+00     wketa=0.000e+00       pketa=0.000e+00
++lpscbe1=2.983e+08   wpscbe1=0.000e+00     ppscbe1=0.000e+00
++lua=0.000e+00       wua=0.000e+00         pua=0.000e+00
++lub=0.000e+00       wub=0.000e+00         pub=0.000e+00
++luc=0.000e+00       wuc=0.000e+00         puc=0.000e+00
++leta0=0.000e+00     weta0=0.000e+00       peta0=0.000e+00
++letab=0.000e+00     wetab=0.000e+00       petab=0.000e+00
++la0=-4.800e-01       wa0=0.000e+00         pa0=-3.000e+00
++lvsat=0.000e+00     wvsat=0.000e+00       pvsat=0.000e+00
++lags=0.000e+00      wags=0.000e+00        pags=0.000e+00
++lrdsw=0.000e+00     wrdsw=-2.534e+04       prdsw=0.000e+00
++lpdiblc1=0.000e+00  wpdiblc1=0.000e+00    ppdiblc1=0.000e+00
++lpdiblc2=0.000e+00  wpdiblc2=0.000e+00    ppdiblc2=0.000e+00
++lnfactor=0.000e+00  wnfactor=0.000e+00    pnfactor=0.000e+00
++lpclm=2.205e+00     wpclm=0.000e+00       ppclm=0.000e+00
+.ends pmos1  
+* ----------------------------------------------------------------------
+.subckt q2 c b e s params:  m=1
+.param area={m*1}
+q1 c b e [s] q2mod {area}
+.model q2mod npn
++bf=2.662e+02       vaf=1.800e+03
++is=8.642e-16       nf=1.013e+00       
++isc=8.000e-16      nc=1.350e+00
++ikf=1.104e-03      nk=4.400e-01      
++ikr=2.800e-04      nr=1.007e+00
++ise=3.826e-15      ne=1.700e+00
++iss=2.000e-15      ns=1.000e+00
++br=3.672e+00       var=3.700e+00
++re=3.000e+00
++rc=1.536e+02
++rb=4.692e+02       trb1=3.000e-03   
++rbm=5.000e+01      trm1=3.000e-03
++irb=8.506e-05
++xcjc=8.600e-01     fc=8.800e-01
++eg=1.115e+00       xti=5.310e+00      xtb=2.600e+00
++tf=1.050e-10       xtf=1.400e+00      itf=6.000e-03
++vtf=1.900e+00      ptf=1.500e+01      tr=2.000e-08
++cje=6.200e-14      mje=3.200e-01      vje=7.200e-01
++cjc=1.150e-13      mjc=3.600e-01      vjc=5.600e-01
++cjs=1.030e-13      mjs=3.900e-01      vjs=5.500e-01
++af=1.800e+00       kf=3.000e-11
+.ends q2
+*
