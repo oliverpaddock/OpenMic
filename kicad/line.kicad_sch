@@ -1467,9 +1467,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7002"
+		(symbol "Transistor_FET:CSD13380F3"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1484,7 +1483,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002"
+			(property "Value" "CSD13380F3"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1493,7 +1492,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1504,7 +1503,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1514,7 +1513,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
+				(at 48.26 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Texas NMOS single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1523,7 +1531,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
+			(property "ki_fp_filters" "*PicoStar*DFN?3*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1532,28 +1540,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N7002_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "CSD13380F3_1_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -1568,7 +1555,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.254 -1.905) (xy 0.254 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1580,31 +1567,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1616,7 +1579,43 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -1639,7 +1638,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 2.54 1.905) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1685,7 +1684,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1707,8 +1706,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2947,6 +2944,12 @@
 		(uuid "08749bc5-1d1f-4669-9e24-3e609fd89f24")
 	)
 	(junction
+		(at 57.15 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a151a61-fa94-48c7-aee9-e04bb420588e")
+	)
+	(junction
 		(at 240.03 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3139,12 +3142,6 @@
 		(uuid "8d35c34a-721c-4b15-bb63-fc432921bd51")
 	)
 	(junction
-		(at 57.15 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "911caa80-c16a-4041-b1a4-b1ee1f2b36a0")
-	)
-	(junction
 		(at 229.87 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3185,6 +3182,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abd8aab4-b956-4607-a549-65938794f7fa")
+	)
+	(junction
+		(at 57.15 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3cf456-b38e-416b-a16d-558d70a497ff")
 	)
 	(junction
 		(at 223.52 26.67)
@@ -3245,12 +3248,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4f3e479-0789-41d3-9f3c-a2efa77ff9d6")
-	)
-	(junction
-		(at 57.15 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c885f38e-fb9d-42b2-bc0c-b082bec4cc48")
 	)
 	(junction
 		(at 233.68 26.67)
@@ -8638,16 +8635,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
+		(lib_id "Transistor_FET:CSD13380F3")
 		(at 54.61 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aea555f2-c1a8-400b-af89-6ad502de8014")
-		(property "Reference" "Q3"
-			(at 46.736 83.82 0)
+		(uuid "adfb8a05-1214-4b04-b771-562995718de2")
+		(property "Reference" "Q2"
+			(at 60.452 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,8 +8652,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 46.736 86.36 0)
+		(property "Value" "CSD13380F3"
+			(at 60.452 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
 			(at 59.69 92.075 0)
 			(effects
 				(font
@@ -8675,7 +8672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
 			(at 59.69 93.98 0)
 			(effects
 				(font
@@ -8685,8 +8682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 54.61 90.17 0)
+		(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,19 +8691,19 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "b19f9139-c154-45db-9d27-a8841d2d5c3e")
+		(pin "2"
+			(uuid "d495ca86-d18a-4f07-b410-47b4afba01bc")
 		)
 		(pin "3"
-			(uuid "e517b902-7d2c-4a5d-89f4-cd053077d0c9")
+			(uuid "dc0a0558-05e1-4f43-aa4a-7304cda430f2")
 		)
-		(pin "2"
-			(uuid "63f2ee11-bf37-46c5-bf02-87339e92e433")
+		(pin "1"
+			(uuid "55967e57-51c1-4c8f-892d-db646dd86c1e")
 		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8841,6 +8838,81 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
 					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD13380F3")
+		(at 54.61 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b58ceb33-df35-4d53-9e78-efe3cfda6375")
+		(property "Reference" "Q3"
+			(at 60.452 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD13380F3"
+			(at 60.452 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Texas_PicoStar_DFN-3_0.69x0.60mm"
+			(at 59.69 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd13380f3.pdf"
+			(at 59.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom"
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "007bfbd3-c02f-4a7a-9f7e-ab5542096a6a")
+		)
+		(pin "3"
+			(uuid "f4ddf766-80cd-4746-92fc-a6033253e6de")
+		)
+		(pin "1"
+			(uuid "d06050eb-b89e-4d4e-9013-12ab178ed92c")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10021,81 +10093,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
 					(reference "C88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 54.61 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e173e2e5-a529-4992-8fc7-919d2c53b045")
-		(property "Reference" "Q4"
-			(at 46.736 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 46.736 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 59.69 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 59.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 54.61 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8e8c992-a854-403a-81ac-01eccb5e9326")
-		)
-		(pin "3"
-			(uuid "c434c551-8f54-4f2b-a947-94125b38dfd2")
-		)
-		(pin "2"
-			(uuid "a85092cd-a266-44b5-89a0-5bbcd93939e9")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
