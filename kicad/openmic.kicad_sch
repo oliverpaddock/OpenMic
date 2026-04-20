@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "84faeadc-8b12-4a66-a17f-5c56e5923fb8")
 	(paper "A4")
 	(lib_symbols)
@@ -1036,11 +1036,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "05cfbb15-a0d0-49ca-bcdf-c51b9947646b")
 		(property "Sheetname" "phones"
 			(at 161.29 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,6 +1052,8 @@
 		)
 		(property "Sheetfile" "phones.kicad_sch"
 			(at 161.29 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,11 +1162,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "305fc275-c4c3-417f-b998-113f7e74be2d")
 		(property "Sheetname" "input"
 			(at 76.2 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,6 +1178,8 @@
 		)
 		(property "Sheetfile" "input.kicad_sch"
 			(at 76.2 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,21 +1438,25 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "48193676-4a40-49fd-9b42-70b8319c374b")
 		(property "Sheetname" "codec"
 			(at 120.65 113.5884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Sheetfile" "codec.kicad_sch"
 			(at 120.65 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,11 +1675,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4ba50981-e4e9-4615-8d45-25e1b83d5dc4")
 		(property "Sheetname" "power supply"
 			(at 76.2 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,6 +1691,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 76.2 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,21 +1771,25 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7a7e9668-71cc-4187-873e-ab8d61f232c2")
 		(property "Sheetname" "line driver"
 			(at 161.29 60.2484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Sheetfile" "line.kicad_sch"
 			(at 161.29 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,11 +1918,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "96971848-86f2-4431-9c99-2e7a6e65db3c")
 		(property "Sheetname" "monitor"
 			(at 161.29 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,6 +1934,8 @@
 		)
 		(property "Sheetfile" "monitor.kicad_sch"
 			(at 161.29 32.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,11 +1984,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ac4749a9-b66d-4a3a-8eaa-94f1fe3c6a5c")
 		(property "Sheetname" "usb bridge"
 			(at 120.65 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,6 +2000,8 @@
 		)
 		(property "Sheetfile" "usb.kicad_sch"
 			(at 120.65 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
