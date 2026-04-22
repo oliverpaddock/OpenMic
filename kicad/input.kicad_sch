@@ -14391,6 +14391,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 350.52) (xy 354.33 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8081fc-a8d1-4fdb-a6ec-cbeda300b183")
+	)
+	(wire
+		(pts
 			(xy 283.21 246.38) (xy 293.37 246.38)
 		)
 		(stroke
@@ -17151,6 +17161,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 160.02) (xy 355.6 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df538143-39b4-4975-ba6b-d77bbad4761f")
+	)
+	(wire
+		(pts
 			(xy 382.27 36.83) (xy 387.35 36.83)
 		)
 		(stroke
@@ -18814,17 +18834,6 @@
 		)
 		(uuid "ed7e81d8-63db-43cb-8156-40d23d36067e")
 	)
-	(hierarchical_label "V_BIAS"
-		(shape input)
-		(at 355.6 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef94a950-f2c9-41a0-866f-696f65076bbd")
-	)
 	(hierarchical_label "DOUT"
 		(shape output)
 		(at 435.61 85.09 180)
@@ -18835,17 +18844,6 @@
 			(justify right)
 		)
 		(uuid "eff0ab8e-12ab-4773-a62c-b64c6bf43e5b")
-	)
-	(hierarchical_label "V_BIAS"
-		(shape input)
-		(at 354.33 350.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1988e61-2f19-4a82-ba0a-d245efc061ce")
 	)
 	(symbol
 		(lib_id "power:+15V")
@@ -27788,6 +27786,83 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 350.52 350.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a30cb11-e688-471c-bd39-4999b662ed68")
+		(property "Reference" "#PWR0250"
+			(at 350.52 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 350.52 354.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 350.52 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd089c54-381c-4e68-b242-1685d60df331")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -44392,6 +44467,83 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 351.79 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce1c990c-53b0-4eed-8cb5-f027d2ed2785")
+		(property "Reference" "#PWR0251"
+			(at 351.79 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 351.79 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 351.79 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab04334e-a61d-4e19-a7f4-edcc6f2690b3")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
