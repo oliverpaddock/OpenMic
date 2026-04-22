@@ -332,7 +332,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:OPA1656ID"
+		(symbol "Amplifier_Operational:OPA1612AxD"
 			(pin_names
 				(offset 0.127)
 			)
@@ -352,7 +352,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA1656ID"
+			(property "Value" "OPA1612AxD"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -363,7 +363,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -374,7 +374,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -385,7 +385,7 @@
 					)
 				)
 			)
-			(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
+			(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -417,7 +417,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -428,7 +428,7 @@
 					)
 				)
 			)
-			(symbol "OPA1656ID_1_1"
+			(symbol "OPA1612AxD_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -496,7 +496,7 @@
 					)
 				)
 			)
-			(symbol "OPA1656ID_2_1"
+			(symbol "OPA1612AxD_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -564,7 +564,7 @@
 					)
 				)
 			)
-			(symbol "OPA1656ID_3_1"
+			(symbol "OPA1612AxD_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -3276,6 +3276,12 @@
 		(uuid "c0ce8071-a1fc-4ecd-a310-c89906bb7889")
 	)
 	(junction
+		(at 57.15 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7fcf76e-a0e1-46ed-bf3d-a77e37d0d2bf")
+	)
+	(junction
 		(at 119.38 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3316,6 +3322,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db48be79-c52e-4b5f-a895-a8df6d9edd5b")
+	)
+	(junction
+		(at 57.15 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e19721ff-9fb3-46ce-8d43-b24df6cae221")
 	)
 	(junction
 		(at 251.46 36.83)
@@ -3659,6 +3671,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 133.35) (xy 43.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a08e01-df1e-488c-b8fa-94013d83d487")
+	)
+	(wire
+		(pts
 			(xy 227.33 99.06) (xy 227.33 111.76)
 		)
 		(stroke
@@ -3699,7 +3721,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 82.55) (xy 46.99 82.55)
+			(xy 35.56 82.55) (xy 31.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3739,6 +3761,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 133.35) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41dacc73-fd34-4b73-8500-c04e39457a48")
+	)
+	(wire
+		(pts
 			(xy 237.49 111.76) (xy 237.49 109.22)
 		)
 		(stroke
@@ -3769,7 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 72.39 82.55)
+			(xy 54.61 82.55) (xy 57.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3889,16 +3921,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 133.35) (xy 46.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "553bae76-6d48-453f-95e9-681499fb092e")
-	)
-	(wire
-		(pts
 			(xy 129.54 21.59) (xy 139.7 21.59)
 		)
 		(stroke
@@ -3979,6 +4001,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 82.55) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67481d3d-3b21-4d9a-bb52-4f02ae56d8db")
+	)
+	(wire
+		(pts
 			(xy 87.63 74.93) (xy 90.17 74.93)
 		)
 		(stroke
@@ -3999,16 +4031,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 133.35) (xy 59.69 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d90c08d-5c64-4904-bca6-cbf65f335fae")
-	)
-	(wire
-		(pts
 			(xy 82.55 146.05) (xy 91.44 146.05)
 		)
 		(stroke
@@ -4019,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 82.55) (xy 58.42 82.55)
+			(xy 46.99 82.55) (xy 43.18 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4079,16 +4101,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 133.35) (xy 73.66 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5d4640-7738-4ad1-b44d-bf1362951a48")
-	)
-	(wire
-		(pts
 			(xy 104.14 160.02) (xy 127 160.02)
 		)
 		(stroke
@@ -4096,6 +4108,16 @@
 			(type default)
 		)
 		(uuid "7c020f09-eaf1-4073-bad7-8202ff904353")
+	)
+	(wire
+		(pts
+			(xy 57.15 133.35) (xy 73.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6ae70e-aa19-46ab-a9cf-a3897baea9c6")
 	)
 	(wire
 		(pts
@@ -4306,6 +4328,16 @@
 			(type default)
 		)
 		(uuid "98458f73-d610-4519-8058-fc9470bab965")
+	)
+	(wire
+		(pts
+			(xy 31.75 133.35) (xy 35.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bc5ac7-8c72-4911-a6ca-985fc8a72f9b")
 	)
 	(wire
 		(pts
@@ -4619,6 +4651,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 92.71) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2403c1f-06d0-4467-bc92-d5f92ef22dce")
+	)
+	(wire
+		(pts
 			(xy 157.48 123.19) (xy 166.37 123.19)
 		)
 		(stroke
@@ -4626,6 +4668,16 @@
 			(type default)
 		)
 		(uuid "c2978711-5b64-4fd5-b77a-35a39b965ac0")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 72.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c480557d-69e4-494c-b201-a4bb0120ca8b")
 	)
 	(wire
 		(pts
@@ -4679,6 +4731,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 133.35) (xy 57.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42fd727-cefb-4882-b9dc-08ae6b001f9d")
+	)
+	(wire
+		(pts
 			(xy 217.17 86.36) (xy 217.17 99.06)
 		)
 		(stroke
@@ -4716,6 +4778,16 @@
 			(type default)
 		)
 		(uuid "db334d49-fb30-4ac8-acd2-53f56c7b8f1a")
+	)
+	(wire
+		(pts
+			(xy 57.15 143.51) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd577f0-9c6f-4a7f-b9ee-be0ddbcf197f")
 	)
 	(wire
 		(pts
@@ -4983,7 +5055,7 @@
 	)
 	(hierarchical_label "IN_L"
 		(shape input)
-		(at 46.99 82.55 180)
+		(at 31.75 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +5077,7 @@
 	)
 	(hierarchical_label "IN_R"
 		(shape input)
-		(at 46.99 133.35 180)
+		(at 31.75 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5632,7 +5704,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 54.61 82.55 90)
+		(at 39.37 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5643,7 +5715,7 @@
 		(fields_autoplaced yes)
 		(uuid "212447c6-4c09-45a8-b379-1fcae8b2bf96")
 		(property "Reference" "R77"
-			(at 54.61 76.2 90)
+			(at 39.37 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5652,8 +5724,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 54.61 78.74 90)
+		(property "Value" "10"
+			(at 39.37 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5663,7 +5735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.864 81.534 90)
+			(at 39.624 81.534 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 82.55 0)
+			(at 39.37 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5757,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 82.55 0)
+			(at 39.37 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5705,6 +5777,103 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 80.01 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24815be4-4783-451e-ac58-1785af68a9ec")
+		(property "Reference" "U30"
+			(at 85.344 88.392 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 85.344 90.932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 80.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 80.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faa05a49-592b-4f4c-aec1-53289d0a232d")
+		)
+		(pin "2"
+			(uuid "34ce1661-cdd5-495e-9260-1355781ebe6e")
+		)
+		(pin "3"
+			(uuid "d3b5a4d3-4bbc-4aee-a0ea-ba2d870bba69")
+		)
+		(pin "5"
+			(uuid "59328df4-537d-49ba-a487-41459304c8d8")
+		)
+		(pin "6"
+			(uuid "6f989689-67c6-4954-864c-ca070c7e04aa")
+		)
+		(pin "7"
+			(uuid "c5325cef-0d3c-44dd-918c-1b674c0505a8")
+		)
+		(pin "4"
+			(uuid "8783c0f5-554b-40df-88db-7c6fce5c55d8")
+		)
+		(pin "8"
+			(uuid "5749fdda-96bb-4b5e-80ac-34d1cd7d4203")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "U30")
 					(unit 1)
 				)
 			)
@@ -5792,9 +5961,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
-		(at 81.28 135.89 0)
-		(unit 2)
+		(lib_id "power:GNDA")
+		(at 57.15 95.25 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5802,29 +5971,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e95ede4-5a53-434b-87c9-af969ee1d5e9")
-		(property "Reference" "U14"
-			(at 81.28 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1656ID"
-			(at 81.28 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 81.28 135.89 0)
+		(uuid "2e4909a3-df5d-4301-8164-ebd329910d2b")
+		(property "Reference" "#PWR0254"
+			(at 57.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5834,8 +5983,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
-			(at 81.28 135.89 0)
+		(property "Value" "GNDA"
+			(at 57.15 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5845,8 +6004,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
-			(at 81.28 135.89 0)
+		(property "Datasheet" ""
+			(at 57.15 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,35 +6015,25 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "f3b275de-d80d-4eaa-864a-cef05dcf01cf")
-		)
-		(pin "8"
-			(uuid "9bc795f2-d27a-41fd-b783-88899e020fe0")
-		)
-		(pin "7"
-			(uuid "d259e046-0d9d-4f91-b357-0790d3c85229")
-		)
-		(pin "6"
-			(uuid "298bb4e6-b5cc-4cfe-9b69-7a33e36560b9")
-		)
-		(pin "5"
-			(uuid "75edb6c6-3df9-4f55-b5d9-872216c77914")
-		)
-		(pin "3"
-			(uuid "fb21631e-7d01-407b-a66b-74719d546d41")
-		)
-		(pin "2"
-			(uuid "a6fa5d24-9062-47ff-a946-5a9fe87673a7")
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 57.15 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "6347bf4f-fa38-4b34-b3ee-8c98ceee0c0e")
+			(uuid "7cbe2433-27ea-4c70-8827-51eda9dd0c62")
 		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U14")
-					(unit 2)
+					(reference "#PWR0254")
+					(unit 1)
 				)
 			)
 		)
@@ -5964,86 +6113,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "C190")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 67.31 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3312f2f8-081b-4c9c-8d4c-4925929aea46")
-		(property "Reference" "C124"
-			(at 67.31 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3uF"
-			(at 67.31 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 132.3848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 67.31 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0710169d-fde6-4397-970e-d18a5c98ef81")
-		)
-		(pin "2"
-			(uuid "216e8a1a-b30b-44ad-abbd-285c7d2b7eae")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -6534,6 +6603,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 81.28 135.89 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44daad56-fba0-4128-9878-4381f2e5793a")
+		(property "Reference" "U30"
+			(at 81.28 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 81.28 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faa05a49-592b-4f4c-aec1-53289d0a232d")
+		)
+		(pin "2"
+			(uuid "34ce1661-cdd5-495e-9260-1355781ebe6e")
+		)
+		(pin "3"
+			(uuid "d3b5a4d3-4bbc-4aee-a0ea-ba2d870bba69")
+		)
+		(pin "5"
+			(uuid "59328df4-537d-49ba-a487-41459304c8d8")
+		)
+		(pin "6"
+			(uuid "6f989689-67c6-4954-864c-ca070c7e04aa")
+		)
+		(pin "7"
+			(uuid "c5325cef-0d3c-44dd-918c-1b674c0505a8")
+		)
+		(pin "4"
+			(uuid "8783c0f5-554b-40df-88db-7c6fce5c55d8")
+		)
+		(pin "8"
+			(uuid "5749fdda-96bb-4b5e-80ac-34d1cd7d4203")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "U30")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 116.84 149.86 90)
 		(mirror x)
@@ -6615,7 +6782,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 66.04 82.55 90)
+		(at 50.8 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6626,7 +6793,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a4b9b36-a700-4f7e-831b-52e51f7dae7f")
 		(property "Reference" "C119"
-			(at 66.04 74.93 90)
+			(at 50.8 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6635,8 +6802,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3uF"
-			(at 66.04 77.47 90)
+		(property "Value" "47uF"
+			(at 50.8 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6646,7 +6813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 81.5848 0)
+			(at 54.61 81.5848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6657,7 +6824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 82.55 0)
+			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,7 +6835,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 66.04 82.55 0)
+			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6958,86 +7125,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "R89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 55.88 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54c398f1-b185-46c7-aadb-1858932b8d44")
-		(property "Reference" "R88"
-			(at 55.88 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 55.88 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.134 132.334 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 55.88 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72d76d21-c5e3-419c-b11e-7fd7f031d049")
-		)
-		(pin "2"
-			(uuid "4086a0da-4f88-468f-a57b-4cf29d5f2883")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -7372,6 +7459,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 39.37 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e07bbe5-6cff-49e9-974e-e11eec59fd7d")
+		(property "Reference" "R88"
+			(at 39.37 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 39.37 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.624 132.334 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 39.37 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c3895c0-adf0-4740-957e-c633ee69e2fd")
+		)
+		(pin "2"
+			(uuid "3111e89e-eeb5-4f89-a9e0-13a74d48cc4a")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 90.17 95.1373 0)
 		(unit 1)
@@ -7686,6 +7853,190 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA1612AxD")
+		(at 80.01 85.09 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7471d55d-efab-4b72-ae9c-a4a02791506e")
+		(property "Reference" "U30"
+			(at 78.74 83.8199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA1612AxD"
+			(at 78.74 86.3599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1612.pdf"
+			(at 80.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8"
+			(at 80.01 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faa05a49-592b-4f4c-aec1-53289d0a232d")
+		)
+		(pin "2"
+			(uuid "34ce1661-cdd5-495e-9260-1355781ebe6e")
+		)
+		(pin "3"
+			(uuid "d3b5a4d3-4bbc-4aee-a0ea-ba2d870bba69")
+		)
+		(pin "5"
+			(uuid "59328df4-537d-49ba-a487-41459304c8d8")
+		)
+		(pin "6"
+			(uuid "6f989689-67c6-4954-864c-ca070c7e04aa")
+		)
+		(pin "7"
+			(uuid "c5325cef-0d3c-44dd-918c-1b674c0505a8")
+		)
+		(pin "4"
+			(uuid "8783c0f5-554b-40df-88db-7c6fce5c55d8")
+		)
+		(pin "8"
+			(uuid "5749fdda-96bb-4b5e-80ac-34d1cd7d4203")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "U30")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 57.15 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74814aee-aaf4-4f83-b71f-81786564845d")
+		(property "Reference" "R132"
+			(at 59.69 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 59.69 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.134 88.646 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 57.15 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5dc0fec-ab1f-49d5-9a36-1af26b535452")
+		)
+		(pin "2"
+			(uuid "80dbdf23-4523-4fe2-9991-836bcc313ed1")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 118.11 128.27 90)
 		(unit 1)
@@ -7847,6 +8198,88 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 57.15 139.7 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c072d0c-c2c6-480a-bf5e-ee3e02aae9b1")
+		(property "Reference" "R133"
+			(at 59.69 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 59.69 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.134 139.446 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 57.15 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12a3113f-fba0-47d2-9d7f-71e0b5b76afc")
+		)
+		(pin "2"
+			(uuid "f30643eb-3bd3-42c3-9297-411c3dd6a5c1")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "R133")
 					(unit 1)
 				)
 			)
@@ -8176,103 +8609,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "D51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
-		(at 80.01 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "913d4970-2429-415e-977a-c99bfe6d6264")
-		(property "Reference" "U14"
-			(at 87.63 87.122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1656ID"
-			(at 87.63 89.662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 80.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
-			(at 80.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
-			(at 80.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f3b275de-d80d-4eaa-864a-cef05dcf01d0")
-		)
-		(pin "8"
-			(uuid "9bc795f2-d27a-41fd-b783-88899e020fe1")
-		)
-		(pin "7"
-			(uuid "d259e046-0d9d-4f91-b357-0790d3c8522a")
-		)
-		(pin "6"
-			(uuid "298bb4e6-b5cc-4cfe-9b69-7a33e36560ba")
-		)
-		(pin "5"
-			(uuid "75edb6c6-3df9-4f55-b5d9-872216c77915")
-		)
-		(pin "3"
-			(uuid "fb21631e-7d01-407b-a66b-74719d546d42")
-		)
-		(pin "2"
-			(uuid "a6fa5d24-9062-47ff-a946-5a9fe87673a8")
-		)
-		(pin "1"
-			(uuid "6347bf4f-fa38-4b34-b3ee-8c98ceee0c0f")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -8765,108 +9101,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA1656ID")
-		(at 80.01 85.09 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a718cd59-deea-4871-bef2-7c39e620874c")
-		(property "Reference" "U14"
-			(at 78.74 83.8199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA1656ID"
-			(at 78.74 86.3599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 80.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa1656.pdf"
-			(at 80.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Ultra-Low-Noise, Low-Distortion, FET-Input, Burr-Brown Audio Operational Amplifiers, SOIC-8"
-			(at 80.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f3b275de-d80d-4eaa-864a-cef05dcf01d1")
-		)
-		(pin "8"
-			(uuid "9bc795f2-d27a-41fd-b783-88899e020fe2")
-		)
-		(pin "7"
-			(uuid "d259e046-0d9d-4f91-b357-0790d3c8522b")
-		)
-		(pin "6"
-			(uuid "298bb4e6-b5cc-4cfe-9b69-7a33e36560bb")
-		)
-		(pin "5"
-			(uuid "75edb6c6-3df9-4f55-b5d9-872216c77916")
-		)
-		(pin "3"
-			(uuid "fb21631e-7d01-407b-a66b-74719d546d43")
-		)
-		(pin "2"
-			(uuid "a6fa5d24-9062-47ff-a946-5a9fe87673a9")
-		)
-		(pin "1"
-			(uuid "6347bf4f-fa38-4b34-b3ee-8c98ceee0c10")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "U14")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-15V")
 		(at 77.47 95.25 180)
 		(unit 1)
@@ -9020,6 +9254,86 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2f2861e-8c83-4353-9162-9277ca9fb3bc")
+		(property "Reference" "C124"
+			(at 50.8 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 50.8 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 132.3848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a329302b-46cc-47ac-b1cc-3590ca6f53de")
+		)
+		(pin "2"
+			(uuid "f09ed64e-0c03-4973-a0c3-ed4d56f11f4c")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -10845,6 +11159,84 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 57.15 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa6bd544-1232-4cd5-94ef-5c3b6ad87226")
+		(property "Reference" "#PWR0255"
+			(at 57.15 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 57.15 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 57.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1c5da5d-f1c5-4153-8f60-032359dbb780")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
