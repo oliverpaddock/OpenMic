@@ -11371,6 +11371,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 347.98) (xy 436.88 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fa0cb5-30f4-4336-91ae-83e9ca3cee23")
+	)
+	(wire
+		(pts
 			(xy 292.1 349.25) (xy 292.1 347.98)
 		)
 		(stroke
@@ -12298,6 +12308,16 @@
 			(type default)
 		)
 		(uuid "2f59091d-628b-4ed4-854c-9654289cf197")
+	)
+	(wire
+		(pts
+			(xy 429.26 157.48) (xy 435.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8fa88f-193d-457e-8f9a-01219cee625c")
 	)
 	(wire
 		(pts
@@ -13771,7 +13791,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 162.56) (xy 419.1 162.56)
+			(xy 416.56 162.56) (xy 421.64 162.56)
 		)
 		(stroke
 			(width 0)
@@ -14461,6 +14481,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 353.06) (xy 436.88 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d452e2-c39a-49cb-b0c1-4716ec880471")
+	)
+	(wire
+		(pts
 			(xy 312.42 146.05) (xy 312.42 154.94)
 		)
 		(stroke
@@ -14911,7 +14941,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 347.98) (xy 417.83 347.98)
+			(xy 415.29 347.98) (xy 422.91 347.98)
 		)
 		(stroke
 			(width 0)
@@ -15231,7 +15261,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 353.06) (xy 417.83 353.06)
+			(xy 415.29 353.06) (xy 422.91 353.06)
 		)
 		(stroke
 			(width 0)
@@ -17141,7 +17171,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 157.48) (xy 419.1 157.48)
+			(xy 416.56 157.48) (xy 421.64 157.48)
 		)
 		(stroke
 			(width 0)
@@ -17901,6 +17931,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 162.56) (xy 435.61 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5e7b49-d101-4241-9aff-30562db6bc58")
+	)
+	(wire
+		(pts
 			(xy 248.92 154.94) (xy 248.92 156.21)
 		)
 		(stroke
@@ -18534,7 +18574,7 @@
 	)
 	(hierarchical_label "OUT_1_P"
 		(shape output)
-		(at 419.1 162.56 0)
+		(at 435.61 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18556,7 +18596,7 @@
 	)
 	(hierarchical_label "OUT_1_N"
 		(shape output)
-		(at 419.1 157.48 0)
+		(at 435.61 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18578,7 +18618,7 @@
 	)
 	(hierarchical_label "OUT_2_N"
 		(shape output)
-		(at 417.83 347.98 0)
+		(at 436.88 347.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18622,7 +18662,7 @@
 	)
 	(hierarchical_label "OUT_2_P"
 		(shape output)
-		(at 417.83 353.06 0)
+		(at 436.88 353.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31603,6 +31643,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 425.45 162.56 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "661c4247-228b-4cd8-81ee-8228deff8ee1")
+		(property "Reference" "C204"
+			(at 425.45 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 425.45 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 163.5252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 425.45 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a4750b87-fa95-47f6-8bba-63040fff9ca0")
+		)
+		(pin "1"
+			(uuid "eea0c08f-945d-4f70-9d99-8ec36130912f")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 193.04 252.73 0)
 		(unit 1)
@@ -34494,6 +34614,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 426.72 347.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80adfe81-5825-4339-9ae9-3a2eb08e3968")
+		(property "Reference" "C201"
+			(at 426.72 340.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 426.72 342.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 347.0148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 426.72 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c42b23f-1b90-4e5c-b188-da7210c7393d")
+		)
+		(pin "1"
+			(uuid "8f08761f-3c69-4464-a726-bdde738461dc")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 69.85 101.6 0)
 		(unit 1)
@@ -34867,6 +35067,86 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR0249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 425.45 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87057b24-c7d8-4834-b5c7-cc473e485728")
+		(property "Reference" "C203"
+			(at 425.45 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 425.45 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 429.26 156.5148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 425.45 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 425.45 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "10f67cd7-0ffc-40b0-9db8-8ea06b63c962")
+		)
+		(pin "1"
+			(uuid "c3c3eea8-d912-4fdd-b992-f9ee8ae0c4d5")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -43784,6 +44064,86 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "C188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 426.72 353.06 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc0c1cca-31a2-4a74-897b-f1ce35a581dd")
+		(property "Reference" "C202"
+			(at 426.72 360.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 426.72 358.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 354.0252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 426.72 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 426.72 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "acf2b712-fa65-4175-a20a-cfcf94efab1c")
+		)
+		(pin "1"
+			(uuid "3ef7ff7d-3ec4-4020-941f-3b44c0c6e6b3")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "C202")
 					(unit 1)
 				)
 			)

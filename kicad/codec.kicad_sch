@@ -1034,7 +1034,7 @@
 		)
 		(uuid "43ff1e3c-5457-4529-92c9-b6ed2f8061e8")
 	)
-	(text "note: inputs are DC coupled"
+	(text "use 5k input impedance (default), AC coupled"
 		(exclude_from_sim no)
 		(at 51.816 97.79 0)
 		(effects
