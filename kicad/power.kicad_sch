@@ -6886,6 +6886,17 @@
 		)
 		(uuid "6a0b0fef-8fcd-4eed-be81-389f39cddbfb")
 	)
+	(text "power supply"
+		(exclude_from_sim no)
+		(at 352.806 245.872 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a31433c1-201f-4b76-ac0e-3e78dfc9c6d8")
+	)
 	(text "ref: 2."
 		(exclude_from_sim no)
 		(at 31.496 191.008 0)

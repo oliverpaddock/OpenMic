@@ -1023,6 +1023,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "audio codec"
+		(exclude_from_sim no)
+		(at 216.916 176.53 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "43ff1e3c-5457-4529-92c9-b6ed2f8061e8")
+	)
+	(text "note: inputs are DC coupled"
+		(exclude_from_sim no)
+		(at 51.816 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc423414-9cce-491a-a774-5eb1e8e4c9a1")
+	)
 	(junction
 		(at 149.86 102.87)
 		(diameter 0)

@@ -991,7 +991,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "direct monitor knob"
+	(text "direct monitor switch"
 		(exclude_from_sim no)
 		(at 213.106 175.006 0)
 		(effects

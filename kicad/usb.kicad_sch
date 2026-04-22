@@ -6445,6 +6445,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "usb controller"
+		(exclude_from_sim no)
+		(at 350.266 245.872 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bb1a3ae-04bd-4299-b9c4-06ae2e26571e")
+	)
 	(text "leave floating\nfor 3V3"
 		(exclude_from_sim no)
 		(at 250.19 101.346 0)
