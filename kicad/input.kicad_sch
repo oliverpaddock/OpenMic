@@ -1104,7 +1104,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:XLR3_AudioJack3_Combo_GroundSwitch_Switch"
+		(symbol "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch"
 			(pin_names
 				(hide yes)
 			)
@@ -1123,7 +1123,7 @@
 					)
 				)
 			)
-			(property "Value" "XLR3_AudioJack3_Combo_GroundSwitch_Switch"
+			(property "Value" "XLR3_AudioJack3_Combo_Ground_Switch"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1155,7 +1155,7 @@
 					)
 				)
 			)
-			(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Switched Ground Pin"
+			(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1188,7 +1188,7 @@
 					)
 				)
 			)
-			(symbol "XLR3_AudioJack3_Combo_GroundSwitch_Switch_1_1"
+			(symbol "XLR3_AudioJack3_Combo_Ground_Switch_1_1"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -4.572 0)
@@ -1201,33 +1201,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -2.794 -5.08) (xy -3.302 -4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center -3.556 0)
 					(radius 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -5.08) (xy -3.302 -5.334)
-					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1404,26 +1380,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "XLR3_AudioJack3_Combo_GroundSwitch_Switch_2_1"
+			(symbol "XLR3_AudioJack3_Combo_Ground_Switch_2_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end -6.35 -7.62)
@@ -9384,6 +9342,12 @@
 		(uuid "07c02a23-c35a-469e-af2f-cf40d91c7634")
 	)
 	(junction
+		(at 78.74 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07dad9c8-534a-4519-abc0-faf151e70d7d")
+	)
+	(junction
 		(at 80.01 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9510,12 +9474,6 @@
 		(uuid "19545165-a19a-4aae-a9fa-808899c33018")
 	)
 	(junction
-		(at 68.58 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a26b445-56c8-4ffd-9ac7-7f5d3d798c4d")
-	)
-	(junction
 		(at 215.9 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9580,6 +9538,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "256c4bc7-c725-4aca-a38a-e88dabc58d8f")
+	)
+	(junction
+		(at 68.58 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2571a3b9-f2b8-42ac-9548-701273f7a06a")
 	)
 	(junction
 		(at 279.4 146.05)
@@ -9714,12 +9678,6 @@
 		(uuid "38c98f2d-dc5d-44f4-9661-a2ee1f6fa66e")
 	)
 	(junction
-		(at 27.94 297.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38de31e7-cf6b-4a43-863a-79b11fddc28d")
-	)
-	(junction
 		(at 80.01 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9778,6 +9736,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "412964ab-368d-4a72-a270-92b7a26ec7f2")
+	)
+	(junction
+		(at 78.74 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4145b55b-ca92-4ebc-9998-a2bf0dc96be7")
 	)
 	(junction
 		(at 384.81 246.38)
@@ -9862,12 +9826,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e50b2ad-62f0-4a5d-96bb-3679cc1f6b6f")
-	)
-	(junction
-		(at 68.58 363.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e6729a1-1c8b-413c-b562-cc86202f093c")
 	)
 	(junction
 		(at 334.01 231.14)
@@ -9984,12 +9942,6 @@
 		(uuid "664448be-1043-4823-a6c9-e8834ed222cb")
 	)
 	(junction
-		(at 78.74 345.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "683a0c04-6175-43d5-93cb-33f75ca4120e")
-	)
-	(junction
 		(at 394.97 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10006,12 +9958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa9e230-05b8-4c58-adf9-ae3be38720e5")
-	)
-	(junction
-		(at 78.74 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70643ed4-0304-4b03-9d11-3e517eeb67e1")
 	)
 	(junction
 		(at 135.89 353.06)
@@ -10044,22 +9990,10 @@
 		(uuid "7942a612-fc7a-4e5e-90df-8afc6bf58994")
 	)
 	(junction
-		(at 68.58 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a38f61a-4d5c-4be2-9347-2feae645bf1b")
-	)
-	(junction
 		(at 279.4 336.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7afcdd5b-57dd-49b8-a9c9-3ba2ad1aa0b9")
-	)
-	(junction
-		(at 68.58 350.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bf0a749-5827-4dd7-bad9-14554b340fa7")
 	)
 	(junction
 		(at 212.09 114.3)
@@ -10144,6 +10078,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b4dc6ec-61fc-45b0-9276-950f5f81eebe")
+	)
+	(junction
+		(at 68.58 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b4fcbb8-04be-46f9-a786-b670cb87007a")
 	)
 	(junction
 		(at 166.37 172.72)
@@ -10620,6 +10560,12 @@
 		(uuid "d2fb04b9-f618-4181-b736-62fe56f5a7fd")
 	)
 	(junction
+		(at 68.58 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3522fd1-61c0-4e3e-8858-4a0ac998bb7f")
+	)
+	(junction
 		(at 323.85 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10686,6 +10632,12 @@
 		(uuid "d9d624b6-ac9c-42c0-aaf5-76ae062ccfc2")
 	)
 	(junction
+		(at 68.58 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9da1238-8bbd-4ba0-bf0d-01a465b8c756")
+	)
+	(junction
 		(at 162.56 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10726,12 +10678,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e37111dc-44fe-48fb-a83c-9a67ff9f4334")
-	)
-	(junction
-		(at 27.94 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4a48673-c791-4668-8079-14230b6d377c")
 	)
 	(junction
 		(at 189.23 58.42)
@@ -10961,6 +10907,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 365.76) (xy 78.74 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028f4b65-1573-47ce-960c-79aa66f52f78")
+	)
+	(wire
+		(pts
 			(xy 337.82 289.56) (xy 335.28 289.56)
 		)
 		(stroke
@@ -11031,16 +10987,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 93.98) (xy 27.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a5fa77-3185-4f8b-b9ad-3afa48b7a399")
-	)
-	(wire
-		(pts
 			(xy 198.12 162.56) (xy 200.66 162.56)
 		)
 		(stroke
@@ -11048,16 +10994,6 @@
 			(type default)
 		)
 		(uuid "0580d683-6c38-433d-a861-55188fb01baa")
-	)
-	(wire
-		(pts
-			(xy 46.99 106.68) (xy 46.99 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ddbcd7-b4f5-459c-8fb5-29715ac01173")
 	)
 	(wire
 		(pts
@@ -11261,6 +11197,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 175.26) (xy 68.58 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e321d30-0d96-4b2c-bf06-12e51eaec717")
+	)
+	(wire
+		(pts
 			(xy 142.24 345.44) (xy 153.67 345.44)
 		)
 		(stroke
@@ -11411,7 +11357,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 170.18) (xy 78.74 172.72)
+			(xy 78.74 172.72) (xy 78.74 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11498,16 +11444,6 @@
 			(type default)
 		)
 		(uuid "17ca803b-3bd0-40d8-9faa-afd5ef97ac5a")
-	)
-	(wire
-		(pts
-			(xy 46.99 297.18) (xy 46.99 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e265b8-4092-4fc9-b537-6b31c8cb0248")
 	)
 	(wire
 		(pts
@@ -11941,7 +11877,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 160.02) (xy 68.58 162.56)
+			(xy 68.58 160.02) (xy 68.58 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12291,17 +12227,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 106.68) (xy 27.94 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8f09d8-ddba-4578-a487-7d1857492607")
-	)
-	(wire
-		(pts
-			(xy 68.58 363.22) (xy 78.74 363.22)
+			(xy 68.58 365.76) (xy 78.74 365.76)
 		)
 		(stroke
 			(width 0)
@@ -12731,16 +12657,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 360.68) (xy 78.74 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "435af674-1dfa-4621-a180-f16cf0bddc59")
-	)
-	(wire
-		(pts
 			(xy 176.53 162.56) (xy 186.69 162.56)
 		)
 		(stroke
@@ -12758,6 +12674,16 @@
 			(type default)
 		)
 		(uuid "4484052f-ac1b-4149-b205-76f64da03b92")
+	)
+	(wire
+		(pts
+			(xy 68.58 175.26) (xy 68.58 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44956435-6511-4b24-98d5-d38d426793b9")
 	)
 	(wire
 		(pts
@@ -13028,16 +12954,6 @@
 			(type default)
 		)
 		(uuid "4d8c4e91-a08a-42d4-bc7e-34d282916efb")
-	)
-	(wire
-		(pts
-			(xy 68.58 363.22) (xy 68.58 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dbd4675-9803-4a86-bb1c-419d02ecd6e4")
 	)
 	(wire
 		(pts
@@ -14011,16 +13927,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 294.64) (xy 27.94 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74b931a6-f545-4c36-a81b-78f7dd578fec")
-	)
-	(wire
-		(pts
 			(xy 86.36 88.9) (xy 86.36 114.3)
 		)
 		(stroke
@@ -14288,16 +14194,6 @@
 			(type default)
 		)
 		(uuid "7d4e6852-c547-40ac-a670-bface872176b")
-	)
-	(wire
-		(pts
-			(xy 27.94 284.48) (xy 27.94 287.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5841e7-cde3-4e6b-8b43-57c5dc5d7021")
 	)
 	(wire
 		(pts
@@ -14681,6 +14577,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 365.76) (xy 68.58 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a036e9f-32fb-4f7c-b460-080cfe8bf217")
+	)
+	(wire
+		(pts
 			(xy 504.19 36.83) (xy 509.27 36.83)
 		)
 		(stroke
@@ -14738,16 +14644,6 @@
 			(type default)
 		)
 		(uuid "8d6c5803-d1de-4114-84db-852d8721e152")
-	)
-	(wire
-		(pts
-			(xy 27.94 297.18) (xy 30.48 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dcb5d73-4605-4096-91ae-d9ef02e92473")
 	)
 	(wire
 		(pts
@@ -14811,23 +14707,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 350.52) (xy 68.58 353.06)
+			(xy 68.58 350.52) (xy 68.58 355.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "91c61bd0-b1b8-410c-8a9f-79eb944c6427")
-	)
-	(wire
-		(pts
-			(xy 68.58 170.18) (xy 68.58 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920cb42b-8dff-4953-9e05-7e88b23ea8f6")
 	)
 	(wire
 		(pts
@@ -14981,16 +14867,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 172.72) (xy 68.58 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "969f5fdf-17f4-47f9-a489-711fe58241b5")
-	)
-	(wire
-		(pts
 			(xy 166.37 207.01) (xy 166.37 205.74)
 		)
 		(stroke
@@ -15108,6 +14984,16 @@
 			(type default)
 		)
 		(uuid "993f82bc-5cee-4f99-b423-8f9efc566637")
+	)
+	(wire
+		(pts
+			(xy 68.58 365.76) (xy 68.58 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9984b3a7-42f6-4360-9dc7-8ad9e5bec789")
 	)
 	(wire
 		(pts
@@ -15351,16 +15237,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 297.18) (xy 46.99 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fb77b04-44b4-4528-bbdd-e4aad33bbc7d")
-	)
-	(wire
-		(pts
 			(xy 96.52 50.8) (xy 96.52 53.34)
 		)
 		(stroke
@@ -15368,16 +15244,6 @@
 			(type default)
 		)
 		(uuid "a088f77c-6a85-4ced-a956-40610711b904")
-	)
-	(wire
-		(pts
-			(xy 38.1 106.68) (xy 46.99 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0edf519-934c-4706-ad03-0346879bec56")
 	)
 	(wire
 		(pts
@@ -15461,7 +15327,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 172.72) (xy 78.74 172.72)
+			(xy 68.58 175.26) (xy 78.74 175.26)
 		)
 		(stroke
 			(width 0)
@@ -15851,7 +15717,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 154.94) (xy 78.74 162.56)
+			(xy 78.74 154.94) (xy 78.74 165.1)
 		)
 		(stroke
 			(width 0)
@@ -16098,16 +15964,6 @@
 			(type default)
 		)
 		(uuid "b89500ce-6b0b-4786-89f2-d0f2aa8c7e0c")
-	)
-	(wire
-		(pts
-			(xy 25.4 297.18) (xy 27.94 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8adf743-0fdf-4ef5-a84d-60d78a1e742c")
 	)
 	(wire
 		(pts
@@ -16531,16 +16387,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 106.68) (xy 30.48 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5e508d6-07dc-458f-829b-aff4d58102b3")
-	)
-	(wire
-		(pts
 			(xy 109.22 114.3) (xy 114.3 114.3)
 		)
 		(stroke
@@ -16711,16 +16557,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 360.68) (xy 68.58 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0149651-3d8d-44aa-a39a-e230e7c608c9")
-	)
-	(wire
-		(pts
 			(xy 443.23 36.83) (xy 448.31 36.83)
 		)
 		(stroke
@@ -16818,16 +16654,6 @@
 			(type default)
 		)
 		(uuid "d365f8e3-66a3-463c-86fd-0b78d77916a6")
-	)
-	(wire
-		(pts
-			(xy 27.94 104.14) (xy 27.94 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d393ccbf-5573-45bb-8b9f-cf1053aa81c3")
 	)
 	(wire
 		(pts
@@ -17521,7 +17347,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 345.44) (xy 78.74 353.06)
+			(xy 78.74 345.44) (xy 78.74 355.6)
 		)
 		(stroke
 			(width 0)
@@ -18089,16 +17915,6 @@
 		)
 		(uuid "0216c7f6-ea97-4816-b26e-f9b884d50517")
 	)
-	(label "XLR_IND_2"
-		(at 25.4 297.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "029c7b3e-76cd-41a7-a7b8-ed7b56613125")
-	)
 	(label "INST_SEL_2"
 		(at 435.61 111.76 180)
 		(effects
@@ -18139,7 +17955,17 @@
 		)
 		(uuid "2a2c1fa0-1370-43a5-be1a-c07818191ae2")
 	)
-	(label "TRS_SEL_1"
+	(label "IN_EN_1"
+		(at 341.63 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2acdac6a-4b13-466b-8a22-fb8718d86830")
+	)
+	(label "IN_EN_1"
 		(at 515.62 102.87 0)
 		(effects
 			(font
@@ -18149,7 +17975,7 @@
 		)
 		(uuid "31d5c897-ae0e-4b61-a89a-70aea9d9467e")
 	)
-	(label "TRS_SEL_2"
+	(label "IN_EN_2"
 		(at 515.62 105.41 0)
 		(effects
 			(font
@@ -18389,16 +18215,6 @@
 		)
 		(uuid "b6d42061-e68b-422a-b693-f9949fcceffb")
 	)
-	(label "XLR_IND_1"
-		(at 25.4 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc7546ad-32e6-4659-a8ad-500f4d5d1ce8")
-	)
 	(label "INST_SEL_2"
 		(at 369.57 95.25 180)
 		(effects
@@ -18419,6 +18235,16 @@
 		)
 		(uuid "c2750cdb-75b8-489b-87fb-a8288385226b")
 	)
+	(label "IN_EN_2"
+		(at 340.36 317.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8761dd9-39fc-42b6-acd2-94086ae95483")
+	)
 	(label "MIC_2_P"
 		(at 250.19 292.1 0)
 		(effects
@@ -18429,7 +18255,7 @@
 		)
 		(uuid "d132350c-cc7f-47c7-b29b-859e003d8bed")
 	)
-	(label "XLR_IND_2"
+	(label "TRS_SEL_2"
 		(at 435.61 115.57 180)
 		(effects
 			(font
@@ -18519,7 +18345,7 @@
 		)
 		(uuid "ec12b029-e42c-430b-ab0c-49e4ef3cccd2")
 	)
-	(label "XLR_IND_1"
+	(label "TRS_SEL_1"
 		(at 435.61 100.33 180)
 		(effects
 			(font
@@ -18757,17 +18583,6 @@
 		)
 		(uuid "97e92291-5e3e-4d8a-a52c-7eb3546b7438")
 	)
-	(hierarchical_label "IN_EN_2"
-		(shape input)
-		(at 340.36 317.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9af53e54-60e4-4d89-a0ba-fccddf8cae11")
-	)
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 461.01 88.9 0)
@@ -18789,17 +18604,6 @@
 			(justify right)
 		)
 		(uuid "af7291af-a406-49a0-bf89-46fa6ad92de6")
-	)
-	(hierarchical_label "IN_EN_1"
-		(shape input)
-		(at 341.63 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7c501f8-908b-41e4-ad6d-25b34d44b0b2")
 	)
 	(hierarchical_label "CS_THAT5263"
 		(shape input)
@@ -18844,6 +18648,110 @@
 			(justify right)
 		)
 		(uuid "eff0ab8e-12ab-4773-a62c-b64c6bf43e5b")
+	)
+	(symbol
+		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
+		(at 52.07 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01208da8-6038-43f3-9e9b-01cf2a2badf8")
+		(property "Reference" "J2"
+			(at 52.07 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN_2"
+			(at 52.07 276.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
+			(at 52.07 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "d8e83184-5461-4e28-b845-f51dab91cdc7")
+		)
+		(pin "SN"
+			(uuid "ef440f62-ced2-42e8-8704-01a6edde57a2")
+		)
+		(pin "S"
+			(uuid "c92db45c-c2f5-464b-ace2-a3583932801a")
+		)
+		(pin "RN"
+			(uuid "8ffec8a6-5064-49b8-9ab5-3a538e6292a3")
+		)
+		(pin "R"
+			(uuid "ba95c3d0-5cbe-49b1-b3a1-7c8140b70d56")
+		)
+		(pin "G"
+			(uuid "8d7b00a7-15ae-4ae2-8244-9c7d65f0494e")
+		)
+		(pin "3"
+			(uuid "6a9b6694-c481-4840-b439-55583ce7954b")
+		)
+		(pin "2"
+			(uuid "6774a087-3a41-44cd-a9fd-f504b97dd36c")
+		)
+		(pin "1"
+			(uuid "c8cc1709-9c65-49e4-a701-bf45d40474f8")
+		)
+		(pin "TN"
+			(uuid "6c11fd83-9e7d-44f8-8e96-9724e51a9b2c")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+15V")
@@ -21351,7 +21259,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 356.87 0)
+		(at 68.58 359.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21361,7 +21269,7 @@
 		(dnp no)
 		(uuid "16919822-7c25-4ef0-9729-b5280418f8c7")
 		(property "Reference" "C75"
-			(at 64.262 354.584 0)
+			(at 64.262 357.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21372,7 +21280,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 63.246 359.664 0)
+			(at 63.246 362.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21383,7 +21291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 360.68 0)
+			(at 69.5452 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21394,7 +21302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 356.87 0)
+			(at 68.58 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21405,7 +21313,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 356.87 0)
+			(at 68.58 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21825,6 +21733,110 @@
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "C26")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
+		(at 53.34 345.44 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19990a00-6dc9-4b66-8975-35730f39f841")
+		(property "Reference" "J2"
+			(at 51.435 334.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN_2"
+			(at 51.435 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
+			(at 53.34 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "T"
+			(uuid "d8e83184-5461-4e28-b845-f51dab91cdc7")
+		)
+		(pin "SN"
+			(uuid "ef440f62-ced2-42e8-8704-01a6edde57a2")
+		)
+		(pin "S"
+			(uuid "c92db45c-c2f5-464b-ace2-a3583932801a")
+		)
+		(pin "RN"
+			(uuid "8ffec8a6-5064-49b8-9ab5-3a538e6292a3")
+		)
+		(pin "R"
+			(uuid "ba95c3d0-5cbe-49b1-b3a1-7c8140b70d56")
+		)
+		(pin "G"
+			(uuid "8d7b00a7-15ae-4ae2-8244-9c7d65f0494e")
+		)
+		(pin "3"
+			(uuid "6a9b6694-c481-4840-b439-55583ce7954b")
+		)
+		(pin "2"
+			(uuid "6774a087-3a41-44cd-a9fd-f504b97dd36c")
+		)
+		(pin "1"
+			(uuid "c8cc1709-9c65-49e4-a701-bf45d40474f8")
+		)
+		(pin "TN"
+			(uuid "6c11fd83-9e7d-44f8-8e96-9724e51a9b2c")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J2")
+					(unit 2)
 				)
 			)
 		)
@@ -24762,113 +24774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_GroundSwitch_Switch")
-		(at 53.34 345.44 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "334e82a3-7dde-4445-8f2a-c1fa1508f09a")
-		(property "Reference" "J2"
-			(at 51.435 334.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_2"
-			(at 51.435 336.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Switched Ground Pin"
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "TN"
-			(uuid "f1a045e5-cb9a-4aeb-acca-d8f13be470a5")
-		)
-		(pin "1"
-			(uuid "5d320d79-c2de-41eb-886c-a5599ee0f141")
-		)
-		(pin "3"
-			(uuid "2f89f95f-15b4-4ec5-ba1d-f028407ba493")
-		)
-		(pin "G"
-			(uuid "9a222ad1-2e95-49be-800b-b24254ac94b8")
-		)
-		(pin "2"
-			(uuid "a68aac9d-8e44-49d1-9a04-4b67c071a844")
-		)
-		(pin "T"
-			(uuid "a65ef15c-8a2b-41a9-a7ed-aa2e90c3168d")
-		)
-		(pin "R"
-			(uuid "cabfff5f-2735-4436-bdac-dd2c98b1e1b6")
-		)
-		(pin "GN"
-			(uuid "2a99600f-12c8-42d0-8ddd-e4dfa77f1fd9")
-		)
-		(pin "SN"
-			(uuid "5704024e-652b-47fe-ba0f-abee8a43ece6")
-		)
-		(pin "S"
-			(uuid "2fc75b8a-8e55-4b6c-954e-b56fc3399058")
-		)
-		(pin "RN"
-			(uuid "7b41c0f9-0731-4f92-9004-4c031d380210")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
 		(at 248.92 345.44 0)
 		(unit 1)
@@ -24941,6 +24846,85 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 58.42 353.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339d7e64-6c34-4fa6-b911-44d56015f66d")
+		(property "Reference" "#PWR0257"
+			(at 64.77 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 62.23 353.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 58.42 353.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a27d604-3484-4725-8dc8-4159b628caa5")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -26639,89 +26623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 27.94 290.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40b45ca8-ab41-4cf8-9909-c11966954957")
-		(property "Reference" "R41"
-			(at 25.4 289.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 25.4 292.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.924 291.084 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 290.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d28968a-3778-4774-9a0d-f73e5a637a36")
-		)
-		(pin "2"
-			(uuid "cd089126-8f85-4cad-9f6f-05e6694e0c0f")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 162.56 121.92 0)
 		(unit 1)
@@ -28203,7 +28104,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 68.58 175.26 0)
+		(at 68.58 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28213,7 +28114,7 @@
 		(dnp no)
 		(uuid "4c92bc8b-531d-4195-828b-46b813ec193f")
 		(property "Reference" "#PWR055"
-			(at 68.58 181.61 0)
+			(at 68.58 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28224,7 +28125,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 68.58 179.832 0)
+			(at 68.58 182.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28234,7 +28135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 175.26 0)
+			(at 68.58 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28245,7 +28146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 175.26 0)
+			(at 68.58 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28256,7 +28157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 68.58 175.26 0)
+			(at 68.58 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28482,7 +28383,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 78.74 356.87 0)
+		(at 78.74 359.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28492,7 +28393,7 @@
 		(dnp no)
 		(uuid "4e55b2fd-439b-474b-b6e0-35a122b9c856")
 		(property "Reference" "C76"
-			(at 74.422 354.584 0)
+			(at 74.422 357.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28503,7 +28404,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 73.66 359.41 0)
+			(at 73.66 361.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28514,7 +28415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.7052 360.68 0)
+			(at 79.7052 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28525,7 +28426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 356.87 0)
+			(at 78.74 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28536,7 +28437,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 356.87 0)
+			(at 78.74 359.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28731,6 +28632,85 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 58.42 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f27c21a-24c1-4cdf-88f4-937684a1aee2")
+		(property "Reference" "#PWR0259"
+			(at 64.77 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 62.23 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0a16772-ab0b-45fd-9752-b852c0da6dfe")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -31292,7 +31272,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec0336b6-0e48-4f1e-916a-8f1cc15e7bc0")
+			(uuid "ec0336b6-0e48-4f1e-916a-8f1cc15e7bc2")
 		)
 		(pin "8"
 			(uuid "3c394890-aca4-4335-a43d-1c03d9bc08f2")
@@ -31301,19 +31281,19 @@
 			(uuid "0ff65892-56d8-436a-af95-7a668a985fb7")
 		)
 		(pin "2"
-			(uuid "4481261f-7279-441b-b7fb-95c0a89b367f")
+			(uuid "4481261f-7279-441b-b7fb-95c0a89b3681")
 		)
 		(pin "3"
-			(uuid "f5eb4300-1e3d-4e84-b672-ecc51c52b9be")
+			(uuid "f5eb4300-1e3d-4e84-b672-ecc51c52b9c0")
 		)
 		(pin "5"
-			(uuid "92b77364-92ce-4dd8-a053-2d4372ed881f")
+			(uuid "92b77364-92ce-4dd8-a053-2d4372ed8821")
 		)
 		(pin "7"
-			(uuid "d1c4adf0-7b46-4e84-8818-821537be1252")
+			(uuid "d1c4adf0-7b46-4e84-8818-821537be1254")
 		)
 		(pin "6"
-			(uuid "37f0af81-e69f-4a2e-aa59-4d872e1187dd")
+			(uuid "37f0af81-e69f-4a2e-aa59-4d872e1187df")
 		)
 		(instances
 			(project "openmic"
@@ -31879,6 +31859,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
+		(at 52.07 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ddb87e-2684-4cc4-9ea7-6894d26e80a1")
+		(property "Reference" "J1"
+			(at 52.07 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN_1"
+			(at 52.07 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SN"
+			(uuid "2bcff423-cb87-4c91-b91d-5c14967e3e68")
+		)
+		(pin "R"
+			(uuid "22eb3336-19b1-46a0-a698-508d0cc14028")
+		)
+		(pin "3"
+			(uuid "9b4ebaf9-9701-4d90-a2fd-8a928f150a8d")
+		)
+		(pin "RN"
+			(uuid "18f6ddbd-5c26-4174-aabf-3045bb3a267b")
+		)
+		(pin "1"
+			(uuid "55ee45c6-b45c-489f-b6e5-d16674727d63")
+		)
+		(pin "2"
+			(uuid "f407ba26-3b60-4544-81ee-301edc427a84")
+		)
+		(pin "G"
+			(uuid "ba63f2f3-cc81-4c35-bada-9ce4f54e67c1")
+		)
+		(pin "S"
+			(uuid "4e89bc10-6ff6-4f73-9673-023ee80235fc")
+		)
+		(pin "TN"
+			(uuid "1e6b932b-de56-4d3a-9e88-9b6da35480c3")
+		)
+		(pin "T"
+			(uuid "ae8f8095-4fd7-4f9e-a1fb-96b9006cde03")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 217.17 64.77 90)
 		(mirror x)
@@ -32234,6 +32318,85 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 58.42 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a76105c-b24b-435c-8ccc-e5235f46d14e")
+		(property "Reference" "#PWR0258"
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 62.23 157.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 58.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c3305bb-b414-4eff-9f6a-c172dad5b32a")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0258")
 					(unit 1)
 				)
 			)
@@ -33428,6 +33591,85 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 58.42 347.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79031f1e-3321-4069-943f-f2496cf4ec58")
+		(property "Reference" "#PWR0256"
+			(at 64.77 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 62.23 347.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 58.42 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21e9a422-74e6-4b84-bceb-654168265bb2")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -35822,86 +36064,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 34.29 297.18 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a6d225a-f1fe-4a0d-8b60-65ce22967580")
-		(property "Reference" "C65"
-			(at 34.29 290.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 34.29 293.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 296.2148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 34.29 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39bff4ae-5c4f-409d-80dd-3f942db73ffb")
-		)
-		(pin "2"
-			(uuid "1f1c5143-0fbc-4e8a-8813-a9c4d983183d")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 128.27 60.96 0)
 		(unit 1)
@@ -36605,7 +36767,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec0336b6-0e48-4f1e-916a-8f1cc15e7bc2")
+			(uuid "ec0336b6-0e48-4f1e-916a-8f1cc15e7bc3")
 		)
 		(pin "8"
 			(uuid "57d688da-6587-47cc-8b36-7fb7d9c59f77")
@@ -36614,19 +36776,19 @@
 			(uuid "6645bc24-1548-4431-b1b6-0ef6e62dacaf")
 		)
 		(pin "2"
-			(uuid "4481261f-7279-441b-b7fb-95c0a89b3681")
+			(uuid "4481261f-7279-441b-b7fb-95c0a89b3682")
 		)
 		(pin "3"
-			(uuid "f5eb4300-1e3d-4e84-b672-ecc51c52b9c0")
+			(uuid "f5eb4300-1e3d-4e84-b672-ecc51c52b9c1")
 		)
 		(pin "5"
-			(uuid "92b77364-92ce-4dd8-a053-2d4372ed8821")
+			(uuid "92b77364-92ce-4dd8-a053-2d4372ed8822")
 		)
 		(pin "7"
-			(uuid "d1c4adf0-7b46-4e84-8818-821537be1254")
+			(uuid "d1c4adf0-7b46-4e84-8818-821537be1255")
 		)
 		(pin "6"
-			(uuid "37f0af81-e69f-4a2e-aa59-4d872e1187df")
+			(uuid "37f0af81-e69f-4a2e-aa59-4d872e1187e0")
 		)
 		(instances
 			(project "openmic"
@@ -37900,113 +38062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_GroundSwitch_Switch")
-		(at 53.34 154.94 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99a80295-a1b4-4801-9b81-1feb086ef414")
-		(property "Reference" "J1"
-			(at 51.435 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_1"
-			(at 51.435 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Switched Ground Pin"
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "TN"
-			(uuid "f2f3bd60-b4cf-412f-b695-f88a2eca6b5c")
-		)
-		(pin "T"
-			(uuid "39438603-3d82-49db-8cc7-fb256826ecda")
-		)
-		(pin "RN"
-			(uuid "8f9c2cfd-03f5-4c5b-bf9a-45c012e1e819")
-		)
-		(pin "R"
-			(uuid "26c1dc20-7fd6-4db4-b4d4-84152ea2e749")
-		)
-		(pin "SN"
-			(uuid "2dc2f162-bd6d-4e04-9a4d-5505443e8531")
-		)
-		(pin "S"
-			(uuid "cc05487d-d1c3-4037-a553-db1527f08e28")
-		)
-		(pin "2"
-			(uuid "22cda7ad-f71a-476c-a651-7218d0bd2498")
-		)
-		(pin "3"
-			(uuid "65878980-dadb-4c20-a7d1-c3882be11601")
-		)
-		(pin "G"
-			(uuid "58d599fe-3de8-4602-a002-cc8a5008d850")
-		)
-		(pin "GN"
-			(uuid "6eadd94c-9185-4f49-8a69-e421b446f476")
-		)
-		(pin "1"
-			(uuid "d1a54588-a7ac-47e7-bfb1-ddde4870e3b8")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 118.11 114.3 90)
 		(unit 1)
@@ -38240,113 +38295,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_GroundSwitch_Switch")
-		(at 52.07 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c5028e9-7484-4b32-b9b9-ecdc4ad65e49")
-		(property "Reference" "J1"
-			(at 52.07 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_1"
-			(at 52.07 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Switched Ground Pin"
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "TN"
-			(uuid "f2f3bd60-b4cf-412f-b695-f88a2eca6b5d")
-		)
-		(pin "T"
-			(uuid "39438603-3d82-49db-8cc7-fb256826ecdb")
-		)
-		(pin "RN"
-			(uuid "8f9c2cfd-03f5-4c5b-bf9a-45c012e1e81a")
-		)
-		(pin "R"
-			(uuid "26c1dc20-7fd6-4db4-b4d4-84152ea2e74a")
-		)
-		(pin "SN"
-			(uuid "2dc2f162-bd6d-4e04-9a4d-5505443e8532")
-		)
-		(pin "S"
-			(uuid "cc05487d-d1c3-4037-a553-db1527f08e29")
-		)
-		(pin "2"
-			(uuid "22cda7ad-f71a-476c-a651-7218d0bd2499")
-		)
-		(pin "3"
-			(uuid "65878980-dadb-4c20-a7d1-c3882be11602")
-		)
-		(pin "G"
-			(uuid "58d599fe-3de8-4602-a002-cc8a5008d851")
-		)
-		(pin "GN"
-			(uuid "6eadd94c-9185-4f49-8a69-e421b446f477")
-		)
-		(pin "1"
-			(uuid "d1a54588-a7ac-47e7-bfb1-ddde4870e3b9")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -39365,87 +39313,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 27.94 284.48 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1faa54f-1034-472b-bc08-7ebd5f1e8e47")
-		(property "Reference" "#PWR072"
-			(at 27.94 288.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 27.94 279.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 27.94 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85efa694-e3b1-4f97-90ea-d58fe87a6a12")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 78.74 166.37 0)
+		(at 78.74 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39455,7 +39324,7 @@
 		(dnp no)
 		(uuid "a4793e37-856b-4ce0-868b-a90a82c4791c")
 		(property "Reference" "C37"
-			(at 74.422 164.084 0)
+			(at 74.422 166.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39466,7 +39335,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 73.66 168.91 0)
+			(at 73.66 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39477,7 +39346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.7052 170.18 0)
+			(at 79.7052 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39488,7 +39357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 166.37 0)
+			(at 78.74 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39499,7 +39368,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 78.74 166.37 0)
+			(at 78.74 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41391,19 +41260,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec0336b6-0e48-4f1e-916a-8f1cc15e7bc2")
+			(uuid "ec0336b6-0e48-4f1e-916a-8f1cc15e7bc4")
 		)
 		(pin "8"
-			(uuid "57d688da-6587-47cc-8b36-7fb7d9c59f77")
+			(uuid "57d688da-6587-47cc-8b36-7fb7d9c59f78")
 		)
 		(pin "4"
-			(uuid "6645bc24-1548-4431-b1b6-0ef6e62dacaf")
+			(uuid "6645bc24-1548-4431-b1b6-0ef6e62dacb0")
 		)
 		(pin "2"
-			(uuid "4481261f-7279-441b-b7fb-95c0a89b3681")
+			(uuid "4481261f-7279-441b-b7fb-95c0a89b3683")
 		)
 		(pin "3"
-			(uuid "f5eb4300-1e3d-4e84-b672-ecc51c52b9c0")
+			(uuid "f5eb4300-1e3d-4e84-b672-ecc51c52b9c2")
 		)
 		(pin "5"
 			(uuid "6472d42c-be13-47bb-9bf9-1b855c6bd9c5")
@@ -42489,86 +42358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 34.29 106.68 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2774d50-8d90-4d6f-a962-f42366571dba")
-		(property "Reference" "C27"
-			(at 34.29 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 34.29 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 105.7148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 34.29 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f27f0bb9-056e-48c2-923b-b7e4f8bc1b96")
-		)
-		(pin "2"
-			(uuid "ba68b891-ffdd-4307-aadf-e901e6a6c65d")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 161.29 363.22 0)
 		(unit 1)
@@ -43629,113 +43418,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_GroundSwitch_Switch")
-		(at 52.07 284.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c978755a-6d6a-44e5-8709-5213c0870e22")
-		(property "Reference" "J2"
-			(at 52.07 274.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_2"
-			(at 52.07 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Switched Ground Pin"
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "TN"
-			(uuid "f1a045e5-cb9a-4aeb-acca-d8f13be470a6")
-		)
-		(pin "1"
-			(uuid "5d320d79-c2de-41eb-886c-a5599ee0f142")
-		)
-		(pin "3"
-			(uuid "2f89f95f-15b4-4ec5-ba1d-f028407ba494")
-		)
-		(pin "G"
-			(uuid "9a222ad1-2e95-49be-800b-b24254ac94b9")
-		)
-		(pin "2"
-			(uuid "a68aac9d-8e44-49d1-9a04-4b67c071a845")
-		)
-		(pin "T"
-			(uuid "a65ef15c-8a2b-41a9-a7ed-aa2e90c3168e")
-		)
-		(pin "R"
-			(uuid "cabfff5f-2735-4436-bdac-dd2c98b1e1b7")
-		)
-		(pin "GN"
-			(uuid "2a99600f-12c8-42d0-8ddd-e4dfa77f1fda")
-		)
-		(pin "SN"
-			(uuid "5704024e-652b-47fe-ba0f-abee8a43ece7")
-		)
-		(pin "S"
-			(uuid "2fc75b8a-8e55-4b6c-954e-b56fc3399059")
-		)
-		(pin "RN"
-			(uuid "7b41c0f9-0731-4f92-9004-4c031d380211")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -45436,7 +45118,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 166.37 0)
+		(at 68.58 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45446,7 +45128,7 @@
 		(dnp no)
 		(uuid "d2fb01f1-c4a4-4129-ae87-13f3bcd1e79f")
 		(property "Reference" "C36"
-			(at 64.262 164.084 0)
+			(at 64.262 166.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45457,7 +45139,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 63.246 169.164 0)
+			(at 63.246 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45468,7 +45150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.5452 170.18 0)
+			(at 69.5452 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45479,7 +45161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 166.37 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45490,7 +45172,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 68.58 166.37 0)
+			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46359,6 +46041,110 @@
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR030")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
+		(at 53.34 154.94 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd9175d9-06c3-4940-b234-c659e65e7f5c")
+		(property "Reference" "J1"
+			(at 51.435 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN_1"
+			(at 51.435 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
+			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "SN"
+			(uuid "2bcff423-cb87-4c91-b91d-5c14967e3e68")
+		)
+		(pin "R"
+			(uuid "22eb3336-19b1-46a0-a698-508d0cc14028")
+		)
+		(pin "3"
+			(uuid "9b4ebaf9-9701-4d90-a2fd-8a928f150a8d")
+		)
+		(pin "RN"
+			(uuid "18f6ddbd-5c26-4174-aabf-3045bb3a267b")
+		)
+		(pin "1"
+			(uuid "55ee45c6-b45c-489f-b6e5-d16674727d63")
+		)
+		(pin "2"
+			(uuid "f407ba26-3b60-4544-81ee-301edc427a84")
+		)
+		(pin "G"
+			(uuid "ba63f2f3-cc81-4c35-bada-9ce4f54e67c1")
+		)
+		(pin "S"
+			(uuid "4e89bc10-6ff6-4f73-9673-023ee80235fc")
+		)
+		(pin "TN"
+			(uuid "1e6b932b-de56-4d3a-9e88-9b6da35480c3")
+		)
+		(pin "T"
+			(uuid "ae8f8095-4fd7-4f9e-a1fb-96b9006cde03")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J1")
+					(unit 2)
 				)
 			)
 		)
@@ -48270,10 +48056,10 @@
 			(uuid "87014a39-1b51-46b4-a085-8e9c2a26fe0a")
 		)
 		(pin "8"
-			(uuid "57d688da-6587-47cc-8b36-7fb7d9c59f76")
+			(uuid "57d688da-6587-47cc-8b36-7fb7d9c59f79")
 		)
 		(pin "4"
-			(uuid "6645bc24-1548-4431-b1b6-0ef6e62dacae")
+			(uuid "6645bc24-1548-4431-b1b6-0ef6e62dacb1")
 		)
 		(pin "2"
 			(uuid "ff42192e-aa25-40f8-aef7-e8ab462193a4")
@@ -48282,13 +48068,13 @@
 			(uuid "60628994-55d9-4c46-b2ff-ab29427ee1aa")
 		)
 		(pin "5"
-			(uuid "92b77364-92ce-4dd8-a053-2d4372ed8820")
+			(uuid "92b77364-92ce-4dd8-a053-2d4372ed8823")
 		)
 		(pin "7"
-			(uuid "d1c4adf0-7b46-4e84-8818-821537be1253")
+			(uuid "d1c4adf0-7b46-4e84-8818-821537be1256")
 		)
 		(pin "6"
-			(uuid "37f0af81-e69f-4a2e-aa59-4d872e1187de")
+			(uuid "37f0af81-e69f-4a2e-aa59-4d872e1187e1")
 		)
 		(instances
 			(project "openmic"
@@ -48452,89 +48238,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "C60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 27.94 100.33 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edf07181-0349-4251-a231-a5250ca317ba")
-		(property "Reference" "R12"
-			(at 25.4 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 25.4 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.924 100.584 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 27.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f4ef9f2-1442-4710-a329-bfa9ba682716")
-		)
-		(pin "2"
-			(uuid "0810e738-ed7d-4365-9103-7ef83bac87c3")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -51179,7 +50882,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 68.58 365.76 0)
+		(at 68.58 368.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51189,7 +50892,7 @@
 		(dnp no)
 		(uuid "f9154fed-5d41-4e36-90f7-b87ea84a142a")
 		(property "Reference" "#PWR0111"
-			(at 68.58 372.11 0)
+			(at 68.58 374.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51200,7 +50903,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 68.58 370.332 0)
+			(at 68.58 372.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51210,7 +50913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 365.76 0)
+			(at 68.58 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51221,7 +50924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 365.76 0)
+			(at 68.58 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51232,7 +50935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 68.58 365.76 0)
+			(at 68.58 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51970,85 +51673,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 27.94 93.98 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe3e5986-955c-4e51-b7b3-0125900c124a")
-		(property "Reference" "#PWR018"
-			(at 27.94 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 27.94 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 27.94 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5929636-37b2-4140-88ef-05191873c47d")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)

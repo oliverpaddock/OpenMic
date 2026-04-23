@@ -1306,16 +1306,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 80.01) (xy 88.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e80fc79-f6b5-485c-996d-2261337c1339")
-	)
-	(wire
-		(pts
 			(xy 149.86 76.2) (xy 144.78 76.2)
 		)
 		(stroke
@@ -1707,17 +1697,6 @@
 			(justify left)
 		)
 		(uuid "7ec1618e-bb9b-4c58-aaf7-e241d5d6ea03")
-	)
-	(hierarchical_label "V_BIAS"
-		(shape output)
-		(at 77.47 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81c6efa6-5f5a-4723-9833-3c1409ee6fb1")
 	)
 	(hierarchical_label "SPI_POCI"
 		(shape output)

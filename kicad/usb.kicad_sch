@@ -8053,16 +8053,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 125.73) (xy 110.49 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738920c4-906d-4198-9358-06a1611ccbf6")
-	)
-	(wire
-		(pts
 			(xy 146.05 143.51) (xy 160.02 143.51)
 		)
 		(stroke
@@ -8110,6 +8100,16 @@
 			(type default)
 		)
 		(uuid "797ba07d-09f7-4caf-87b9-25f8482b0e5e")
+	)
+	(wire
+		(pts
+			(xy 92.71 128.27) (xy 110.49 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b73c1c7-05cf-40a7-9d46-8995e34e67a3")
 	)
 	(wire
 		(pts
@@ -8300,16 +8300,6 @@
 			(type default)
 		)
 		(uuid "92dd56a5-1aea-4cd0-8ffd-f05cf81a47af")
-	)
-	(wire
-		(pts
-			(xy 92.71 92.71) (xy 110.49 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934b6ee2-0f0b-4a5b-a218-af280b201355")
 	)
 	(wire
 		(pts
@@ -8713,16 +8703,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 128.27) (xy 110.49 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc8a3ec-01e4-474d-a675-d7e047c73e94")
-	)
-	(wire
-		(pts
 			(xy 322.58 114.3) (xy 334.01 114.3)
 		)
 		(stroke
@@ -8900,6 +8880,16 @@
 			(type default)
 		)
 		(uuid "d4270407-63b3-4f7f-ae00-8288f10ece87")
+	)
+	(wire
+		(pts
+			(xy 92.71 125.73) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c39f0a-ddc0-414a-9463-5b661ab811c7")
 	)
 	(wire
 		(pts
@@ -9180,16 +9170,6 @@
 			(type default)
 		)
 		(uuid "f62baa5a-7660-46f8-ac69-943d2cfb482e")
-	)
-	(wire
-		(pts
-			(xy 92.71 90.17) (xy 110.49 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f683ff5b-ade3-468f-9c29-441071c21fe5")
 	)
 	(wire
 		(pts
@@ -10486,16 +10466,16 @@
 		)
 		(uuid "1ac11773-11cf-418e-8d05-f54661930326")
 	)
-	(hierarchical_label "IN_EN_1"
-		(shape output)
-		(at 92.71 125.73 180)
+	(hierarchical_label "BSY_2"
+		(shape input)
+		(at 92.71 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1b67e037-5da7-49e9-b57b-6804f6a51095")
+		(uuid "26f38c4a-8dfb-4d6d-9590-a38f277aabc2")
 	)
 	(hierarchical_label "ROT_B_0"
 		(shape input)
@@ -10507,17 +10487,6 @@
 			(justify left)
 		)
 		(uuid "287558e8-1639-4afe-a6c1-af1e14788577")
-	)
-	(hierarchical_label "IN_EN_2"
-		(shape output)
-		(at 92.71 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2ceb4a79-3729-4940-b0f0-54b4a3a09dd1")
 	)
 	(hierarchical_label "LED_CONTROL"
 		(shape output)
@@ -10607,17 +10576,6 @@
 		)
 		(uuid "669bf3b0-d85b-4744-8fbe-b224615fb0d3")
 	)
-	(hierarchical_label "BSY_1"
-		(shape input)
-		(at 92.71 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67a461f3-2b44-4993-9a39-766954f32b03")
-	)
 	(hierarchical_label "PH_EN"
 		(shape output)
 		(at 92.71 113.03 180)
@@ -10684,16 +10642,16 @@
 		)
 		(uuid "bb638516-f117-420e-87d9-0db693441ebb")
 	)
-	(hierarchical_label "BSY_2"
+	(hierarchical_label "BSY_1"
 		(shape input)
-		(at 92.71 92.71 180)
+		(at 92.71 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c95763f6-5cbe-497c-b1e7-9cf95a2faf16")
+		(uuid "c32727e1-6527-4421-bd3d-a4a9d9a3df6e")
 	)
 	(hierarchical_label "ROT_B_3"
 		(shape input)

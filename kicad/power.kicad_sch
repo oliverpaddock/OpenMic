@@ -10117,7 +10117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "470nF"
 			(at 105.41 204.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14266,7 +14266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "10nF"
 			(at 196.85 204.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17120,7 +17120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "470nF"
 			(at 91.44 204.4699 0)
 			(show_name no)
 			(do_not_autoplace no)

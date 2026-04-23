@@ -6668,28 +6668,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "faa05a49-592b-4f4c-aec1-53289d0a232d")
+			(uuid "faa05a49-592b-4f4c-aec1-53289d0a232e")
 		)
 		(pin "2"
-			(uuid "34ce1661-cdd5-495e-9260-1355781ebe6e")
+			(uuid "34ce1661-cdd5-495e-9260-1355781ebe6f")
 		)
 		(pin "3"
-			(uuid "d3b5a4d3-4bbc-4aee-a0ea-ba2d870bba69")
+			(uuid "d3b5a4d3-4bbc-4aee-a0ea-ba2d870bba6a")
 		)
 		(pin "5"
-			(uuid "59328df4-537d-49ba-a487-41459304c8d8")
+			(uuid "59328df4-537d-49ba-a487-41459304c8d9")
 		)
 		(pin "6"
-			(uuid "6f989689-67c6-4954-864c-ca070c7e04aa")
+			(uuid "6f989689-67c6-4954-864c-ca070c7e04ab")
 		)
 		(pin "7"
-			(uuid "c5325cef-0d3c-44dd-918c-1b674c0505a8")
+			(uuid "c5325cef-0d3c-44dd-918c-1b674c0505a9")
 		)
 		(pin "4"
-			(uuid "8783c0f5-554b-40df-88db-7c6fce5c55d8")
+			(uuid "8783c0f5-554b-40df-88db-7c6fce5c55d9")
 		)
 		(pin "8"
-			(uuid "5749fdda-96bb-4b5e-80ac-34d1cd7d4203")
+			(uuid "5749fdda-96bb-4b5e-80ac-34d1cd7d4204")
 		)
 		(instances
 			(project "openmic"
@@ -7234,7 +7234,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "10nF"
 			(at 241.3 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7922,28 +7922,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "faa05a49-592b-4f4c-aec1-53289d0a232d")
+			(uuid "faa05a49-592b-4f4c-aec1-53289d0a232f")
 		)
 		(pin "2"
-			(uuid "34ce1661-cdd5-495e-9260-1355781ebe6e")
+			(uuid "34ce1661-cdd5-495e-9260-1355781ebe70")
 		)
 		(pin "3"
-			(uuid "d3b5a4d3-4bbc-4aee-a0ea-ba2d870bba69")
+			(uuid "d3b5a4d3-4bbc-4aee-a0ea-ba2d870bba6b")
 		)
 		(pin "5"
-			(uuid "59328df4-537d-49ba-a487-41459304c8d8")
+			(uuid "59328df4-537d-49ba-a487-41459304c8da")
 		)
 		(pin "6"
-			(uuid "6f989689-67c6-4954-864c-ca070c7e04aa")
+			(uuid "6f989689-67c6-4954-864c-ca070c7e04ac")
 		)
 		(pin "7"
-			(uuid "c5325cef-0d3c-44dd-918c-1b674c0505a8")
+			(uuid "c5325cef-0d3c-44dd-918c-1b674c0505aa")
 		)
 		(pin "4"
-			(uuid "8783c0f5-554b-40df-88db-7c6fce5c55d8")
+			(uuid "8783c0f5-554b-40df-88db-7c6fce5c55da")
 		)
 		(pin "8"
-			(uuid "5749fdda-96bb-4b5e-80ac-34d1cd7d4203")
+			(uuid "5749fdda-96bb-4b5e-80ac-34d1cd7d4205")
 		)
 		(instances
 			(project "openmic"
@@ -9523,7 +9523,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "10nF"
 			(at 213.36 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
