@@ -161,6 +161,344 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BAT54S"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAT54S"
+				(at -6.35 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 1.905 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+				(at -3.048 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAT54S_0_1"
+				(polyline
+					(pts
+						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 4.445 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54S_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "openmic:TAC5212"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -896,6 +1234,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDD"
 			(power global)
 			(pin_numbers
@@ -1047,7 +1500,7 @@
 	)
 	(text "use 5k input impedance (default), AC coupled\n\nset INCAP_QCHG = 3d (50ms) to match the 40ms charge time of the 10uF cap"
 		(exclude_from_sim no)
-		(at 17.526 117.856 0)
+		(at 16.764 139.192 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1055,6 +1508,18 @@
 			(justify left)
 		)
 		(uuid "cc423414-9cce-491a-a774-5eb1e8e4c9a1")
+	)
+	(junction
+		(at 52.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dbb568a-d1b3-41a7-8cdc-f6b3387ca000")
+	)
+	(junction
+		(at 44.45 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ee3a937-435f-49e2-a17b-63e6f86f036f")
 	)
 	(junction
 		(at 149.86 102.87)
@@ -1081,6 +1546,12 @@
 		(uuid "4c7c76a4-9e5b-477d-aac5-05b458e57b0e")
 	)
 	(junction
+		(at 83.82 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "511fdbf4-bd36-4760-9cc1-5fac5e4f6394")
+	)
+	(junction
 		(at 101.6 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1093,22 +1564,28 @@
 		(uuid "53e3b73e-13e7-4594-9028-99f095789241")
 	)
 	(junction
+		(at 59.69 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55a77851-37b6-411d-914e-ae636c60e207")
+	)
+	(junction
 		(at 132.08 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cfa1e43-8cf4-4c48-93d2-5b05cb8d8375")
 	)
 	(junction
+		(at 59.69 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e767581-e775-4a27-a108-4371b83a61f9")
+	)
+	(junction
 		(at 156.21 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ad14152-33ad-43bf-80d3-ea0aa82f4a2d")
-	)
-	(junction
-		(at 83.82 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab2f8a65-d30d-4018-b042-416655baf5ec")
 	)
 	(junction
 		(at 101.6 46.99)
@@ -1120,7 +1597,7 @@
 		(at 83.82 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfb598f4-3118-462d-a038-f4130c4ce862")
+		(uuid "d051ed0b-123c-4197-91ee-cdd2b74786a2")
 	)
 	(junction
 		(at 156.21 59.69)
@@ -1133,6 +1610,44 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e291c5f3-eb54-4c06-afab-c4d062e11834")
+	)
+	(junction
+		(at 52.07 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ead0e7a2-58ca-4d60-8965-1bb29e72df67")
+	)
+	(junction
+		(at 44.45 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f04dcdef-72b3-4dfa-a99f-854e1cecc70e")
+	)
+	(junction
+		(at 52.07 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2423a0e-927a-4019-a519-c7eaa577645f")
+	)
+	(wire
+		(pts
+			(xy 59.69 106.68) (xy 59.69 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02225a46-e23d-4e51-8a74-77fed24af133")
+	)
+	(wire
+		(pts
+			(xy 59.69 83.82) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064c2b5b-6d0f-4bbf-ae30-89bdcdc28752")
 	)
 	(wire
 		(pts
@@ -1206,13 +1721,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 58.42) (xy 83.82 74.93)
+			(xy 59.69 111.76) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27dda790-58a3-4461-9805-9b688fcc1e29")
+		(uuid "2098ba8f-d245-414b-ac8b-63c3281e4f35")
 	)
 	(wire
 		(pts
@@ -1296,6 +1811,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 111.76) (xy 44.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b33dcf-766d-4338-91fe-3a2eb3024c8a")
+	)
+	(wire
+		(pts
+			(xy 44.45 83.82) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ae27f7-27f6-4e36-846f-d4ab4dc1ecca")
+	)
+	(wire
+		(pts
 			(xy 116.84 57.15) (xy 116.84 62.23)
 		)
 		(stroke
@@ -1346,6 +1881,26 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72777ab7-a4c8-4eb4-8fd6-bc6c04e19b45")
+	)
+	(wire
+		(pts
+			(xy 83.82 58.42) (xy 83.82 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741f90a8-be78-4840-bfca-1212b308869a")
+	)
+	(wire
+		(pts
 			(xy 118.11 120.65) (xy 118.11 118.11)
 		)
 		(stroke
@@ -1366,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 101.6) (xy 88.9 101.6)
+			(xy 31.75 101.6) (xy 88.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1386,13 +1941,33 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 105.41) (xy 88.9 105.41)
+			(xy 31.75 120.65) (xy 73.66 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c38e101-e62d-4bb9-8e1d-089a46459560")
+	)
+	(wire
+		(pts
+			(xy 44.45 106.68) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8296c8a1-e01b-4d17-af2f-42da4ebe1568")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ec64a3-613e-481e-8c0c-790a5408d782")
 	)
 	(wire
 		(pts
@@ -1416,13 +1991,43 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 93.98) (xy 88.9 93.98)
+			(xy 73.66 120.65) (xy 73.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dec5c95-452c-4871-b022-9507b6c4018c")
+	)
+	(wire
+		(pts
+			(xy 40.64 83.82) (xy 44.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8d7527-86fa-478b-bbb0-4cba483e0969")
+	)
+	(wire
+		(pts
+			(xy 31.75 93.98) (xy 52.07 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "90a032dc-5980-4e8c-b646-056848912301")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9592c916-73c6-4c22-8321-445105e28cda")
 	)
 	(wire
 		(pts
@@ -1443,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "9dd85d91-f518-4125-8a04-c5fe9206ebe6")
+	)
+	(wire
+		(pts
+			(xy 52.07 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb6ecf2-5ffb-463b-90e4-c84b0958e9ed")
 	)
 	(wire
 		(pts
@@ -1473,6 +2088,16 @@
 			(type default)
 		)
 		(uuid "a7d6409d-4b23-4517-9eef-c416750b4dc2")
+	)
+	(wire
+		(pts
+			(xy 59.69 83.82) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5169296-5dd7-4a0b-abd1-564f9465aa70")
 	)
 	(wire
 		(pts
@@ -1526,6 +2151,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 78.74) (xy 59.69 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d69dba-562b-41c8-b802-f80a34905dbf")
+	)
+	(wire
+		(pts
 			(xy 144.78 110.49) (xy 149.86 110.49)
 		)
 		(stroke
@@ -1546,6 +2181,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 111.76) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf8bed6-036f-4aff-b478-501449a6ed98")
+	)
+	(wire
+		(pts
 			(xy 147.32 57.15) (xy 142.24 57.15)
 		)
 		(stroke
@@ -1553,6 +2198,36 @@
 			(type default)
 		)
 		(uuid "d0f20ce3-5e79-47c1-bea8-f3ff3e89d987")
+	)
+	(wire
+		(pts
+			(xy 40.64 111.76) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e87ec0-0c4e-4139-9439-41c71506d91f")
+	)
+	(wire
+		(pts
+			(xy 73.66 105.41) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26fc3c2-bdfc-42bc-b398-7cd3d2d58577")
+	)
+	(wire
+		(pts
+			(xy 44.45 78.74) (xy 44.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da620675-60ac-47e5-9e3d-a42d73ffdb78")
 	)
 	(wire
 		(pts
@@ -1606,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 90.17) (xy 88.9 90.17)
+			(xy 31.75 73.66) (xy 52.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +2331,7 @@
 	)
 	(hierarchical_label "IN_2_P"
 		(shape input)
-		(at 77.47 101.6 180)
+		(at 31.75 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1667,7 +2342,7 @@
 	)
 	(hierarchical_label "IN_1_P"
 		(shape input)
-		(at 77.47 90.17 180)
+		(at 31.75 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1755,7 +2430,7 @@
 	)
 	(hierarchical_label "IN_2_N"
 		(shape input)
-		(at 77.47 105.41 180)
+		(at 31.75 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1766,7 +2441,7 @@
 	)
 	(hierarchical_label "IN_1_N"
 		(shape input)
-		(at 77.47 93.98 180)
+		(at 31.75 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1927,6 +2602,240 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
 					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 40.64 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1204053c-084a-4cad-91f3-fcfa6ca4038b")
+		(property "Reference" "#PWR076"
+			(at 40.64 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 40.64 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 40.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75ca57b2-2e73-40e3-acc3-d2a77d8fc3bf")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 124.46 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1579ef19-ef61-4228-885f-948a69575b8b")
+		(property "Reference" "#PWR072"
+			(at 124.46 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 124.46 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "929685a2-b3ef-4249-83d5-f427565f6321")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 83.82 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27739ff4-fa49-47cf-8aaf-a52d2c2d9c72")
+		(property "Reference" "#PWR071"
+			(at 83.82 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 83.82 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 83.82 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63dcaf72-d476-444f-a359-6f328f298897")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2169,8 +3078,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 124.46 58.42 0)
+		(lib_id "power:+3V3")
+		(at 63.5 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2178,10 +3087,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "585b09e1-cf3e-472e-8639-f31bb7a286ba")
-		(property "Reference" "#PWR0115"
-			(at 124.46 64.77 0)
+		(uuid "41c312c2-84b4-4f5d-8321-ee514335b76e")
+		(property "Reference" "#PWR080"
+			(at 63.5 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2191,8 +3099,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 124.46 62.23 0)
+		(property "Value" "+3V3"
+			(at 63.5 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2202,7 +3110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 58.42 0)
+			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2213,7 +3121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 58.42 0)
+			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2223,8 +3131,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 124.46 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,20 +3143,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "9372dada-8a22-42a6-849f-0d40e3998fcc")
+			(uuid "d4363761-df6b-4c2b-8afd-827a5931522c")
 		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
-					(reference "#PWR0115")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 83.82 74.93 0)
+		(lib_id "Diode:BAT54S")
+		(at 52.07 106.68 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2256,10 +3165,41 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6623306f-7cfb-4dd9-9799-b222704882c0")
-		(property "Reference" "#PWR0119"
-			(at 83.82 81.28 0)
+		(uuid "4802580e-73cb-46fe-b002-0f718b8006eb")
+		(property "Reference" "D33"
+			(at 56.388 103.378 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 52.07 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 53.975 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 49.022 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2269,40 +3209,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 83.82 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 83.82 74.93 0)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 52.07 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2313,12 +3221,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c71ea5d-1643-48f1-80ef-dce2c47df1d1")
+			(uuid "58e84fd0-43df-41f9-89ab-a0331605ff11")
+		)
+		(pin "3"
+			(uuid "e100fb58-8273-4c4b-ac38-d9c81f236cc4")
+		)
+		(pin "2"
+			(uuid "8a7b6a6f-7308-45db-9e97-70850658b56b")
 		)
 		(instances
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
-					(reference "#PWR0119")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -2477,6 +3391,251 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
 					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 52.07 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c9491bf-4afd-491a-93de-9928780c193b")
+		(property "Reference" "D32"
+			(at 56.642 91.948 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 52.07 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 53.975 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 49.022 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 52.07 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7def4d1-8c20-40c7-a6ec-ec0465caec23")
+		)
+		(pin "3"
+			(uuid "9becc939-766e-40b5-8e7b-271fa0dcb559")
+		)
+		(pin "2"
+			(uuid "a15463d5-96fd-4ffa-82fa-4c07a88547c2")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 52.07 78.74 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d4359e9-48b6-401d-ba46-faab97923fa2")
+		(property "Reference" "D31"
+			(at 56.388 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 52.07 81.788 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 53.975 81.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 49.022 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 52.07 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "016ea106-44fe-44af-b129-c9e358d6491d")
+		)
+		(pin "3"
+			(uuid "d5d1cd18-db58-47e7-a267-8482679f7450")
+		)
+		(pin "2"
+			(uuid "4276b209-36e0-4545-9eaa-71dccf84e426")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 40.64 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb71f67-bbe9-42c7-beab-660a9b306c53")
+		(property "Reference" "#PWR048"
+			(at 40.64 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 40.64 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 40.64 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4770c407-693f-4222-869c-1ae55a80975f")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2799,6 +3958,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 63.5 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d01d88da-9ea1-4c24-95fe-e2fa501cb5ad")
+		(property "Reference" "#PWR037"
+			(at 63.5 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 63.5 78.994 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdcfa2da-e2eb-4a99-95b7-bc6e45eec5c9")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "openmic:TAC5212")
 		(at 116.84 90.17 0)
 		(unit 1)
@@ -3115,6 +4351,89 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
 					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54S")
+		(at 52.07 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc2f9c82-e34f-47e9-82fb-36be69669b06")
+		(property "Reference" "D34"
+			(at 56.642 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54S"
+			(at 52.07 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 53.975 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+			(at 49.022 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 52.07 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a40fc6e-4053-4823-996d-7293c6b48772")
+		)
+		(pin "3"
+			(uuid "0c725ae6-c33c-413b-b919-91c640684409")
+		)
+		(pin "2"
+			(uuid "8eb0ab30-e320-4c6a-8e59-433f1eed4620")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/48193676-4a40-49fd-9b42-70b8319c374b"
+					(reference "D34")
 					(unit 1)
 				)
 			)
