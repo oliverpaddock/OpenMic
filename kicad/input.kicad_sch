@@ -36621,7 +36621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "openmic:PEC11L"
 			(at 48.006 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -44772,7 +44772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "openmic:PEC11L"
 			(at 48.006 240.03 0)
 			(hide yes)
 			(show_name no)

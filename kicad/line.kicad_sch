@@ -5966,7 +5966,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "openmic:PEC11L"
 			(at 225.806 100.33 0)
 			(hide yes)
 			(show_name no)
