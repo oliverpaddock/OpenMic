@@ -11046,7 +11046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 128.27 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12487,7 +12487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 191.77 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12824,7 +12824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x10_P1.27mm_Vertical_SMD"
 			(at 205.74 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13721,7 +13721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering"
 			(at 102.87 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13954,7 +13954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT1355-1_X2QFN12_NXP"
+		(property "Footprint" "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm"
 			(at 363.22 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -14100,7 +14100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -17995,7 +17995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 92.71 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18335,7 +18335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 173.99 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -19934,7 +19934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 220.98 87.63 0)
 			(hide yes)
 			(show_name no)

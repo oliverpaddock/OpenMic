@@ -1104,7 +1104,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch"
+		(symbol "Connector_Audio:NCJ10FI-H-0"
 			(pin_names
 				(hide yes)
 			)
@@ -1123,7 +1123,7 @@
 					)
 				)
 			)
-			(property "Value" "XLR3_AudioJack3_Combo_Ground_Switch"
+			(property "Value" "NCJ10FI-H-0"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1133,7 +1133,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-H-0_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1144,7 +1144,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.neutrik.com/en/product/ncj10fi-h-0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1155,7 +1155,7 @@
 					)
 				)
 			)
-			(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
+			(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) switching stereo jack and switching ground contact, horizontal PCB mount"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1166,7 +1166,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "xlr connector"
+			(property "ki_keywords" "xlr connector neutrik"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1188,7 +1188,7 @@
 					)
 				)
 			)
-			(symbol "XLR3_AudioJack3_Combo_Ground_Switch_1_1"
+			(symbol "NCJ10FI-H-0_1_1"
 				(polyline
 					(pts
 						(xy -5.08 0) (xy -4.572 0)
@@ -1201,9 +1201,33 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -2.794 -5.08) (xy -3.302 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -3.556 0)
 					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -5.08) (xy -3.302 -5.334)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -1380,8 +1404,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "XLR3_AudioJack3_Combo_Ground_Switch_2_1"
+			(symbol "NCJ10FI-H-0_2_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end -6.35 -7.62)
@@ -9832,6 +9874,12 @@
 		(uuid "4d71a50a-2341-4f43-aa7d-12991011d26a")
 	)
 	(junction
+		(at 35.56 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d8a8600-d5b1-45d5-b07d-f534432d1800")
+	)
+	(junction
 		(at 334.01 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10328,6 +10376,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af7c26a5-6cdc-4e7d-8b5a-3d7d984e787d")
+	)
+	(junction
+		(at 35.56 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af80f5e8-ad9a-40c4-9466-1ea4d93c2969")
 	)
 	(junction
 		(at 125.73 48.26)
@@ -11219,6 +11273,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 105.41) (xy 35.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bb8575-ee40-4feb-a63f-d4789150addd")
+	)
+	(wire
+		(pts
 			(xy 121.92 140.97) (xy 128.27 140.97)
 		)
 		(stroke
@@ -11346,6 +11410,16 @@
 			(type default)
 		)
 		(uuid "1677a395-e1d0-4075-86c2-e7f16c859b16")
+	)
+	(wire
+		(pts
+			(xy 46.99 294.64) (xy 46.99 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16811c4f-8117-443f-88b6-5658733c0f31")
 	)
 	(wire
 		(pts
@@ -12189,6 +12263,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 104.14) (xy 46.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335e96ee-b785-4280-868a-9bd4997b065b")
+	)
+	(wire
+		(pts
 			(xy 172.72 353.06) (xy 166.37 353.06)
 		)
 		(stroke
@@ -12416,6 +12500,16 @@
 			(type default)
 		)
 		(uuid "3d4e557d-561e-4fe8-abd7-d549eb2d3638")
+	)
+	(wire
+		(pts
+			(xy 35.56 293.37) (xy 35.56 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d585e9a-443c-4d18-8990-facc6c8cad2c")
 	)
 	(wire
 		(pts
@@ -12756,6 +12850,16 @@
 			(type default)
 		)
 		(uuid "4ae80336-9c5d-4ffe-9ae9-fcf3df33b51a")
+	)
+	(wire
+		(pts
+			(xy 35.56 102.87) (xy 35.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1f6b53-2f55-46ce-bb63-1789a2f80bc7")
 	)
 	(wire
 		(pts
@@ -13136,6 +13240,16 @@
 			(type default)
 		)
 		(uuid "5d5462ca-30a9-4c8d-9cfe-11c7a53dcb67")
+	)
+	(wire
+		(pts
+			(xy 35.56 295.91) (xy 35.56 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e46f1aa-5e74-480f-b223-97859a0e519d")
 	)
 	(wire
 		(pts
@@ -14249,6 +14363,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 114.3) (xy 35.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f90f67-ea1e-4d40-b7d4-c3a4deb9d2b6")
+	)
+	(wire
+		(pts
 			(xy 52.07 292.1) (xy 52.07 304.8)
 		)
 		(stroke
@@ -14436,6 +14560,16 @@
 			(type default)
 		)
 		(uuid "8d6c5803-d1de-4114-84db-852d8721e152")
+	)
+	(wire
+		(pts
+			(xy 29.21 294.64) (xy 35.56 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df48a97-1c17-465c-99a2-67cbd6c05e5b")
 	)
 	(wire
 		(pts
@@ -15569,6 +15703,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 93.98) (xy 35.56 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49c7ee6-699d-4d40-b055-c2bc42121284")
+	)
+	(wire
+		(pts
 			(xy 309.88 336.55) (xy 312.42 336.55)
 		)
 		(stroke
@@ -16039,6 +16183,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 104.14) (xy 35.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c528bb47-7194-4a62-aa70-5ec638be38f3")
+	)
+	(wire
+		(pts
 			(xy 62.23 53.34) (xy 54.61 53.34)
 		)
 		(stroke
@@ -16439,6 +16593,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 104.14) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b76c7c-6e40-4baf-a2db-0905958be162")
+	)
+	(wire
+		(pts
 			(xy 246.38 340.36) (xy 247.65 340.36)
 		)
 		(stroke
@@ -16619,6 +16783,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 284.48) (xy 35.56 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe55eaf-6efa-472a-ae1e-85b071c297f1")
+	)
+	(wire
+		(pts
 			(xy 166.37 162.56) (xy 166.37 172.72)
 		)
 		(stroke
@@ -16656,6 +16830,16 @@
 			(type default)
 		)
 		(uuid "dcfd7f3e-9174-4380-8147-6b5178de4832")
+	)
+	(wire
+		(pts
+			(xy 35.56 294.64) (xy 46.99 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd241200-ee0f-47b8-b4ba-b6da3dac5372")
 	)
 	(wire
 		(pts
@@ -16916,6 +17100,16 @@
 			(type default)
 		)
 		(uuid "e6c0a5ef-49cc-4467-944c-fe76174301bb")
+	)
+	(wire
+		(pts
+			(xy 35.56 304.8) (xy 35.56 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cb087a-47b6-49be-bf0d-d8ea21881889")
 	)
 	(wire
 		(pts
@@ -18049,6 +18243,17 @@
 		)
 		(uuid "018e5c04-a2e9-441e-baec-cd464471fd25")
 	)
+	(hierarchical_label "XLR_IND_1"
+		(shape output)
+		(at 29.21 294.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1077cfa3-9c3c-4be7-a9b0-85352a384abc")
+	)
 	(hierarchical_label "DIN"
 		(shape input)
 		(at 461.01 85.09 0)
@@ -18059,6 +18264,17 @@
 			(justify left)
 		)
 		(uuid "108315f7-cc93-4c52-8949-00bdec8bfff7")
+	)
+	(hierarchical_label "XLR_IND_1"
+		(shape output)
+		(at 29.21 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a1c0b86-bbf6-4805-abef-354bbc58a91f")
 	)
 	(hierarchical_label "OUT_1_P"
 		(shape output)
@@ -18292,143 +18508,6 @@
 		(uuid "eff0ab8e-12ab-4773-a62c-b64c6bf43e5b")
 	)
 	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
-		(at 52.07 284.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01208da8-6038-43f3-9e9b-01cf2a2badf8")
-		(property "Reference" "J2"
-			(at 52.07 274.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_2"
-			(at 52.07 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 52.07 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "d8e83184-5461-4e28-b845-f51dab91cdc7")
-		)
-		(pin "SN"
-			(uuid "ef440f62-ced2-42e8-8704-01a6edde57a2")
-		)
-		(pin "S"
-			(uuid "c92db45c-c2f5-464b-ace2-a3583932801a")
-		)
-		(pin "RN"
-			(uuid "8ffec8a6-5064-49b8-9ab5-3a538e6292a3")
-		)
-		(pin "R"
-			(uuid "ba95c3d0-5cbe-49b1-b3a1-7c8140b70d56")
-		)
-		(pin "G"
-			(uuid "8d7b00a7-15ae-4ae2-8244-9c7d65f0494e")
-		)
-		(pin "3"
-			(uuid "6a9b6694-c481-4840-b439-55583ce7954b")
-		)
-		(pin "2"
-			(uuid "6774a087-3a41-44cd-a9fd-f504b97dd36c")
-		)
-		(pin "1"
-			(uuid "c8cc1709-9c65-49e4-a701-bf45d40474f8")
-		)
-		(pin "TN"
-			(uuid "6c11fd83-9e7d-44f8-8e96-9724e51a9b2c")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
 		(at 212.09 274.32 0)
 		(unit 1)
@@ -18654,7 +18733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 276.86 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -19141,7 +19220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 193.04 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -19235,6 +19314,120 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "091bf89e-1473-4903-bb6c-f969ed807823")
+		(property "Reference" "C57"
+			(at 32.512 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 32.512 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 36.5252 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 35.56 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c858136f-2e35-40eb-9fec-48f610932bee")
+		)
+		(pin "1"
+			(uuid "8f3161bc-6a5e-48bd-9f97-8628a0b0a16c")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -20262,7 +20455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 199.39 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -22085,143 +22278,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
-		(at 53.34 345.44 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19990a00-6dc9-4b66-8975-35730f39f841")
-		(property "Reference" "J2"
-			(at 51.435 334.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_2"
-			(at 51.435 336.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 53.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "T"
-			(uuid "d8e83184-5461-4e28-b845-f51dab91cdc8")
-		)
-		(pin "SN"
-			(uuid "ef440f62-ced2-42e8-8704-01a6edde57a3")
-		)
-		(pin "S"
-			(uuid "c92db45c-c2f5-464b-ace2-a3583932801b")
-		)
-		(pin "RN"
-			(uuid "8ffec8a6-5064-49b8-9ab5-3a538e6292a4")
-		)
-		(pin "R"
-			(uuid "ba95c3d0-5cbe-49b1-b3a1-7c8140b70d57")
-		)
-		(pin "G"
-			(uuid "8d7b00a7-15ae-4ae2-8244-9c7d65f0494f")
-		)
-		(pin "3"
-			(uuid "6a9b6694-c481-4840-b439-55583ce7954c")
-		)
-		(pin "2"
-			(uuid "6774a087-3a41-44cd-a9fd-f504b97dd36d")
-		)
-		(pin "1"
-			(uuid "c8cc1709-9c65-49e4-a701-bf45d40474f9")
-		)
-		(pin "TN"
-			(uuid "6c11fd83-9e7d-44f8-8e96-9724e51a9b2d")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "openmic:DG1413_TSSOP")
 		(at 137.16 170.18 0)
 		(unit 4)
@@ -22252,7 +22308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 137.16 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -22407,7 +22463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 238.76 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -22674,7 +22730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 359.41 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -24832,6 +24888,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 35.56 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2993e1bd-ea2a-4471-affd-767090962229")
+		(property "Reference" "#PWR066"
+			(at 35.56 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7fcfa1d-694a-4e88-9e29-ab3ca3ef815f")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAV99")
 		(at 133.35 299.72 0)
 		(unit 1)
@@ -25600,6 +25734,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:NCJ10FI-H-0")
+		(at 53.34 154.94 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a0d980-ab91-4ace-9a30-923e7a07e71f")
+		(property "Reference" "J3"
+			(at 51.435 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCJ10FI-H-0"
+			(at 51.435 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-H-0_Horizontal"
+			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/ncj10fi-h-0"
+			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) switching stereo jack and switching ground contact, horizontal PCB mount"
+			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "44f101d5-7ce0-4a4a-9581-374fe1d0992a")
+		)
+		(pin "G"
+			(uuid "77878ff9-6a12-4ec3-a15f-33e9c789c805")
+		)
+		(pin "3"
+			(uuid "505bf7ce-c71b-41aa-a9cc-07b41c6482fc")
+		)
+		(pin "2"
+			(uuid "9699e6a6-7bce-4344-9b47-262511cef301")
+		)
+		(pin "GN"
+			(uuid "7a34292f-a854-4f75-b2a4-4b02ed26511d")
+		)
+		(pin "RN"
+			(uuid "347e662a-6d4b-45ce-973c-6e872b80cb39")
+		)
+		(pin "R"
+			(uuid "67ecd5d3-171c-4648-85f1-9b92377e4de6")
+		)
+		(pin "S"
+			(uuid "29794584-f770-4d01-86cc-7efbcebf6fd2")
+		)
+		(pin "1"
+			(uuid "c2e505e6-4178-45c4-8255-42e287d4c3b9")
+		)
+		(pin "SN"
+			(uuid "112959c0-f6f0-4e99-b795-ad919b390dc0")
+		)
+		(pin "T"
+			(uuid "a23e1541-71f4-43b7-a540-3215266ccfd9")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 189.23 46.99 0)
 		(unit 1)
@@ -25904,7 +26145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 346.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26793,7 +27034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 359.41 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -27447,7 +27688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 298.45 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -27718,7 +27959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 346.71 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -27949,7 +28190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 115.57 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -29796,7 +30037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 359.41 368.3 0)
 			(hide yes)
 			(show_name no)
@@ -30178,7 +30419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 276.86 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -32033,7 +32274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 137.16 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -32462,6 +32703,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 35.56 304.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eac5a71-0b00-42c5-b38c-ae0be53b6554")
+		(property "Reference" "#PWR0279"
+			(at 35.56 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 35.56 309.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 35.56 304.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdeb7d8d-54de-4bd2-b901-317adf9d4abf")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 172.72 332.74 90)
 		(unit 1)
@@ -32683,7 +33002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 355.6 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -33448,7 +33767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 281.94 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -34199,143 +34518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
-		(at 52.07 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67ddb87e-2684-4cc4-9ea7-6894d26e80a1")
-		(property "Reference" "J1"
-			(at 52.07 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_1"
-			(at 52.07 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 52.07 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "SN"
-			(uuid "2bcff423-cb87-4c91-b91d-5c14967e3e68")
-		)
-		(pin "R"
-			(uuid "22eb3336-19b1-46a0-a698-508d0cc14028")
-		)
-		(pin "3"
-			(uuid "9b4ebaf9-9701-4d90-a2fd-8a928f150a8d")
-		)
-		(pin "RN"
-			(uuid "18f6ddbd-5c26-4174-aabf-3045bb3a267b")
-		)
-		(pin "1"
-			(uuid "55ee45c6-b45c-489f-b6e5-d16674727d63")
-		)
-		(pin "2"
-			(uuid "f407ba26-3b60-4544-81ee-301edc427a84")
-		)
-		(pin "G"
-			(uuid "ba63f2f3-cc81-4c35-bada-9ce4f54e67c1")
-		)
-		(pin "S"
-			(uuid "4e89bc10-6ff6-4f73-9673-023ee80235fc")
-		)
-		(pin "TN"
-			(uuid "1e6b932b-de56-4d3a-9e88-9b6da35480c3")
-		)
-		(pin "T"
-			(uuid "ae8f8095-4fd7-4f9e-a1fb-96b9006cde03")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 217.17 64.77 90)
 		(mirror x)
@@ -34559,7 +34741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 359.41 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -36033,7 +36215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 279.4 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -37249,7 +37431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 199.39 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -37537,7 +37719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 199.39 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -37713,7 +37895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 217.17 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -37944,7 +38126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 115.57 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -38637,7 +38819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 137.16 383.54 0)
 			(hide yes)
 			(show_name no)
@@ -39828,6 +40010,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 35.56 299.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f6670f7-3bf4-40df-b2ca-19e6f0ef8d6c")
+		(property "Reference" "C65"
+			(at 32.512 298.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 32.512 301.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 36.5252 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 35.56 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4844b15f-9469-4ea3-89ee-38fb881b0494")
+		)
+		(pin "1"
+			(uuid "11296a2b-66c8-462c-8eee-08f3da73cd9e")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA1612AxD")
 		(at 327.66 154.94 0)
 		(unit 2)
@@ -39858,7 +40154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 327.66 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -40030,6 +40326,84 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 35.56 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fded9f3-c9b1-4542-806d-743fb6e9a2f0")
+		(property "Reference" "#PWR064"
+			(at 35.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 35.56 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 35.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ee03842-4fd5-403f-b21c-e3ea38ee8fa3")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -41072,7 +41446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 303.53 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -42085,6 +42459,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 35.56 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f4371eb-c514-4b51-9b78-6ceaa4456afb")
+		(property "Reference" "R32"
+			(at 33.782 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47k"
+			(at 33.782 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 36.576 99.314 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 35.56 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c53fd7d5-f01d-4539-8614-604f86c83406")
+		)
+		(pin "2"
+			(uuid "b8ac8a6c-3051-49b5-adb9-1ac4bcffd38b")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 220.98 68.58 0)
 		(unit 1)
@@ -42194,7 +42682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 252.73 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -43120,7 +43608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 355.6 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -43623,7 +44111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 115.57 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -44320,6 +44808,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:NCJ10FI-H-0")
+		(at 52.07 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abecf86c-c87a-4408-b2a5-95306951ba01")
+		(property "Reference" "J4"
+			(at 52.07 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCJ10FI-H-0"
+			(at 52.07 276.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-H-0_Horizontal"
+			(at 52.07 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/ncj10fi-h-0"
+			(at 52.07 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) switching stereo jack and switching ground contact, horizontal PCB mount"
+			(at 52.07 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dae6c5b3-d6bb-4116-8c72-a5bca2bccda4")
+		)
+		(pin "1"
+			(uuid "7ef3218f-c5ef-4543-aa1e-f2021908c67b")
+		)
+		(pin "RN"
+			(uuid "c66aee1c-35c7-4104-800e-ef82a95aa606")
+		)
+		(pin "3"
+			(uuid "c9d432c7-4f13-4447-b2c9-abdf050e59a0")
+		)
+		(pin "SN"
+			(uuid "b3535587-87e9-4a94-95e5-1c6398a53078")
+		)
+		(pin "S"
+			(uuid "dcfd6f97-aaeb-49cc-913e-f13d0cf1bed6")
+		)
+		(pin "GN"
+			(uuid "851397a4-c1f2-42be-b916-267bf263e5b0")
+		)
+		(pin "G"
+			(uuid "bf87b1e0-f640-4da3-a2d3-4ce3d5ba0cd7")
+		)
+		(pin "R"
+			(uuid "01e3c0d5-67aa-47f3-8266-18139794f319")
+		)
+		(pin "T"
+			(uuid "c898c173-54c0-4b1d-9045-b1e114340a2b")
+		)
+		(pin "TN"
+			(uuid "156e57ea-9852-4f14-b2a8-6999502e3e3e")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 374.65 368.3 90)
 		(unit 1)
@@ -44543,7 +45138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 312.42 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -45275,7 +45870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 332.74 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -45861,7 +46456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 391.16 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -46678,6 +47273,84 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 35.56 284.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfe7589d-74fe-4488-abc4-e004e269199d")
+		(property "Reference" "#PWR0278"
+			(at 35.56 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 35.56 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c383ebb9-cecc-4a1b-990b-2d6d911689b6")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "#PWR0278")
 					(unit 1)
 				)
 			)
@@ -47638,7 +48311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 217.17 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -48097,7 +48770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 193.04 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -48230,7 +48903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 281.94 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -49730,6 +50403,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:NCJ10FI-H-0")
+		(at 52.07 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfe2e3cc-f5f5-4d70-9266-64ff81cd6b66")
+		(property "Reference" "J3"
+			(at 52.07 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCJ10FI-H-0"
+			(at 52.07 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-H-0_Horizontal"
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/ncj10fi-h-0"
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) switching stereo jack and switching ground contact, horizontal PCB mount"
+			(at 52.07 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "44f101d5-7ce0-4a4a-9581-374fe1d0992a")
+		)
+		(pin "G"
+			(uuid "77878ff9-6a12-4ec3-a15f-33e9c789c805")
+		)
+		(pin "3"
+			(uuid "505bf7ce-c71b-41aa-a9cc-07b41c6482fc")
+		)
+		(pin "2"
+			(uuid "9699e6a6-7bce-4344-9b47-262511cef301")
+		)
+		(pin "GN"
+			(uuid "7a34292f-a854-4f75-b2a4-4b02ed26511d")
+		)
+		(pin "RN"
+			(uuid "347e662a-6d4b-45ce-973c-6e872b80cb39")
+		)
+		(pin "R"
+			(uuid "67ecd5d3-171c-4648-85f1-9b92377e4de6")
+		)
+		(pin "S"
+			(uuid "29794584-f770-4d01-86cc-7efbcebf6fd2")
+		)
+		(pin "1"
+			(uuid "c2e505e6-4178-45c4-8255-42e287d4c3b9")
+		)
+		(pin "SN"
+			(uuid "112959c0-f6f0-4e99-b795-ad919b390dc0")
+		)
+		(pin "T"
+			(uuid "a23e1541-71f4-43b7-a540-3215266ccfd9")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 52.07 220.98 0)
 		(unit 1)
@@ -49917,7 +50697,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 233.68 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -50188,7 +50968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 383.54 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -50725,6 +51505,120 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 35.56 289.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4398054-f10f-4768-b60d-4c4d4a2a4931")
+		(property "Reference" "R58"
+			(at 33.782 288.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47k"
+			(at 33.782 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 36.576 289.814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 35.56 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 35.56 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 35.56 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 35.56 289.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3740089c-b1f7-4a35-8c3a-5028c6f79ef6")
+		)
+		(pin "2"
+			(uuid "48020252-ee50-48d8-a34b-f3cdf9da8aba")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -51268,7 +52162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 247.65 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -51697,143 +52591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground_Switch")
-		(at 53.34 154.94 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd9175d9-06c3-4940-b234-c659e65e7f5c")
-		(property "Reference" "J1"
-			(at 51.435 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN_1"
-			(at 51.435 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin"
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "SN"
-			(uuid "2bcff423-cb87-4c91-b91d-5c14967e3e69")
-		)
-		(pin "R"
-			(uuid "22eb3336-19b1-46a0-a698-508d0cc14029")
-		)
-		(pin "3"
-			(uuid "9b4ebaf9-9701-4d90-a2fd-8a928f150a8e")
-		)
-		(pin "RN"
-			(uuid "18f6ddbd-5c26-4174-aabf-3045bb3a267c")
-		)
-		(pin "1"
-			(uuid "55ee45c6-b45c-489f-b6e5-d16674727d64")
-		)
-		(pin "2"
-			(uuid "f407ba26-3b60-4544-81ee-301edc427a85")
-		)
-		(pin "G"
-			(uuid "ba63f2f3-cc81-4c35-bada-9ce4f54e67c2")
-		)
-		(pin "S"
-			(uuid "4e89bc10-6ff6-4f73-9673-023ee80235fd")
-		)
-		(pin "TN"
-			(uuid "1e6b932b-de56-4d3a-9e88-9b6da35480c4")
-		)
-		(pin "T"
-			(uuid "ae8f8095-4fd7-4f9e-a1fb-96b9006cde04")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
-					(reference "J1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-15V")
 		(at 210.82 68.58 180)
 		(unit 1)
@@ -52057,7 +52814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 222.25 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -52748,7 +53505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 355.6 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -53330,7 +54087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 222.25 386.08 0)
 			(hide yes)
 			(show_name no)
@@ -54066,7 +54823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 281.94 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -55196,7 +55953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 394.97 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -55293,6 +56050,113 @@
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
 					(reference "U9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:NCJ10FI-H-0")
+		(at 53.34 345.44 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1f1d308-2bb6-4ad7-8680-e498144422c9")
+		(property "Reference" "J4"
+			(at 51.435 334.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCJ10FI-H-0"
+			(at 51.435 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ10FI-H-0_Horizontal"
+			(at 53.34 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/ncj10fi-h-0"
+			(at 53.34 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Combo I series, 3 pole XLR female receptacle with 6.35mm (1/4in) switching stereo jack and switching ground contact, horizontal PCB mount"
+			(at 53.34 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dae6c5b3-d6bb-4116-8c72-a5bca2bccda4")
+		)
+		(pin "1"
+			(uuid "7ef3218f-c5ef-4543-aa1e-f2021908c67b")
+		)
+		(pin "RN"
+			(uuid "c66aee1c-35c7-4104-800e-ef82a95aa606")
+		)
+		(pin "3"
+			(uuid "c9d432c7-4f13-4447-b2c9-abdf050e59a0")
+		)
+		(pin "SN"
+			(uuid "b3535587-87e9-4a94-95e5-1c6398a53078")
+		)
+		(pin "S"
+			(uuid "dcfd6f97-aaeb-49cc-913e-f13d0cf1bed6")
+		)
+		(pin "GN"
+			(uuid "851397a4-c1f2-42be-b916-267bf263e5b0")
+		)
+		(pin "G"
+			(uuid "bf87b1e0-f640-4da3-a2d3-4ce3d5ba0cd7")
+		)
+		(pin "R"
+			(uuid "01e3c0d5-67aa-47f3-8266-18139794f319")
+		)
+		(pin "T"
+			(uuid "c898c173-54c0-4b1d-9045-b1e114340a2b")
+		)
+		(pin "TN"
+			(uuid "156e57ea-9852-4f14-b2a8-6999502e3e3e")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/305fc275-c4c3-417f-b998-113f7e74be2d"
+					(reference "J4")
+					(unit 2)
 				)
 			)
 		)
@@ -56102,7 +56966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 289.56 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -56563,7 +57427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 137.16 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -56718,7 +57582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 284.48 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -56872,7 +57736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 115.57 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -57182,7 +58046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 355.6 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -57800,7 +58664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 308.61 100.33 0)
 			(hide yes)
 			(show_name no)

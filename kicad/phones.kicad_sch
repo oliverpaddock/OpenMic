@@ -604,7 +604,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack3_Switch"
+		(symbol "Connector_Audio:NMJ6HHD2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(property "Value" "AudioJack3_Switch"
+			(property "Value" "NMJ6HHD2"
 				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -630,7 +630,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HHD2_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -641,7 +641,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hhd2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -652,7 +652,7 @@
 					)
 				)
 			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with half threaded nose and offset PCB pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -663,7 +663,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones connector"
+			(property "ki_keywords" "audio jack receptacle stereo headphones connector neutrik"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -685,7 +685,7 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_Switch_0_1"
+			(symbol "NMJ6HHD2_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end -6.35 -7.62)
@@ -817,7 +817,7 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_Switch_1_1"
+			(symbol "NMJ6HHD2_1_1"
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -5401,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6267,7 +6267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 81.28 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7963,7 +7963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10786,133 +10786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3_Switch")
-		(at 154.94 92.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1705f57-9e92-47b2-bbbb-e3417a9571f1")
-		(property "Reference" "J5"
-			(at 162.56 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack3_Switch"
-			(at 162.56 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 154.94 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "SN"
-			(uuid "828a7a51-8da3-4ff7-a829-0036825bb8cb")
-		)
-		(pin "S"
-			(uuid "fb71300d-f751-4e4f-862a-f608eec43bc6")
-		)
-		(pin "R"
-			(uuid "2f17b8b1-8e6b-407d-9f3e-cddfa410ff03")
-		)
-		(pin "TN"
-			(uuid "9e39d52e-c2ea-42ef-8703-b9a567b3018c")
-		)
-		(pin "T"
-			(uuid "fa058025-ed9d-4c18-9825-fe0edd6f1c1c")
-		)
-		(pin "RN"
-			(uuid "c06ae456-cf92-4233-b519-fcb0bdd35190")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 243.84 99.06 90)
 		(unit 1)
@@ -11907,6 +11780,100 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
 					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:NMJ6HHD2")
+		(at 154.94 92.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff05fd5c-0d59-450c-a945-3427c10a41d5")
+		(property "Reference" "J8"
+			(at 162.56 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NMJ6HHD2"
+			(at 162.56 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HHD2_Horizontal"
+			(at 154.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hhd2"
+			(at 154.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with half threaded nose and offset PCB pins"
+			(at 154.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "TN"
+			(uuid "01faacc2-ce2c-49c1-8924-4195e57cd2e5")
+		)
+		(pin "SN"
+			(uuid "76d5ae8b-afd8-4f4d-890f-2ce5236d4e26")
+		)
+		(pin "S"
+			(uuid "fde6ba00-30c9-4361-83f3-a0bac1e8e0c9")
+		)
+		(pin "T"
+			(uuid "4eba620d-2459-46f2-b220-f063139664ad")
+		)
+		(pin "R"
+			(uuid "9f42d6d9-a4c6-45dd-840f-12368b833da5")
+		)
+		(pin "RN"
+			(uuid "8599bf0a-ac1f-4758-8b64-7bbdb7ce4382")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/05cfbb15-a0d0-49ca-bcdf-c51b9947646b"
+					(reference "J8")
 					(unit 1)
 				)
 			)

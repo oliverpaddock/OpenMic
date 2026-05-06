@@ -5,7 +5,7 @@
 	(uuid "aebfbd8b-31c7-418b-8495-01c0c65372c9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Audio:AudioJack3_Switch"
+		(symbol "Connector_Audio:NSJ12HC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "AudioJack3_Switch"
+			(property "Value" "NSJ12HC"
 				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -31,7 +31,29 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HC_Horizontal"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.neutrik.com/en/product/nsj12hc"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Stacking Jacks, Stereo dual jack, full nose"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,29 +64,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones connector"
+			(property "ki_keywords" "audio jack dual receptacle stereo headphones phones TRS connector neutrik"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,10 +86,10 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_Switch_0_1"
+			(symbol "NSJ12HC_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -7.62)
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -100,7 +100,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+						(xy -3.175 -5.08) (xy -2.54 -5.715) (xy -1.905 -5.08) (xy -1.905 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -112,7 +112,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.826) (xy -1.016 4.318)
+						(xy -2.54 4.826) (xy -2.286 4.318)
 					)
 					(stroke
 						(width 0)
@@ -124,7 +124,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+						(xy -1.27 -5.08) (xy -0.635 -5.715) (xy 0 -5.08) (xy 1.27 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -136,7 +136,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 -0.254) (xy 0.762 -0.762)
+						(xy -0.762 -0.254) (xy -0.508 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -148,7 +148,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -5.334) (xy 2.032 -5.842)
+						(xy 0.508 -5.334) (xy 0.762 -5.842)
 					)
 					(stroke
 						(width 0)
@@ -159,8 +159,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 6.35)
-					(end -5.08 -8.89)
+					(start 1.27 6.35)
+					(end -6.35 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -171,7 +171,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 5.08) (xy -2.54 5.08) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+						(xy 1.27 5.08) (xy -3.81 5.08) (xy -3.81 -5.08) (xy -4.445 -5.715) (xy -5.08 -5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -183,7 +183,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -1.27 2.54) (xy -1.27 4.826) (xy -1.524 4.318)
+						(xy 1.27 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -195,7 +195,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+						(xy 2.54 5.08) (xy 1.27 5.08)
 					)
 					(stroke
 						(width 0)
@@ -207,7 +207,43 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 4.826) (xy -2.794 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -0.762 -2.54) (xy -0.762 -0.254) (xy -1.016 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 0.508 -7.62) (xy 0.508 -5.334) (xy 0.254 -5.842)
 					)
 					(stroke
 						(width 0)
@@ -218,7 +254,25 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_Switch_1_1"
+			(symbol "NSJ12HC_1_1"
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
@@ -229,7 +283,7 @@
 							)
 						)
 					)
-					(number "R"
+					(number "R1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -247,7 +301,7 @@
 							)
 						)
 					)
-					(number "RN"
+					(number "RN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -265,7 +319,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -283,7 +337,7 @@
 							)
 						)
 					)
-					(number "SN"
+					(number "SN1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -301,7 +355,7 @@
 							)
 						)
 					)
-					(number "T"
+					(number "T1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -319,7 +373,117 @@
 							)
 						)
 					)
-					(number "TN"
+					(number "TN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NSJ12HC_2_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2891,6 +3055,157 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:Earth"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5615,133 +5930,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3_Switch")
-		(at 148.59 153.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1157966d-b0dc-4e8f-9779-6ad1fc8dc629")
-		(property "Reference" "J4"
-			(at 146.304 168.148 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LINE_OUT_R"
-			(at 146.304 165.608 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
-			(at 148.59 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 148.59 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 148.59 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 148.59 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "SN"
-			(uuid "c42249a8-b623-4a44-9a37-56d63995b203")
-		)
-		(pin "S"
-			(uuid "99753d00-acf2-445d-91ff-9be81f49c85e")
-		)
-		(pin "R"
-			(uuid "4acab486-5242-4945-a1bc-0b26a8d2e685")
-		)
-		(pin "TN"
-			(uuid "95e4ccc9-82b5-4e99-9869-3a5cda69b906")
-		)
-		(pin "T"
-			(uuid "59e3da03-5982-425e-a5c8-e995d3822c18")
-		)
-		(pin "RN"
-			(uuid "b117663d-ed88-4bf3-8c58-35c013c23a8a")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 106.68 113.03 270)
 		(mirror x)
@@ -6422,7 +6610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 113.03 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6596,6 +6784,122 @@
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
 					(reference "#PWR0241")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:NSJ12HC")
+		(at 148.59 153.67 0)
+		(mirror y)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "244c488a-fe22-4600-a413-0ad4fae9e12b")
+		(property "Reference" "J5"
+			(at 157.48 154.3049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NSJ12HC"
+			(at 157.48 156.8449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HC_Horizontal"
+			(at 149.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nsj12hc"
+			(at 149.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Stacking Jacks, Stereo dual jack, full nose"
+			(at 148.59 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "RN2"
+			(uuid "e1fe1638-841a-47df-aa50-00c197546859")
+		)
+		(pin "R2"
+			(uuid "13b239c1-1b5c-4337-b2b4-cbe32d9c0f32")
+		)
+		(pin "SN1"
+			(uuid "1315d919-3cbf-41ae-b97d-8b4d025e1216")
+		)
+		(pin "R1"
+			(uuid "80d9c02a-ee6e-44c2-bcf4-fdccfb4af18e")
+		)
+		(pin "G"
+			(uuid "17790f3c-acba-4b96-9dbb-35fe96ec3055")
+		)
+		(pin "TN2"
+			(uuid "c50e6087-c6e1-47c9-a0b2-834543e5ed5a")
+		)
+		(pin "S2"
+			(uuid "bda8b28e-cf06-4871-8ed3-7bd058e9b5ee")
+		)
+		(pin "S1"
+			(uuid "bc00f815-82f3-40a0-bae2-9cbe15444cea")
+		)
+		(pin "RN1"
+			(uuid "e4525bae-add1-4f1b-a504-59f347a45d39")
+		)
+		(pin "T1"
+			(uuid "4273c0fb-3e3a-4ed7-b5e4-66e3a321e709")
+		)
+		(pin "SN2"
+			(uuid "23afb36d-bfda-4526-87af-db0b366ae445")
+		)
+		(pin "TN1"
+			(uuid "3ae8fb3e-2d29-44a3-92ed-a47b85e88eb5")
+		)
+		(pin "T2"
+			(uuid "a565a563-2fcd-4f13-b6e7-4ad34048ac0e")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
+					(reference "J5")
+					(unit 2)
 				)
 			)
 		)
@@ -7448,7 +7752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10333,6 +10637,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 148.59 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a07b4864-9be4-4ba1-98d0-9b62ed5f59ee")
+		(property "Reference" "#PWR05"
+			(at 148.59 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 148.59 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dfc630e-9ce1-470f-9fc7-a04f21755995")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 243.84 43.18 0)
 		(unit 1)
@@ -10950,6 +11332,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:NSJ12HC")
+		(at 148.59 92.71 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4e87cf1-350d-43bc-9d8a-8324a4d64023")
+		(property "Reference" "J5"
+			(at 157.226 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NSJ12HC"
+			(at 157.226 105.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NSJ12HC_Horizontal"
+			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nsj12hc"
+			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Stacking Jacks, Stereo dual jack, full nose"
+			(at 148.59 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "RN2"
+			(uuid "e1fe1638-841a-47df-aa50-00c197546859")
+		)
+		(pin "R2"
+			(uuid "13b239c1-1b5c-4337-b2b4-cbe32d9c0f32")
+		)
+		(pin "SN1"
+			(uuid "1315d919-3cbf-41ae-b97d-8b4d025e1216")
+		)
+		(pin "R1"
+			(uuid "80d9c02a-ee6e-44c2-bcf4-fdccfb4af18e")
+		)
+		(pin "G"
+			(uuid "17790f3c-acba-4b96-9dbb-35fe96ec3055")
+		)
+		(pin "TN2"
+			(uuid "c50e6087-c6e1-47c9-a0b2-834543e5ed5a")
+		)
+		(pin "S2"
+			(uuid "bda8b28e-cf06-4871-8ed3-7bd058e9b5ee")
+		)
+		(pin "S1"
+			(uuid "bc00f815-82f3-40a0-bae2-9cbe15444cea")
+		)
+		(pin "RN1"
+			(uuid "e4525bae-add1-4f1b-a504-59f347a45d39")
+		)
+		(pin "T1"
+			(uuid "4273c0fb-3e3a-4ed7-b5e4-66e3a321e709")
+		)
+		(pin "SN2"
+			(uuid "23afb36d-bfda-4526-87af-db0b366ae445")
+		)
+		(pin "TN1"
+			(uuid "3ae8fb3e-2d29-44a3-92ed-a47b85e88eb5")
+		)
+		(pin "T2"
+			(uuid "a565a563-2fcd-4f13-b6e7-4ad34048ac0e")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:CSD13380F3")
 		(at 90.17 151.13 0)
 		(unit 1)
@@ -11064,133 +11561,6 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3_Switch")
-		(at 148.59 92.71 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8db92db-4d28-4ebd-9418-cd3297c5f1b1")
-		(property "Reference" "J3"
-			(at 145.796 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LINE_OUT_L"
-			(at 145.796 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
-			(at 148.59 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 148.59 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 148.59 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 148.59 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "SN"
-			(uuid "b20bcda9-0573-4f3e-99ab-498c02ca8fbd")
-		)
-		(pin "S"
-			(uuid "139a0d3f-48c3-4a26-a549-9b5f7d1d1eaf")
-		)
-		(pin "R"
-			(uuid "d48de814-eb6d-42b1-9d91-7681f86d904a")
-		)
-		(pin "TN"
-			(uuid "52764e00-277e-470a-87eb-888ec0df9c64")
-		)
-		(pin "T"
-			(uuid "8be3c978-f162-4b0c-a494-fa63168aa1b1")
-		)
-		(pin "RN"
-			(uuid "8b453d57-483d-4279-a050-30168b0a04ce")
-		)
-		(instances
-			(project "openmic"
-				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/7a7e9668-71cc-4187-873e-ab8d61f232c2"
-					(reference "J3")
 					(unit 1)
 				)
 			)
