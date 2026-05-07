@@ -23963,7 +23963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "openmic:VSSOP-24"
 			(at 448.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -50468,37 +50468,37 @@
 			)
 		)
 		(pin "TN"
-			(uuid "44f101d5-7ce0-4a4a-9581-374fe1d0992a")
+			(uuid "44f101d5-7ce0-4a4a-9581-374fe1d0992b")
 		)
 		(pin "G"
-			(uuid "77878ff9-6a12-4ec3-a15f-33e9c789c805")
+			(uuid "77878ff9-6a12-4ec3-a15f-33e9c789c806")
 		)
 		(pin "3"
-			(uuid "505bf7ce-c71b-41aa-a9cc-07b41c6482fc")
+			(uuid "505bf7ce-c71b-41aa-a9cc-07b41c6482fd")
 		)
 		(pin "2"
-			(uuid "9699e6a6-7bce-4344-9b47-262511cef301")
+			(uuid "9699e6a6-7bce-4344-9b47-262511cef302")
 		)
 		(pin "GN"
-			(uuid "7a34292f-a854-4f75-b2a4-4b02ed26511d")
+			(uuid "7a34292f-a854-4f75-b2a4-4b02ed26511e")
 		)
 		(pin "RN"
-			(uuid "347e662a-6d4b-45ce-973c-6e872b80cb39")
+			(uuid "347e662a-6d4b-45ce-973c-6e872b80cb3a")
 		)
 		(pin "R"
-			(uuid "67ecd5d3-171c-4648-85f1-9b92377e4de6")
+			(uuid "67ecd5d3-171c-4648-85f1-9b92377e4de7")
 		)
 		(pin "S"
-			(uuid "29794584-f770-4d01-86cc-7efbcebf6fd2")
+			(uuid "29794584-f770-4d01-86cc-7efbcebf6fd3")
 		)
 		(pin "1"
-			(uuid "c2e505e6-4178-45c4-8255-42e287d4c3b9")
+			(uuid "c2e505e6-4178-45c4-8255-42e287d4c3ba")
 		)
 		(pin "SN"
-			(uuid "112959c0-f6f0-4e99-b795-ad919b390dc0")
+			(uuid "112959c0-f6f0-4e99-b795-ad919b390dc1")
 		)
 		(pin "T"
-			(uuid "a23e1541-71f4-43b7-a540-3215266ccfd9")
+			(uuid "a23e1541-71f4-43b7-a540-3215266ccfda")
 		)
 		(instances
 			(project "openmic"
@@ -56120,37 +56120,37 @@
 			)
 		)
 		(pin "2"
-			(uuid "dae6c5b3-d6bb-4116-8c72-a5bca2bccda4")
+			(uuid "dae6c5b3-d6bb-4116-8c72-a5bca2bccda5")
 		)
 		(pin "1"
-			(uuid "7ef3218f-c5ef-4543-aa1e-f2021908c67b")
+			(uuid "7ef3218f-c5ef-4543-aa1e-f2021908c67c")
 		)
 		(pin "RN"
-			(uuid "c66aee1c-35c7-4104-800e-ef82a95aa606")
+			(uuid "c66aee1c-35c7-4104-800e-ef82a95aa607")
 		)
 		(pin "3"
-			(uuid "c9d432c7-4f13-4447-b2c9-abdf050e59a0")
+			(uuid "c9d432c7-4f13-4447-b2c9-abdf050e59a1")
 		)
 		(pin "SN"
-			(uuid "b3535587-87e9-4a94-95e5-1c6398a53078")
+			(uuid "b3535587-87e9-4a94-95e5-1c6398a53079")
 		)
 		(pin "S"
-			(uuid "dcfd6f97-aaeb-49cc-913e-f13d0cf1bed6")
+			(uuid "dcfd6f97-aaeb-49cc-913e-f13d0cf1bed7")
 		)
 		(pin "GN"
-			(uuid "851397a4-c1f2-42be-b916-267bf263e5b0")
+			(uuid "851397a4-c1f2-42be-b916-267bf263e5b1")
 		)
 		(pin "G"
-			(uuid "bf87b1e0-f640-4da3-a2d3-4ce3d5ba0cd7")
+			(uuid "bf87b1e0-f640-4da3-a2d3-4ce3d5ba0cd8")
 		)
 		(pin "R"
-			(uuid "01e3c0d5-67aa-47f3-8266-18139794f319")
+			(uuid "01e3c0d5-67aa-47f3-8266-18139794f31a")
 		)
 		(pin "T"
-			(uuid "c898c173-54c0-4b1d-9045-b1e114340a2b")
+			(uuid "c898c173-54c0-4b1d-9045-b1e114340a2c")
 		)
 		(pin "TN"
-			(uuid "156e57ea-9852-4f14-b2a8-6999502e3e3e")
+			(uuid "156e57ea-9852-4f14-b2a8-6999502e3e3f")
 		)
 		(instances
 			(project "openmic"

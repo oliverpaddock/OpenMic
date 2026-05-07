@@ -14553,7 +14553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "openmic:XU316-TQ128"
 			(at 128.27 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -15210,7 +15210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "openmic:XU316-TQ128"
 			(at 273.05 91.44 0)
 			(hide yes)
 			(show_name no)
