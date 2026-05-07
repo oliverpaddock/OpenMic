@@ -18243,7 +18243,7 @@
 		)
 		(uuid "018e5c04-a2e9-441e-baec-cd464471fd25")
 	)
-	(hierarchical_label "XLR_IND_1"
+	(hierarchical_label "XLR_IND_2"
 		(shape output)
 		(at 29.21 294.64 180)
 		(effects

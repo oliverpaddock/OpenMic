@@ -6,22 +6,22 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 105.41 90.17)
+		(at 109.22 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "32172161-096c-4fa3-913a-cd3247255f57")
+		(uuid "0b2fca5b-ca65-48b5-88dd-ff6482e215d0")
 	)
 	(junction
-		(at 113.03 82.55)
+		(at 105.41 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "570130eb-affb-4681-8bda-2b3da38631c3")
+		(uuid "66a3f772-9a69-4b1b-8b9f-7d7230fb9f2d")
 	)
 	(junction
-		(at 109.22 86.36)
+		(at 113.03 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60c6f43f-2d6e-42bb-aa8a-a496e7f200b0")
+		(uuid "710a8161-7e16-414e-91cd-03a9b9ccf8d9")
 	)
 	(wire
 		(pts
@@ -155,7 +155,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 120.65 82.55)
+			(xy 113.03 86.36) (xy 120.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -195,7 +195,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 113.03 82.55)
+			(xy 101.6 86.36) (xy 113.03 86.36)
 		)
 		(stroke
 			(width 0)
@@ -305,7 +305,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 120.65 86.36)
+			(xy 109.22 90.17) (xy 120.65 90.17)
 		)
 		(stroke
 			(width 0)
@@ -335,7 +335,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 120.65 90.17)
+			(xy 105.41 93.98) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
@@ -485,7 +485,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 113.03 120.65)
+			(xy 113.03 86.36) (xy 113.03 120.65)
 		)
 		(stroke
 			(width 0)
@@ -525,7 +525,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 105.41 128.27)
+			(xy 105.41 93.98) (xy 105.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -595,7 +595,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 116.84 101.6)
+			(xy 120.65 105.41) (xy 116.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -635,13 +635,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 120.65 97.79)
+			(xy 101.6 101.6) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95411e92-2b61-4beb-ab4e-262858561aae")
+	)
+	(wire
+		(pts
+			(xy 101.6 82.55) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96dffdfd-20b6-44ed-85a4-9b569842748f")
 	)
 	(wire
 		(pts
@@ -702,6 +712,16 @@
 			(type default)
 		)
 		(uuid "a39a08fb-c3a3-4da8-96b8-46c92e2689bd")
+	)
+	(wire
+		(pts
+			(xy 101.6 78.74) (xy 120.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a420ce26-4b3f-4f3f-9190-4eab92eae6e4")
 	)
 	(wire
 		(pts
@@ -835,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 86.36) (xy 109.22 86.36)
+			(xy 101.6 90.17) (xy 109.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 105.41 90.17)
+			(xy 101.6 93.98) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 116.84 116.84)
+			(xy 116.84 105.41) (xy 116.84 116.84)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 109.22 124.46)
+			(xy 109.22 90.17) (xy 109.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 120.65 93.98)
+			(xy 101.6 97.79) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1101,7 +1121,7 @@
 	)
 	(sheet
 		(at 76.2 53.34)
-		(size 25.4 46.99)
+		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1127,7 +1147,7 @@
 			)
 		)
 		(property "Sheetfile" "input.kicad_sch"
-			(at 76.2 100.9146 0)
+			(at 76.2 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1168,7 +1188,7 @@
 			)
 		)
 		(pin "CS_THAT5263" input
-			(at 101.6 93.98 0)
+			(at 101.6 97.79 0)
 			(uuid "9b67947f-d9d1-4891-9473-9d6d67d091af")
 			(effects
 				(font
@@ -1178,7 +1198,7 @@
 			)
 		)
 		(pin "CS_TXE8116" input
-			(at 101.6 97.79 0)
+			(at 101.6 101.6 0)
 			(uuid "dcbba593-3cd0-4146-b68b-ead3a3492f97")
 			(effects
 				(font
@@ -1188,7 +1208,7 @@
 			)
 		)
 		(pin "DIN" input
-			(at 101.6 82.55 0)
+			(at 101.6 86.36 0)
 			(uuid "1b057d0e-fa08-45c8-a1c1-a33f4700b096")
 			(effects
 				(font
@@ -1198,7 +1218,7 @@
 			)
 		)
 		(pin "DOUT" output
-			(at 101.6 86.36 0)
+			(at 101.6 90.17 0)
 			(uuid "c907b84c-a271-4ee5-b76f-4a62bf07ee02")
 			(effects
 				(font
@@ -1328,8 +1348,28 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 101.6 90.17 0)
+			(at 101.6 93.98 0)
 			(uuid "fbf2ae8b-39f5-4a4b-beb2-5afbc90498d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XLR_IND_1" output
+			(at 101.6 78.74 0)
+			(uuid "0260f385-fc54-46d0-b585-9578986961aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XLR_IND_2" output
+			(at 101.6 82.55 0)
+			(uuid "ebeea1f6-68f8-41e6-a4b8-86117e25c323")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +1990,7 @@
 			)
 		)
 		(pin "CS_0" output
-			(at 120.65 93.98 180)
+			(at 120.65 97.79 180)
 			(uuid "835599f2-8703-4638-b3c7-d8b68526269d")
 			(effects
 				(font
@@ -1960,7 +2000,7 @@
 			)
 		)
 		(pin "CS_1" output
-			(at 120.65 97.79 180)
+			(at 120.65 101.6 180)
 			(uuid "434ee434-ffa4-4afc-ad29-2223431c5e09")
 			(effects
 				(font
@@ -1970,7 +2010,7 @@
 			)
 		)
 		(pin "CS_2" output
-			(at 120.65 101.6 180)
+			(at 120.65 105.41 180)
 			(uuid "bf7f1a04-2ab9-4b55-9056-37dce72e9553")
 			(effects
 				(font
@@ -2230,7 +2270,7 @@
 			)
 		)
 		(pin "SPI_SCLK" output
-			(at 120.65 90.17 180)
+			(at 120.65 93.98 180)
 			(uuid "e68e837d-a1cc-42c1-b493-1dd5db77efe1")
 			(effects
 				(font
@@ -2240,7 +2280,7 @@
 			)
 		)
 		(pin "SPI_PICO" output
-			(at 120.65 82.55 180)
+			(at 120.65 86.36 180)
 			(uuid "b3eec166-ad09-4e6e-b15a-aef70444180d")
 			(effects
 				(font
@@ -2250,8 +2290,28 @@
 			)
 		)
 		(pin "SPI_POCI" input
-			(at 120.65 86.36 180)
+			(at 120.65 90.17 180)
 			(uuid "ee79e2e3-2bc0-44bd-85a5-13c04dba8efd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XLR_IND_1" input
+			(at 120.65 78.74 180)
+			(uuid "24d1726f-ceb1-4c4f-b72d-4061dd7fc32a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XLR_IND_2" input
+			(at 120.65 82.55 180)
+			(uuid "04027dd5-bd07-4fb0-8d6e-a846fce6969f")
 			(effects
 				(font
 					(size 1.27 1.27)

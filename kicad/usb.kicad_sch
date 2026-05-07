@@ -8653,6 +8653,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 90.17) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9206943-3bad-4404-8ead-ffab8398d2fe")
+	)
+	(wire
+		(pts
 			(xy 92.71 120.65) (xy 110.49 120.65)
 		)
 		(stroke
@@ -8860,6 +8870,16 @@
 			(type default)
 		)
 		(uuid "d188dfb6-f86f-4c9f-89f2-dddd0956e28d")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 110.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b86db2-59b1-482c-ab89-e99bf1635b17")
 	)
 	(wire
 		(pts
@@ -10565,6 +10585,17 @@
 		)
 		(uuid "61fa352e-31bb-441b-89c4-8749f18b36b1")
 	)
+	(hierarchical_label "XLR_IND_1"
+		(shape input)
+		(at 92.71 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "628ee473-5e19-4a19-9ba4-ba8d5c45343f")
+	)
 	(hierarchical_label "PD_PWR_IND"
 		(shape input)
 		(at 92.71 133.35 180)
@@ -10718,6 +10749,17 @@
 			(justify left)
 		)
 		(uuid "e84d0404-d184-4a8c-8617-d43a0625a430")
+	)
+	(hierarchical_label "XLR_IND_2"
+		(shape input)
+		(at 92.71 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea5561ad-b6a7-47c3-b948-5147bb52438b")
 	)
 	(hierarchical_label "PH_IND"
 		(shape input)
