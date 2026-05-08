@@ -449,6 +449,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -8368,28 +8491,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ref: 4."
-		(exclude_from_sim no)
-		(at 39.624 48.768 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36f7eeec-c342-4e5f-ad2a-16ef7118208c")
-	)
-	(text "ref: 2."
-		(exclude_from_sim no)
-		(at 34.036 189.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "742b318f-8d0f-4ec7-83ee-8837f6a09af5")
-	)
 	(text "power supply"
 		(exclude_from_sim no)
 		(at 355.346 244.602 0)
@@ -8448,6 +8549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1403ba95-ebde-4ef8-8e0f-820558ae09ec")
+	)
+	(junction
+		(at 336.55 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "166203b5-546c-4270-a72a-2cbdf3210084")
 	)
 	(junction
 		(at 77.47 97.79)
@@ -8911,6 +9018,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 53.34) (xy 22.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a286c2-21aa-4444-85e4-b05f2dab2905")
+	)
+	(wire
+		(pts
 			(xy 208.28 198.12) (xy 208.28 195.58)
 		)
 		(stroke
@@ -9161,7 +9278,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 193.04) (xy 29.21 195.58)
+			(xy 22.86 193.04) (xy 22.86 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9441,7 +9558,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 95.25) (xy 29.21 97.79)
+			(xy 22.86 95.25) (xy 22.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10191,7 +10308,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 195.58) (xy 34.29 195.58)
+			(xy 22.86 195.58) (xy 31.75 195.58)
 		)
 		(stroke
 			(width 0)
@@ -10311,16 +10428,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 62.23) (xy 339.09 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f8c972-67f7-4c01-9301-0141a5402fd7")
-	)
-	(wire
-		(pts
 			(xy 134.62 195.58) (xy 134.62 198.12)
 		)
 		(stroke
@@ -10431,7 +10538,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 50.8) (xy 29.21 53.34)
+			(xy 22.86 50.8) (xy 22.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10521,7 +10628,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 97.79) (xy 33.02 97.79)
+			(xy 22.86 97.79) (xy 30.48 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10811,7 +10918,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 140.97) (xy 29.21 143.51)
+			(xy 22.86 140.97) (xy 22.86 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10931,7 +11038,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 143.51) (xy 33.02 143.51)
+			(xy 22.86 143.51) (xy 30.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11331,16 +11438,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 53.34) (xy 29.21 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e139c42c-8855-4764-82a9-c72b4e7fdc6a")
-	)
-	(wire
-		(pts
 			(xy 133.35 50.8) (xy 139.7 50.8)
 		)
 		(stroke
@@ -11378,6 +11475,16 @@
 			(type default)
 		)
 		(uuid "e52da0b8-c79d-46e2-93ed-a45a879f9b79")
+	)
+	(wire
+		(pts
+			(xy 328.93 62.23) (xy 339.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e535cf79-2644-45cc-8fb1-7c8dc616353b")
 	)
 	(wire
 		(pts
@@ -13396,7 +13503,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 29.21 140.97 0)
+		(at 22.86 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13407,7 +13514,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e601239-e039-477d-b236-6eb2fb8b31a4")
 		(property "Reference" "#PWR0204"
-			(at 29.21 144.78 0)
+			(at 22.86 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13418,7 +13525,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.21 135.89 0)
+			(at 22.86 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13428,7 +13535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 140.97 0)
+			(at 22.86 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13439,7 +13546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 140.97 0)
+			(at 22.86 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13450,7 +13557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 140.97 0)
+			(at 22.86 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14051,6 +14158,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 33.02 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "297bea6c-d7f8-4a67-9725-c644ea3ad467")
+		(property "Reference" "J11"
+			(at 34.29 47.6249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN_15V"
+			(at 34.29 50.1649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d2c484-56ac-4fd9-96b0-3b6a791f3c85")
+		)
+		(pin "2"
+			(uuid "25036047-4301-4401-87a7-9d952c741002")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 293.37 227.33 0)
 		(mirror y)
@@ -14587,6 +14776,85 @@
 			(project "power"
 				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
 					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 328.93 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37852b42-2055-4940-8497-6826a405cb1f")
+		(property "Reference" "TP4"
+			(at 331.47 57.6579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_PD"
+			(at 331.47 60.1979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 334.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 328.93 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f86e3b8-da91-49a2-ab87-4519f961f089")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -15391,7 +15659,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 29.21 50.8 0)
+		(at 22.86 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15402,7 +15670,7 @@
 		(fields_autoplaced yes)
 		(uuid "407c83bf-1e0b-4cc6-8e0c-acc1d82c552f")
 		(property "Reference" "#PWR0184"
-			(at 29.21 54.61 0)
+			(at 22.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15413,7 +15681,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.21 45.72 0)
+			(at 22.86 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15423,7 +15691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 50.8 0)
+			(at 22.86 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15434,7 +15702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 50.8 0)
+			(at 22.86 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15445,7 +15713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 50.8 0)
+			(at 22.86 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16697,6 +16965,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d84c2ac-0cd9-4aa4-b445-bd9c2852e63e")
+		(property "Reference" "TP2"
+			(at 142.24 38.6079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15V_MID"
+			(at 142.24 41.1479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 144.78 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "460e0d92-1ad7-408d-af0c-920f7611745e")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 33.02 153.67 0)
 		(unit 1)
@@ -16768,6 +17115,88 @@
 			(project "power"
 				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
 					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 34.29 190.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ac72eb-4902-4eb9-9d69-7e243adf4383")
+		(property "Reference" "J14"
+			(at 35.56 189.8649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN_PH_SRC"
+			(at 35.56 192.4049 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 34.29 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 34.29 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1da4297a-8320-48bb-8fee-2b025463924b")
+		)
+		(pin "2"
+			(uuid "a37db0b3-c8e4-4b0a-b00c-1a6ea588ad00")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -17549,6 +17978,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 336.55 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3d0c81-20bc-4d23-bd6a-e7d5fbc42b28")
+		(property "Reference" "TP3"
+			(at 339.09 161.7979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_EXT"
+			(at 339.09 164.3379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 341.63 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 336.55 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87bcf3ee-27c3-4c3c-80e2-b3d9126f8053")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "openmic:TPS7A4101")
 		(at 173.99 203.2 0)
 		(unit 1)
@@ -18028,6 +18536,88 @@
 			(project "power"
 				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
 					(reference "C165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 33.02 138.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f818b0-cabf-4edc-8ab0-8fc06f9e9e1d")
+		(property "Reference" "J13"
+			(at 34.29 137.7949 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN_1V8_0V9"
+			(at 34.29 140.3349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec8f3fb9-a994-4d26-9dd2-b0d084e89be7")
+		)
+		(pin "2"
+			(uuid "d17765d5-b577-429b-80ad-b60de7b0ac95")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -18556,7 +19146,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 29.21 95.25 0)
+		(at 22.86 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18567,7 +19157,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bc81e23-83db-46d7-bddf-bb83b3e9bdaa")
 		(property "Reference" "#PWR0193"
-			(at 29.21 99.06 0)
+			(at 22.86 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18578,7 +19168,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.21 90.17 0)
+			(at 22.86 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18588,7 +19178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 95.25 0)
+			(at 22.86 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18599,7 +19189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 95.25 0)
+			(at 22.86 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18610,7 +19200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 95.25 0)
+			(at 22.86 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19208,6 +19798,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 383.54 34.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b89a57-cfd4-4066-b6b7-de3e11a8abb4")
+		(property "Reference" "TP5"
+			(at 388.62 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_MID"
+			(at 388.62 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 383.54 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 383.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7394af7d-54f3-460a-a35c-dd9a492d832a")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 57.15 118.11 0)
 		(unit 1)
@@ -19786,7 +20455,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 29.21 193.04 0)
+		(at 22.86 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19797,7 +20466,7 @@
 		(fields_autoplaced yes)
 		(uuid "97e659f9-7045-49a8-abd1-261bda106cbf")
 		(property "Reference" "#PWR0215"
-			(at 29.21 196.85 0)
+			(at 22.86 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19808,7 +20477,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.21 187.96 0)
+			(at 22.86 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19818,7 +20487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 193.04 0)
+			(at 22.86 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19829,7 +20498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 193.04 0)
+			(at 22.86 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19840,7 +20509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 193.04 0)
+			(at 22.86 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20770,7 +21439,7 @@
 				)
 			)
 		)
-		(property "Value" "PH_EN"
+		(property "Value" "EN_PH"
 			(at 29.845 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21695,6 +22364,88 @@
 			(project "power"
 				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 33.02 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b826e46a-2f9b-4bae-aaa8-423c19811b39")
+		(property "Reference" "J12"
+			(at 34.29 92.0749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EN_3V3"
+			(at 34.29 94.6149 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 33.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "464a13ef-9d57-415d-af1c-559b9b761527")
+		)
+		(pin "2"
+			(uuid "fa1b82f0-fb87-4b45-9acd-fa4032820665")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -25390,6 +26141,85 @@
 			(project "power"
 				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
 					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb28e03d-a5a1-4beb-a34d-86659e66e520")
+		(property "Reference" "TP1"
+			(at 121.92 191.0079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH_MID"
+			(at 121.92 193.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+			(at 124.46 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5977561-971e-42e0-aef3-94c65c2d3952")
+		)
+		(instances
+			(project "power"
+				(path "/b48df3c3-ca3f-44b7-af03-eb0fbe75186d"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
