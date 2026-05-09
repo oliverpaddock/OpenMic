@@ -10577,16 +10577,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 78.74) (xy 264.16 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "991cc6b4-4ae5-4399-bb5f-9787ed61c72d")
-	)
-	(wire
-		(pts
 			(xy 83.82 247.65) (xy 83.82 252.73)
 		)
 		(stroke
@@ -11775,7 +11765,7 @@
 		)
 		(uuid "00e7ab96-5e64-42a3-a207-8f68ccea7339")
 	)
-	(label "CC2"
+	(label "CC2_EXT"
 		(at 347.98 176.53 180)
 		(effects
 			(font
@@ -11855,7 +11845,7 @@
 		)
 		(uuid "5f8823f3-cc5e-483c-836b-4b74c79e6b82")
 	)
-	(label "CC1"
+	(label "CC1_EXT"
 		(at 347.98 173.99 180)
 		(effects
 			(font
@@ -11915,7 +11905,7 @@
 		)
 		(uuid "d7de7193-d691-49a2-b259-8a3acd29fe74")
 	)
-	(label "CC2"
+	(label "CC2_EXT"
 		(at 379.73 133.35 0)
 		(effects
 			(font
@@ -11925,7 +11915,7 @@
 		)
 		(uuid "e3b8c5e4-17dd-4558-960a-9eb92a0ed68c")
 	)
-	(label "CC1"
+	(label "CC1_EXT"
 		(at 379.73 130.81 0)
 		(effects
 			(font
@@ -14835,7 +14825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 318.77 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -21475,7 +21465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 252.73 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -22925,7 +22915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 264.16 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -25669,7 +25659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 330.2 129.54 0)
 			(hide yes)
 			(show_name no)
