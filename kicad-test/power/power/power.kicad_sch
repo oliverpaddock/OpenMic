@@ -11875,6 +11875,16 @@
 		)
 		(uuid "6d9b7e69-6f95-40e9-a290-99dabc199988")
 	)
+	(label "PH_MID"
+		(at 90.17 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "840a4437-e96e-4bae-bca2-70bea49e29c7")
+	)
 	(label "+5V_EXT"
 		(at 356.87 44.45 180)
 		(effects
