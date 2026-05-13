@@ -32,6 +32,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+*.zip
+*.ipc
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
@@ -41,6 +43,10 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+*fabrication-toolkit-options.json
+
+# Fabrication outputs
+*/production
 
 
 # LTSpice
