@@ -25596,6 +25596,18 @@
 		(layer "Edge.Cuts")
 		(uuid "349a111d-5053-476d-989c-de19aab391ef")
 	)
+	(gr_text "OpenMic\nPower board prototype v0.1\n5/14/26"
+		(at 95 84.1 0)
+		(layer "F.SilkS")
+		(uuid "8a9392e7-876e-4710-aabb-e71f43fb0d41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "VBUS PD"
 		(at 104.775 33.655 0)
 		(layer "F.SilkS")
@@ -28676,6 +28688,22 @@
 		(uuid "c593a241-b7ed-440f-a323-97f04830903b")
 	)
 	(segment
+		(start 155.825 80.375)
+		(end 155.8 80.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R16-Pad2)")
+		(uuid "0d7f9b4f-7998-485b-9194-8aed14f62991")
+	)
+	(segment
+		(start 158.75 80.375)
+		(end 155.825 80.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R16-Pad2)")
+		(uuid "26e7f0fc-9e8a-4020-acd7-a4bf463577ca")
+	)
+	(segment
 		(start 106.088235 43.85)
 		(end 106.315 43.623235)
 		(width 0.2)
@@ -29316,6 +29344,14 @@
 		(uuid "e10362f3-85f0-4b97-85f2-6fd8b99a3786")
 	)
 	(segment
+		(start 129.3 84)
+		(end 132.4 84)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(R28-Pad2)")
+		(uuid "0581e0f4-51b9-43da-85b3-24c2891da4f2")
+	)
+	(segment
 		(start 132.4 82)
 		(end 134.275 80.125)
 		(width 0.2)
@@ -29938,30 +29974,6 @@
 		(layer "B.Cu")
 		(net "Net-(U1-PG)")
 		(uuid "bd8a9668-f568-4a71-9d03-135bbf7e0f47")
-	)
-	(segment
-		(start 129.3 84)
-		(end 132.4 84)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R28-Pad2)")
-		(uuid "0581e0f4-51b9-43da-85b3-24c2891da4f2")
-	)
-	(segment
-		(start 155.825 80.375)
-		(end 155.8 80.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R16-Pad2)")
-		(uuid "0d7f9b4f-7998-485b-9194-8aed14f62991")
-	)
-	(segment
-		(start 158.75 80.375)
-		(end 155.825 80.375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(R16-Pad2)")
-		(uuid "26e7f0fc-9e8a-4020-acd7-a4bf463577ca")
 	)
 	(zone
 		(net "Earth")
