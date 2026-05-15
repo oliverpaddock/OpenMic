@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "62c94faa-e7ef-4e93-9677-bcccd91bcad8")
 	(paper "B")
+	(title_block
+		(title "Power supply")
+		(date "2026-05-15")
+		(company "OpenMic")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -6783,17 +6788,6 @@
 			(justify left)
 		)
 		(uuid "6a0b0fef-8fcd-4eed-be81-389f39cddbfb")
-	)
-	(text "power supply"
-		(exclude_from_sim no)
-		(at 352.806 245.872 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "a31433c1-201f-4b76-ac0e-3e78dfc9c6d8")
 	)
 	(text "ref: 2."
 		(exclude_from_sim no)

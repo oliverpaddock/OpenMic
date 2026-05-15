@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "8c05e9cf-502d-4b79-b540-2e01daef609d")
 	(paper "C")
+	(title_block
+		(title "Audio inputs")
+		(date "2026-05-15")
+		(company "OpenMic")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:OPA1612AxD"
 			(pin_names
@@ -9534,17 +9539,6 @@
 			(justify left)
 		)
 		(uuid "798827ea-912e-4977-96bf-1caccaa893e7")
-	)
-	(text "mic/line/inst in"
-		(exclude_from_sim no)
-		(at 472.948 398.272 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce664ea8-b388-4e57-a52c-ee2a0e994832")
 	)
 	(text "1100 = -12dB\n0100 = -6dB\n0000 = 0dB\n0010 = +6dB\n0011 = +12dB\n"
 		(exclude_from_sim no)
@@ -30615,46 +30609,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "2a206f00-b74c-4ff2-93e6-2c4b2f04be90")
+			(uuid "2a206f00-b74c-4ff2-93e6-2c4b2f04be91")
 		)
 		(pin "14"
-			(uuid "0a04cc2b-18a8-42f3-adf7-c0daffacac77")
+			(uuid "0a04cc2b-18a8-42f3-adf7-c0daffacac78")
 		)
 		(pin "2"
-			(uuid "35853359-09ed-43c0-8cb9-0337298a14d0")
+			(uuid "35853359-09ed-43c0-8cb9-0337298a14d1")
 		)
 		(pin "3"
-			(uuid "df253f43-e733-4775-979b-b673feccaf55")
+			(uuid "df253f43-e733-4775-979b-b673feccaf56")
 		)
 		(pin "12"
-			(uuid "8dc5949d-7c0a-43da-a7c6-7942f5162536")
+			(uuid "8dc5949d-7c0a-43da-a7c6-7942f5162537")
 		)
 		(pin "5"
-			(uuid "a090aaf8-5af8-4f83-b820-f1f98722d633")
+			(uuid "a090aaf8-5af8-4f83-b820-f1f98722d634")
 		)
 		(pin "1"
-			(uuid "8958a207-1fcb-4aee-9649-3ec44f2c4d3d")
+			(uuid "8958a207-1fcb-4aee-9649-3ec44f2c4d3e")
 		)
 		(pin "13"
-			(uuid "5c6c7c37-bf48-4b51-9263-6295891cb861")
+			(uuid "5c6c7c37-bf48-4b51-9263-6295891cb862")
 		)
 		(pin "4"
-			(uuid "d7879dfd-85cd-401d-8799-d2611645859c")
+			(uuid "d7879dfd-85cd-401d-8799-d2611645859d")
 		)
 		(pin "9"
-			(uuid "a37b6796-6a2e-4977-81d4-f9e69eae4e47")
+			(uuid "a37b6796-6a2e-4977-81d4-f9e69eae4e48")
 		)
 		(pin "8"
-			(uuid "4da487f7-c1e0-4f8c-911b-709fc1003024")
+			(uuid "4da487f7-c1e0-4f8c-911b-709fc1003025")
 		)
 		(pin "7"
-			(uuid "d5fa0255-725d-425f-af73-7dd7df6cb0e9")
+			(uuid "d5fa0255-725d-425f-af73-7dd7df6cb0ea")
 		)
 		(pin "10"
-			(uuid "42019842-69a7-4b93-853b-09d1f012fe16")
+			(uuid "42019842-69a7-4b93-853b-09d1f012fe17")
 		)
 		(pin "11"
-			(uuid "d58d7e82-caf4-459a-8561-1f54635813a5")
+			(uuid "d58d7e82-caf4-459a-8561-1f54635813a6")
 		)
 		(instances
 			(project "openmic"
@@ -31017,46 +31011,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "2a206f00-b74c-4ff2-93e6-2c4b2f04be90")
+			(uuid "2a206f00-b74c-4ff2-93e6-2c4b2f04be92")
 		)
 		(pin "14"
-			(uuid "0a04cc2b-18a8-42f3-adf7-c0daffacac77")
+			(uuid "0a04cc2b-18a8-42f3-adf7-c0daffacac79")
 		)
 		(pin "2"
-			(uuid "35853359-09ed-43c0-8cb9-0337298a14d0")
+			(uuid "35853359-09ed-43c0-8cb9-0337298a14d2")
 		)
 		(pin "3"
-			(uuid "df253f43-e733-4775-979b-b673feccaf55")
+			(uuid "df253f43-e733-4775-979b-b673feccaf57")
 		)
 		(pin "12"
-			(uuid "8dc5949d-7c0a-43da-a7c6-7942f5162536")
+			(uuid "8dc5949d-7c0a-43da-a7c6-7942f5162538")
 		)
 		(pin "5"
-			(uuid "a090aaf8-5af8-4f83-b820-f1f98722d633")
+			(uuid "a090aaf8-5af8-4f83-b820-f1f98722d635")
 		)
 		(pin "1"
-			(uuid "8958a207-1fcb-4aee-9649-3ec44f2c4d3d")
+			(uuid "8958a207-1fcb-4aee-9649-3ec44f2c4d3f")
 		)
 		(pin "13"
-			(uuid "5c6c7c37-bf48-4b51-9263-6295891cb861")
+			(uuid "5c6c7c37-bf48-4b51-9263-6295891cb863")
 		)
 		(pin "4"
-			(uuid "d7879dfd-85cd-401d-8799-d2611645859c")
+			(uuid "d7879dfd-85cd-401d-8799-d2611645859e")
 		)
 		(pin "9"
-			(uuid "a37b6796-6a2e-4977-81d4-f9e69eae4e47")
+			(uuid "a37b6796-6a2e-4977-81d4-f9e69eae4e49")
 		)
 		(pin "8"
-			(uuid "4da487f7-c1e0-4f8c-911b-709fc1003024")
+			(uuid "4da487f7-c1e0-4f8c-911b-709fc1003026")
 		)
 		(pin "7"
-			(uuid "d5fa0255-725d-425f-af73-7dd7df6cb0e9")
+			(uuid "d5fa0255-725d-425f-af73-7dd7df6cb0eb")
 		)
 		(pin "10"
-			(uuid "42019842-69a7-4b93-853b-09d1f012fe16")
+			(uuid "42019842-69a7-4b93-853b-09d1f012fe18")
 		)
 		(pin "11"
-			(uuid "d58d7e82-caf4-459a-8561-1f54635813a5")
+			(uuid "d58d7e82-caf4-459a-8561-1f54635813a7")
 		)
 		(instances
 			(project "openmic"

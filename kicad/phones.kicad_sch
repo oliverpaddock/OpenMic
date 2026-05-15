@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "7076cb9d-0945-4887-99f8-3c4a90028fdb")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Headphones out")
+		(date "2026-05-15")
+		(company "OpenMic")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:OPA1622"
 			(pin_names
@@ -2951,17 +2956,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "headphones out"
-		(exclude_from_sim no)
-		(at 217.805 175.895 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "def84d83-e6ac-41e2-8901-4be04aba9282")
 	)
 	(junction
 		(at 121.92 149.86)

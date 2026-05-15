@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "16ff6367-8f6c-40c5-b242-baddaff8eea3")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Direct monitor switch")
+		(date "2026-05-15")
+		(company "OpenMic")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -979,17 +984,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "direct monitor switch"
-		(exclude_from_sim no)
-		(at 213.106 175.006 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "14dee90f-5c33-4424-b8c9-90488010fdbf")
 	)
 	(junction
 		(at 95.25 92.71)

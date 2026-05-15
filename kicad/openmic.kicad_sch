@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "84faeadc-8b12-4a66-a17f-5c56e5923fb8")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Overview")
+		(date "2026-05-15")
+		(company "OpenMic")
+	)
 	(lib_symbols)
 	(junction
 		(at 109.22 90.17)
