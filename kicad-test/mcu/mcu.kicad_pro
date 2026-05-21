@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "input.kicad_pro",
+    "filename": "mcu.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,18 +411,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "input.kicad_sch",
-        "name": "input",
-        "uuid": "8c05e9cf-502d-4b79-b540-2e01daef609d"
+        "filename": "mcu.kicad_sch",
+        "name": "Root",
+        "uuid": "1c8ca3f6-a0bd-4093-9ee1-7a11afe6bdc3"
       }
     ],
-    "used_designators": "#PWR26,#PWR62,J8-9",
+    "used_designators": "Y1,U16-19,#PWR1-4,#PWR153-178,C125-156,FB1,JP1-4,R92-102,J1-9",
     "variants": []
   },
   "sheets": [
     [
-      "8c05e9cf-502d-4b79-b540-2e01daef609d",
-      "input"
+      "1c8ca3f6-a0bd-4093-9ee1-7a11afe6bdc3",
+      "Root"
     ]
   ],
   "text_variables": {},
