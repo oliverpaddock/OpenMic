@@ -46,12 +46,4 @@ Progress will be posted on [Hackaday](https://hackaday.io) as prototyping contin
 
 ### Sponsors
 
-<div style="display:flex; gap: 20px;">
-
-<div style="width: 8rem">
-
-![AISLER](docs/aisler.svg)
-
-</div>
-
-</div>
+<img src="docs/aisler.svg" alt="AISLER" width="150">
