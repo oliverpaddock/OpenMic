@@ -20,7 +20,7 @@ This is exactly what OpenMic does. Two inputs that can take microphone/line/inst
 ## Current Status
 OpenMic is currently in the prototyping stage. The circuit has been designed and [simulated](simulations/), and individual systems are being built and tested. View the [schematics](schematics/openmic.pdf) to see the current circuit design.
 
-Progress will be posted on [Hackaday](https://hackaday.io) as prototyping continues.
+Progress will be posted on the [OpenMic blog](https://olpad.codeberg.page/openmic-blog) as prototyping continues.
 
 ### Roadmap
 - [x] Initial design and component selection
