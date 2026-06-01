@@ -41,3 +41,17 @@ Progress will be posted on [Hackaday](https://hackaday.io) as prototyping contin
 - USB-C bus powered (1.5A) with external USB-C fallback
 - Drives headphones from 32Ω to 600Ω
 - Fully open hardware and firmware
+
+<hr>
+
+### Sponsors
+
+<div style="display:flex; gap: 20px;">
+
+<div style="width: 8rem">
+
+![AISLER](docs/aisler.svg)
+
+</div>
+
+</div>
