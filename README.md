@@ -46,4 +46,6 @@ Progress will be posted on the [OpenMic blog](https://olpad.codeberg.page/openmi
 
 ### Sponsors
 
-<img src="docs/aisler.svg" alt="AISLER" width="150">
+<img src="docs/aisler.svg" alt="AISLER" width="150" style="margin-right: 20px">
+
+<img src="docs/digilent.png" alt="AISLER" width="150">
