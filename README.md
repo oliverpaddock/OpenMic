@@ -42,10 +42,8 @@ Progress will be posted on the [OpenMic blog](https://olpad.codeberg.page/openmi
 - Drives headphones from 32Ω to 600Ω
 - Fully open hardware and firmware
 
-<hr>
+---
 
 ### Sponsors
 
-<img src="docs/aisler.svg" alt="AISLER" width="150" style="margin-right: 20px">
-
-<img src="docs/digilent.png" alt="AISLER" width="150">
+<img src="docs/aisler.svg" alt="AISLER" width="150">&emsp;&emsp;<img src="docs/digilent.png" alt="AISLER" width="150">
