@@ -1,0 +1,83 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7765ea03-990c-41e2-8b83-b7e84578cc41")
+	(paper "USLetter")
+	(title_block
+		(title "Power test board v0.2")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.8 48.26)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d383feaa-1b8b-4c87-bef7-7978d975a39d")
+		(property "Sheetname" "5V PD"
+			(at 50.8 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pd.kicad_sch"
+			(at 50.8 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAP_MIS" output
+			(at 81.28 55.88 0)
+			(uuid "437c5851-49e6-490a-8959-330813134283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PD" output
+			(at 81.28 50.8 0)
+			(uuid "c4f4b8c1-d4d5-4953-89ed-23e31bab66c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "power v2"
+				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
