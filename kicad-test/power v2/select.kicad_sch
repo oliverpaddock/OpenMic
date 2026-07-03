@@ -8,129 +8,6 @@
 		(title "USB Power Input Selector")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1139,7 +1016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d16c9c0-d8d9-4581-af23-55a2524dbb0a")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 105.41 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1203,7 +1080,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1221,7 +1098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "535a6523-9b9f-42ae-88a5-da88b39ec567")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1281,7 +1158,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1377,7 +1254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "941c660d-19ef-4ac5-98fe-321aad901c72")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 163.83 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1437,86 +1314,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 163.83 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9840b039-a772-4323-bec0-3c96f86ba7cc")
-		(property "Reference" "TP5"
-			(at 166.37 69.0879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VOUT"
-			(at 166.37 71.6279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm"
-			(at 168.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 163.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f2124df-cf79-4f4f-b171-996946adeb7a")
-		)
-		(instances
-			(project "power v2"
-				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "TP5")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1534,7 +1332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18d8b95-1314-4bef-802b-2722b6b3f16c")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 105.41 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1396,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1616,7 +1414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41f5551-1a72-4a22-8875-226b0a3e56b9")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1676,7 +1474,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "#PWR024")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1694,7 +1492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab2e69b7-9082-49de-a22d-4fb1bacf71e3")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 166.37 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1758,7 +1556,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -1775,7 +1573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b803e7b0-b70d-4b87-9278-8266b6feb7ff")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 133.35 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1839,7 +1637,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -1857,7 +1655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c35fe596-e9b1-4b84-b6aa-44e2e779629e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1917,7 +1715,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1934,7 +1732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fba39858-845d-4dfd-93b6-3a17535a99f9")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 123.19 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1998,7 +1796,7 @@
 		(instances
 			(project "power v2"
 				(path "/7765ea03-990c-41e2-8b83-b7e84578cc41/563617a4-17e3-447c-9915-8985ac21500e"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
