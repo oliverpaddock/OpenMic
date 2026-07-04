@@ -14,11 +14,11 @@ If you aren't familiar with audio interfaces like the [Focusrite Scarlett 2i2](h
 
 This is exactly what OpenMic does. Two inputs that can take microphone/line/instrument level signals, outputs for your speakers, and a headphone jack. Plus a few other features like phantom power that are listed in more detail in the [Features](#features) section.
 
-![Block diagram](docs/block%20diagram.jpg)
+![Block diagram](docs/images/block%20diagram.jpg)
 *System block diagram*
 
 ## Current Status
-OpenMic is currently in the prototyping stage. The circuit has been designed and [simulated](simulations/), and individual systems are being built and tested. View the [schematics](schematics/openmic.pdf) to see the current circuit design.
+OpenMic is currently in the prototyping stage. The circuit has been designed and [simulated](hardware/sims/), and individual systems are being built and tested. View the [schematics](docs/schematics/openmic.pdf) to see the current circuit design.
 
 Progress will be posted on the [OpenMic blog](https://olpad.codeberg.page/openmic-blog) as prototyping continues.
 
@@ -46,4 +46,4 @@ Progress will be posted on the [OpenMic blog](https://olpad.codeberg.page/openmi
 
 ### Sponsors
 
-<img src="docs/aisler.svg" alt="AISLER" width="150">&emsp;&emsp;<img src="docs/digilent.png" alt="AISLER" width="150">
+<img src="docs/images/aisler.svg" alt="AISLER" width="150">&emsp;&emsp;<img src="docs/images/digilent.png" alt="AISLER" width="150">
