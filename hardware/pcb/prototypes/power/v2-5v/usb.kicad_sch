@@ -2704,6 +2704,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 96.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d026a4c4-b29d-4ba2-8935-64923ebb27fb")
 		)
@@ -2797,6 +2808,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 125.73 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c1c67f6d-9ab0-47c0-824c-a162ccc3486f")
 		)
@@ -2869,6 +2891,17 @@
 			)
 		)
 		(property "Description" "USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12"
+			(at 106.68 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TUSB321RWBR"
 			(at 106.68 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2990,6 +3023,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "687c661a-68c6-4d9c-afe1-5f2635fb508c")
 		)
@@ -3058,6 +3102,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 125.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 125.73 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3161,6 +3216,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 110.49 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4628d25-5540-4d0d-bba2-26e80bbbca19")
 		)
@@ -3234,6 +3300,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 73.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 73.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3337,6 +3414,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 40.64 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "085b64c6-aab3-4891-97ac-7adff9f8046b")
 		)
@@ -3409,6 +3497,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 90.17 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 90.17 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3590,6 +3689,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 60.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a6d04700-72f7-426d-af6c-8a934aa37bfc")
 		)
@@ -3683,6 +3793,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 71.12 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c338d7e8-e5c9-442b-b723-27877305c47c")
 		)
@@ -3755,6 +3876,17 @@
 		)
 		(property "Description" "test point"
 			(at 125.73 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,6 +4131,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 138.43 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a798231-2c8a-41f9-9513-58288791aa35")
 		)
@@ -4068,6 +4211,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 138.43 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 138.43 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4148,6 +4302,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 50.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 50.8 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4530,6 +4695,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 50.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21c7fcc7-8b2a-410e-b8d4-1fc4932259ed")
 		)
@@ -4679,6 +4855,17 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 87.63 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,6 +5046,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 138.43 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dfb36850-797d-4e00-82ff-cd22ef5da683")
 		)
@@ -4942,6 +5140,17 @@
 			)
 		)
 		(property "Rating" "25V"
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 81.28 96.52 0)
 			(hide yes)
 			(show_name no)

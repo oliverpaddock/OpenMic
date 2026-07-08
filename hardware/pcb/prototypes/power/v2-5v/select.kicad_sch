@@ -873,7 +873,7 @@
 		)
 		(uuid "f91a079a-e7bc-4203-ae2f-b4b8bca25679")
 	)
-	(hierarchical_label "VBUS_PD"
+	(hierarchical_label "IN_PD"
 		(shape input)
 		(at 77.47 73.66 180)
 		(effects
@@ -884,7 +884,7 @@
 		)
 		(uuid "4c49e721-086c-46b0-89cb-7add64e7fd10")
 	)
-	(hierarchical_label "VBUS_USB"
+	(hierarchical_label "IN_USB"
 		(shape input)
 		(at 77.47 80.01 180)
 		(effects
@@ -962,6 +962,17 @@
 		)
 		(property "Description" "2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V Input Voltage, 2.5A Output Current, Ron 40 mOhm, SOT-583-8"
 			(at 148.59 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS2116DRLR"
+			(at 148.59 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1061,6 +1072,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 102.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 102.87 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1387,6 +1409,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 102.87 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b9f759d-bff5-496e-9755-f3495ded5244")
 		)
@@ -1547,6 +1580,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 163.83 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "335a34d7-ee07-4938-8c84-ee246c2fbd8f")
 		)
@@ -1618,6 +1662,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1777,6 +1832,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 125.73 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
