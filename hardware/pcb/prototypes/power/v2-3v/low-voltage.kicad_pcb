@@ -6225,7 +6225,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "OpenMic\nPower board v0.2\n(15V only)\n7/7/26"
+	(gr_text "OpenMic\nPower board v0.2\n(Low voltage)\n7/8/26"
 		(at 135.255 56.515 0)
 		(layer "B.SilkS")
 		(uuid "8ae35c20-e505-47f0-9b9c-5748a1e05365")
