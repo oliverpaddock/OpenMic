@@ -42,6 +42,9 @@ Progress will be posted on the [OpenMic blog](https://olpad.codeberg.page/openmi
 - Drives headphones from 32Ω to 600Ω
 - Fully open hardware and firmware
 
+## Getting Started
+If you want to view/edit KiCAD files, make sure to add the part libraries located in /hardware/libs to your project or globally in your KiCAD instance.
+
 ---
 
 ### Sponsors
