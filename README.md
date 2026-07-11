@@ -49,9 +49,9 @@ If you want to view/edit KiCAD files, make sure to add the part libraries locate
 
 ### Sponsors
 
-<img src="docs/images/aisler.svg" alt="AISLER" width="150">
+<img src="docs/images/aisler.svg" alt="AISLER" width="150">&emsp;
 
-<img src="docs/images/digilent.png" alt="AISLER" width="150">
+<img src="docs/images/digilent.png" alt="AISLER" width="150">&emsp;
 
 ### Special Thanks
 
