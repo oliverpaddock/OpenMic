@@ -6037,6 +6037,12 @@
 		(uuid "ed9adacf-db86-46f3-87a3-2053ffc1f7c6")
 	)
 	(junction
+		(at 58.42 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2a868b-7b82-411f-bd68-9f382de05e50")
+	)
+	(junction
 		(at 240.03 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6297,6 +6303,16 @@
 			(type default)
 		)
 		(uuid "1eb60dc9-f9e9-42e3-8c35-359f3467806c")
+	)
+	(wire
+		(pts
+			(xy 58.42 256.54) (xy 58.42 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9c71a7-50cb-415a-9550-98590639be16")
 	)
 	(wire
 		(pts
@@ -7487,6 +7503,16 @@
 			(type default)
 		)
 		(uuid "bd09cd55-e485-477e-9bc8-730c40b03bf7")
+	)
+	(wire
+		(pts
+			(xy 60.96 256.54) (xy 58.42 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c9860e-b179-432d-837f-db8dcf306141")
 	)
 	(wire
 		(pts
@@ -12057,6 +12083,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 60.96 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7af3d2-f80e-422a-a54c-4bcecd30b797")
+		(property "Reference" "#PWR041"
+			(at 60.96 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 60.96 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 60.96 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2676ab5e-c3d7-4272-a497-d3a857dd1677")
+		)
+		(instances
+			(project "v2-mic"
+				(path "/7dc89a60-d556-4b75-ac92-9511e9139768"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 193.04 74.93 180)
 		(unit 1)
@@ -16054,6 +16158,86 @@
 				(path "/7dc89a60-d556-4b75-ac92-9511e9139768"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 53.34 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5b1d45c-ebfc-4081-90d8-0948f3624af6")
+		(property "Reference" "J2"
+			(at 53.975 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 53.975 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 53.34 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 53.34 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7cf74ff7-bade-4717-9f22-e55e238fff81")
+		)
+		(pin "1"
+			(uuid "31d5ae70-3f0a-405b-8573-1e88444d92b6")
+		)
+		(instances
+			(project "v2-mic"
+				(path "/7dc89a60-d556-4b75-ac92-9511e9139768"
+					(reference "J2")
+					(unit 1)
 				)
 			)
 		)
