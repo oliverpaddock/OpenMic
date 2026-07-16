@@ -14556,6 +14556,17 @@
 		(uuid "01c87a70-9d4b-4f09-8550-f7561622d712")
 	)
 	(gr_rect
+		(start 100.302 35.814)
+		(end 130.302 43.314)
+		(stroke
+			(width 0.08382)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "2990665a-8243-4d06-80b4-247ff9d4c856")
+	)
+	(gr_rect
 		(start 99.06 30.48)
 		(end 165.1 74.295)
 		(stroke
@@ -15001,6 +15012,19 @@
 				(thickness 0.15)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "OpenMic\nMic input v0.2\n7/16/26"
+		(at 163.83 41.656 -0)
+		(layer "B.SilkS")
+		(uuid "df310292-804e-4c5d-bc55-6acf1270cf6f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
