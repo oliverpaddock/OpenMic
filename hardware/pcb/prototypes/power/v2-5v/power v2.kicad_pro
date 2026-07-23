@@ -625,6 +625,18 @@
           "label": "MPN",
           "name": "MPN",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -675,7 +687,7 @@
         "uuid": "7765ea03-990c-41e2-8b83-b7e84578cc41"
       }
     ],
-    "used_designators": "R11-12,D5,#PWR32-37,Q1,TP5-6,U4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
