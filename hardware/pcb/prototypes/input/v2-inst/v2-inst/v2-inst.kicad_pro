@@ -53,13 +53,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -193,9 +187,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -222,12 +214,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -485,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "v2-mic.kicad_pro",
+    "filename": "v2-inst.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -533,7 +520,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "/Users/oliver/Downloads/power.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -588,49 +575,19 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Type",
-          "name": "Type",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -670,18 +627,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "v2-mic.kicad_sch",
-        "name": "v2-mic",
-        "uuid": "7dc89a60-d556-4b75-ac92-9511e9139768"
+        "filename": "v2-inst.kicad_sch",
+        "name": "v2-inst",
+        "uuid": "a96186d6-d93d-4e42-9045-8a0ce5836fe9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,#PWR19-20,C14-15",
     "variants": []
   },
   "sheets": [
     [
-      "7dc89a60-d556-4b75-ac92-9511e9139768",
-      "v2-mic"
+      "a96186d6-d93d-4e42-9045-8a0ce5836fe9",
+      "v2-inst"
     ]
   ],
   "text_variables": {},
