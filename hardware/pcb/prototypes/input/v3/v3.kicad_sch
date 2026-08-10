@@ -5296,7 +5296,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 215.9)
+		(at 22.86 157.48)
 		(size 53.34 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5312,7 +5312,7 @@
 		)
 		(uuid "3c16cb82-65c1-42f5-bde2-69e869168627")
 		(property "Sheetname" "Power Connectors"
-			(at 25.4 215.1884 0)
+			(at 22.86 156.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 25.4 252.0446 0)
+			(at 22.86 193.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
