@@ -5248,7 +5248,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -2.413 2.54 180)
+			(at 2.54 0 180)
 			(layer "F.SilkS")
 			(uuid "76ad62c8-6511-43e2-877d-00425ff9d37b")
 			(effects
@@ -5472,7 +5472,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at -2.54 2.54 180)
+			(at 2.413 0 180)
 			(layer "F.SilkS")
 			(uuid "1c57df02-5f02-4b59-827e-09496d5d9bad")
 			(effects
