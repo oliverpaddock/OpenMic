@@ -1615,6 +1615,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -7908,6 +8073,16 @@
 		)
 		(uuid "ea3c3868-86a5-4c43-b377-afafb5ff51c9")
 	)
+	(text "LED indicates blown fuse"
+		(exclude_from_sim no)
+		(at 242.316 174.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7af5744-d545-4dc8-989d-c978bc4df833")
+	)
 	(text "R_down / (R_down + R_up) ratio\nmin      target   max\n0.0229   0.0475   0.0722"
 		(exclude_from_sim no)
 		(at 251.714 132.588 0)
@@ -7924,6 +8099,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00a2a4ea-7505-461f-a8be-cdc6093981e5")
+	)
+	(junction
+		(at 252.73 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "015c0557-dd6c-4b4b-91a4-f6dcc439efa3")
 	)
 	(junction
 		(at 134.62 156.21)
@@ -7954,12 +8135,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13210416-a52d-4d34-83eb-b7da66a5a28f")
-	)
-	(junction
-		(at 229.87 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13c06508-f9bb-46c8-8f5d-667664c8ea43")
 	)
 	(junction
 		(at 137.16 59.69)
@@ -8086,6 +8261,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43b5ad85-6459-4fb5-a9af-527ec7337404")
+	)
+	(junction
+		(at 229.87 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a315c9a-28e2-4973-97d1-7de11d639942")
 	)
 	(junction
 		(at 193.04 196.85)
@@ -8486,6 +8667,16 @@
 			(type default)
 		)
 		(uuid "036705f3-8c3a-4ee7-ad3d-ae45b02901b0")
+	)
+	(wire
+		(pts
+			(xy 245.11 196.85) (xy 252.73 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06919108-c9f9-4c7c-82f2-c75a01277a2b")
 	)
 	(wire
 		(pts
@@ -8919,6 +9110,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 185.42) (xy 232.41 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c22f6b2-269a-4b08-a694-5a7fd2a9d265")
+	)
+	(wire
+		(pts
 			(xy 116.84 196.85) (xy 101.6 196.85)
 		)
 		(stroke
@@ -9209,7 +9410,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 58.42) (xy 383.54 58.42)
+			(xy 369.57 58.42) (xy 373.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9639,6 +9840,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 196.85) (xy 255.27 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da0f849-d078-4713-ace3-24377c8b1533")
+	)
+	(wire
+		(pts
 			(xy 151.13 54.61) (xy 156.21 54.61)
 		)
 		(stroke
@@ -9826,6 +10037,16 @@
 			(type default)
 		)
 		(uuid "80954041-2124-4a45-a6d2-c0de562c8db0")
+	)
+	(wire
+		(pts
+			(xy 240.03 185.42) (xy 242.57 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e456a6-4d65-4c6f-9175-fa19c59c7175")
 	)
 	(wire
 		(pts
@@ -10159,7 +10380,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 196.85) (xy 241.3 196.85)
+			(xy 229.87 196.85) (xy 237.49 196.85)
 		)
 		(stroke
 			(width 0)
@@ -10359,6 +10580,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 196.85) (xy 229.87 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafa2201-72bf-4b30-bbcb-6064c030f9c2")
+	)
+	(wire
+		(pts
 			(xy 280.67 199.39) (xy 280.67 201.93)
 		)
 		(stroke
@@ -10396,6 +10627,16 @@
 			(type default)
 		)
 		(uuid "ae99c942-9d05-4a31-b533-29e21aba98a9")
+	)
+	(wire
+		(pts
+			(xy 381 58.42) (xy 383.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea1d40f-e05a-4941-9eed-36aaf9aeb834")
 	)
 	(wire
 		(pts
@@ -10546,6 +10787,16 @@
 			(type default)
 		)
 		(uuid "bbd014e1-e8ff-4ee6-ba36-1767fb6d89c4")
+	)
+	(wire
+		(pts
+			(xy 250.19 185.42) (xy 252.73 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0c77f8-b943-47ef-bb8f-af3091f3c7c5")
 	)
 	(wire
 		(pts
@@ -11337,6 +11588,16 @@
 		)
 		(uuid "ff62aa6c-b256-4bf0-baeb-9eb0ef057e20")
 	)
+	(wire
+		(pts
+			(xy 252.73 185.42) (xy 252.73 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc87892-e20b-4923-bb67-0460a7250f3e")
+	)
 	(label "LDO_1V5"
 		(at 367.03 124.46 0)
 		(effects
@@ -11398,7 +11659,7 @@
 		(uuid "2f3daee5-cb3f-42af-adaf-4c712d8d823d")
 	)
 	(label "VBUS_PD"
-		(at 381 58.42 180)
+		(at 369.57 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11733,7 +11994,7 @@
 	)
 	(hierarchical_label "+48V_PH"
 		(shape output)
-		(at 241.3 196.85 0)
+		(at 255.27 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17326,6 +17587,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 246.38 185.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a450e83-db8d-4418-8297-9894765f63a0")
+		(property "Reference" "D70"
+			(at 247.9675 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 247.9675 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 246.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 246.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 246.38 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 246.38 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 246.38 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "45f25b7a-2b2c-4731-8b94-7b2807d702e2")
+		)
+		(pin "1"
+			(uuid "81d5e3bc-f4c7-4bf2-a82a-400bcbdf0270")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/4ba50981-e4e9-4615-8d45-25e1b83d5dc4"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 93.98 99.06 0)
 		(unit 1)
@@ -20084,6 +20469,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 241.3 196.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a279512-5e6c-449d-ac67-d3b3ba12f0d4")
+		(property "Reference" "F1"
+			(at 241.3 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40mA"
+			(at 241.3 193.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 241.3 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ef6af14-5d2e-40f1-a1f9-8220ebb8cf51")
+		)
+		(pin "1"
+			(uuid "c5d602d0-d520-46b5-b710-d36119a02849")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/4ba50981-e4e9-4615-8d45-25e1b83d5dc4"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 58.42 69.85 0)
 		(unit 1)
@@ -22262,6 +22728,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 236.22 185.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af846809-222e-4bf9-af5d-14fa118aa42a")
+		(property "Reference" "R122"
+			(at 236.22 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 236.22 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 236.474 184.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 236.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 236.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 236.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 236.22 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59738f51-e89e-4c9c-841a-dc1547522bbd")
+		)
+		(pin "2"
+			(uuid "35a321ca-fb39-4bc2-aa44-26c61a44b4a4")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/4ba50981-e4e9-4615-8d45-25e1b83d5dc4"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 93.98 109.22 0)
 		(unit 1)
@@ -22641,6 +23220,87 @@
 			(project "openmic"
 				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/4ba50981-e4e9-4615-8d45-25e1b83d5dc4"
 					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 377.19 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7d9b9b4-90b8-49bd-ae21-18c455116792")
+		(property "Reference" "F2"
+			(at 377.19 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.6A"
+			(at 377.19 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 377.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "64013b6b-063c-44b0-940c-2e77fded663e")
+		)
+		(pin "1"
+			(uuid "be6c571c-c01f-4594-9dbd-aa647bad07c0")
+		)
+		(instances
+			(project "openmic"
+				(path "/84faeadc-8b12-4a66-a17f-5c56e5923fb8/4ba50981-e4e9-4615-8d45-25e1b83d5dc4"
+					(reference "F2")
 					(unit 1)
 				)
 			)
