@@ -531,7 +531,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "/Users/oliver/Downloads/power.csv",
+    "bom_export_filename": "/Users/oliver/Downloads/input.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -568,37 +568,37 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Type",
           "name": "Type",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -673,7 +673,7 @@
         "uuid": "a7399a91-aba7-4985-86d8-436a6d9511e6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR107-109,J18-20",
     "variants": []
   },
   "sheets": [

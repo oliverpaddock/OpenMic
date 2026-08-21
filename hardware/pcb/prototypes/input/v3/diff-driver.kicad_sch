@@ -2893,7 +2893,7 @@
 				)
 			)
 		)
-		(property "Type" "Electrolytic"
+		(property "Type" "Bipolar Electrolytic"
 			(at 181.61 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -4098,7 +4098,7 @@
 				)
 			)
 		)
-		(property "Type" "Electrolytic"
+		(property "Type" "Bipolar Electrolytic"
 			(at 181.61 95.25 90)
 			(hide yes)
 			(show_name no)

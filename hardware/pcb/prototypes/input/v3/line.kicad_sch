@@ -2017,7 +2017,7 @@
 				)
 			)
 		)
-		(property "Type" "Electrolytic"
+		(property "Type" "Bipolar Electrolytic"
 			(at 128.27 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -3224,7 +3224,7 @@
 				)
 			)
 		)
-		(property "Type" "C0G/NP0 Ceramic"
+		(property "Type" "C0G Ceramic"
 			(at 74.93 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4240,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Type" "Electrolytic"
+		(property "Type" "Bipolar Electrolytic"
 			(at 128.27 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -4332,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Type" "C0G/NP0 Ceramic"
+		(property "Type" "C0G Ceramic"
 			(at 67.31 118.11 0)
 			(hide yes)
 			(show_name no)
