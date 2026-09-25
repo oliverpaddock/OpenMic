@@ -245,6 +245,19 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab118c4f-54da-4eef-93bb-53aaf7cb0130")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?123*")
 		(path "/6a150a3b-cb97-4dd0-aa27-0a1769ac0f55")
 		(sheetname "/")
@@ -593,6 +606,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22e59bdd-514c-4738-83c5-36cad652a23e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e064f6b6-4902-4c08-959c-a3c1a3ac75d5")
 			(effects
 				(font
 					(size 1 1)
@@ -1240,18 +1266,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f236b9ee-5d81-46e6-b616-1ea61eb111a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -1310,6 +1324,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "174675fa-0151-442a-b43b-90831e31c8c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50c485db-617d-4612-9e43-6d732c1aa7f4")
 			(effects
 				(font
 					(size 1 1)
@@ -1495,6 +1522,19 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56804bf8-5c6c-4169-8cf3-0ffd7d205eff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b5557970-d4d8-4e73-87cd-4df1921b4b29")
 		(sheetname "/")
@@ -1660,11 +1700,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0eac878-1e87-4686-9d2d-e360174a1541")
+			(uuid "a9c20bc4-7a58-45f3-bff0-f4ce712e9b4a")
 			(effects
 				(font
 					(size 1 1)
@@ -1672,12 +1713,12 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Voltage" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9c20bc4-7a58-45f3-bff0-f4ce712e9b4a")
+			(uuid "8d6578c9-639a-4b87-9445-4c008a2471ef")
 			(effects
 				(font
 					(size 1 1)
@@ -1883,18 +1924,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "63176bfa-04d7-4705-8caa-92123a743c5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -1953,6 +1982,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3fd69649-320b-40d1-a9b8-9eae644e4ca1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e521eaec-65dc-486e-9723-9ebc4ec751f9")
 			(effects
 				(font
 					(size 1 1)
@@ -2108,11 +2150,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Voltage" ""
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "1042f29e-825a-40a7-8b6c-8627fb61ca28")
+			(uuid "2f773110-98d9-4614-92e6-ee3dcf60b115")
 			(effects
 				(font
 					(size 1 1)
@@ -2124,6 +2167,12 @@
 		(path "/2781006e-d039-4528-abcb-5001bf62a3ae")
 		(sheetname "/")
 		(sheetfile "analog-rails.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2284,18 +2333,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4ec8f388-b9b4-4569-9b43-8e2262475fc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2354,6 +2391,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c0c41387-a2f9-4980-8ad0-4828ea182628")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "10"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e254d75-e441-46fe-9a8e-e283d1381af1")
 			(effects
 				(font
 					(size 1 1)
@@ -2475,7 +2525,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470k"
 			(at 0 1.65 0)
 			(layer "F.SilkS")
 			(uuid "1242cc36-f5e9-4c2f-a4fb-408d3b409f71")
@@ -2505,18 +2555,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "577e4e44-4ffb-47da-89e7-ec27847bd2a9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2578,6 +2616,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09be5d75-a5fe-4e3b-a9e4-b240b9208f30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c60b7a0a-3023-4f1f-884f-bd51d356edf7")
 			(effects
 				(font
 					(size 1 1)
@@ -2732,18 +2783,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7a93cab9-f9e7-4e84-b7df-d5fa1cd2536b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -2802,6 +2841,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a01c99f-3953-4f28-b618-544d11e5ba88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "50"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57e49cf0-8b4f-40e0-93b7-7658f03cc5f9")
 			(effects
 				(font
 					(size 1 1)
@@ -2956,18 +3008,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "799f360b-5b70-4042-aeda-9b020aa83c49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3026,6 +3066,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b747a2e-2380-48e0-a500-96d24189c61f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "50"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92a1a4ac-fc58-4d2e-b44f-b30e3d4912dc")
 			(effects
 				(font
 					(size 1 1)
@@ -3181,18 +3234,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "605faa24-d3fe-4d66-9828-d14d4e198b74")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3251,6 +3292,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c396e73f-8561-4204-8b89-2421627ad628")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2462944-4012-4032-bb21-46ca5f5ae629")
 			(effects
 				(font
 					(size 1 1)
@@ -3640,6 +3694,19 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fd73c12-2cc9-42d4-87ac-fcf9189b4920")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8466c2ce-7c37-431a-b809-b15162077287")
 		(sheetname "/")
@@ -3865,6 +3932,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "faa4f270-2fe9-4423-91c5-aa78c35b6146")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "929f5ddd-2a3a-41fa-91b5-d4827a690a56")
 			(effects
 				(font
 					(size 1 1)
@@ -4159,18 +4239,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5c890759-db4f-4a8c-bedd-7b030faf5a21")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -4229,6 +4297,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "266fe843-e528-473c-aed4-da3c019fb05d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baa957ac-62cd-429f-8696-cc0d5374a9b6")
 			(effects
 				(font
 					(size 1 1)
@@ -4383,18 +4464,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c2b14b29-a31d-4fa4-a51e-f8b8275f258f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -4453,6 +4522,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5eeb70a-dfec-4a45-bb6f-23a40bef6d85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "50"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e0625b8-0520-4f4b-818a-f9f3530e1e95")
 			(effects
 				(font
 					(size 1 1)
@@ -4607,18 +4689,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ba358853-1eb3-4877-9ed0-5bd37f71697c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -4677,6 +4747,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd90b7cb-f6c4-4589-87ea-fd1f8ea0c7a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9e984b7-35a7-48f4-b7da-2f5774653e9e")
 			(effects
 				(font
 					(size 1 1)
@@ -4832,18 +4915,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "03bfa055-9e1d-4062-b02c-28c16d41e441")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -4902,6 +4973,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4751361d-734b-454a-994c-29e7a980c1b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "498da481-e5f6-4292-928d-fa98ccbe9460")
 			(effects
 				(font
 					(size 1 1)
@@ -5056,18 +5140,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4a6a9668-cbca-4d63-8f9e-7185eff09104")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5126,6 +5198,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5771ac7f-330a-4ec9-8378-cd444ce35b08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "50"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aba2429e-811b-4aa1-b6ba-4ae69529887b")
 			(effects
 				(font
 					(size 1 1)
@@ -5280,18 +5365,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a1c513db-b846-4469-93e0-f7bbd27f468f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -5350,6 +5423,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76c954da-1094-4e7f-8dcd-497a4c5af2ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dd4dcd4-5939-47fb-b60e-e504b22b7dbc")
 			(effects
 				(font
 					(size 1 1)
@@ -5504,18 +5590,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "605057cc-da73-4d39-80a1-ce0608a8ee7e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -5574,6 +5648,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "04e683c3-6a6d-4cf6-8f89-0ec4ef7ae50b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ed98725-d4c6-472d-9ffa-d989a784a1e4")
 			(effects
 				(font
 					(size 1 1)
@@ -5729,11 +5816,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3aaf88c-87da-45e4-a014-a6c344c6b2f5")
+			(uuid "77df6506-13e0-4aae-a4b4-ace910b711c8")
 			(effects
 				(font
 					(size 1 1)
@@ -5741,12 +5829,12 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Voltage" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77df6506-13e0-4aae-a4b4-ace910b711c8")
+			(uuid "eea5bf22-07e6-4162-ba96-48be7b4cc4de")
 			(effects
 				(font
 					(size 1 1)
@@ -5953,6 +6041,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "072ad8a0-e216-404a-8d63-4f98775db1ea")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6231,11 +6332,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Voltage" ""
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d60b6fe-3f2e-4461-ac67-eb2a834eaeb7")
+			(uuid "eb23285d-81ee-49c8-a209-693c031a555b")
 			(effects
 				(font
 					(size 1 1)
@@ -6247,6 +6349,12 @@
 		(path "/22c2b0e8-4783-4920-b35e-58c84c43f33d")
 		(sheetname "/")
 		(sheetfile "analog-rails.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6440,18 +6548,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b8f4093d-540a-4d58-b1da-5960683538e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -6510,6 +6606,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b924077-b5af-4cf7-adf7-88b2d79c019e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "50"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61b3b068-c1d8-4878-ae06-3e1cbf44b0f6")
 			(effects
 				(font
 					(size 1 1)
@@ -6664,18 +6773,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b79a15c4-81fe-4f81-a4a6-aa66727da448")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6734,6 +6831,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0404e420-9f1b-4a19-83db-92a3ba46ae37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "10"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fde58b2e-2ff7-4e43-855e-af592edefaa2")
 			(effects
 				(font
 					(size 1 1)
@@ -6888,18 +6998,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c8f286cf-5094-4154-a153-903884a4bac7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -6958,6 +7056,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "964936e4-d2d0-46e2-9b23-9cd7589910d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "042c73be-b94c-4e9d-9bb5-8ded36dbcce5")
 			(effects
 				(font
 					(size 1 1)
@@ -7112,18 +7223,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "19516955-a4a6-4375-9073-f7c60d7425d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7182,6 +7281,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "71720014-922c-469d-a323-e61e7607af97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56a703f1-721d-4ab8-9f9e-4ae24a0160fc")
 			(effects
 				(font
 					(size 1 1)
@@ -7404,6 +7516,19 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d74fa4fa-8069-40fa-93b4-09a5f0fececa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8663f881-a132-42ef-8e4d-6a4a96008e3d")
 		(sheetname "/")
 		(sheetfile "analog-rails.kicad_sch")
@@ -7556,18 +7681,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cba06e7e-a29d-4809-86e5-80e25fa2e17e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "KLC_S3.3" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -7626,6 +7739,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17716363-f8b8-498f-8dde-5583687e7356")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0499f605-bfc5-42d2-8688-e2dfc5a38234")
 			(effects
 				(font
 					(size 1 1)
